@@ -5,10 +5,10 @@
 Network Working Group                                       C. Pignataro
 Internet-Draft                                       NC State University
 Intended status: Informational                                 A. Rezaki
-Expires: 30 April 2024                                             Nokia
+Expires: 11 May 2024                                               Nokia
                                                              S. Krishnan
                                                                    Cisco
-                                                         28 October 2023
+                                                         8 November 2023
 
 
            Sustainability Considerations for Internetworking
@@ -17,6 +17,11 @@ Expires: 30 April 2024                                             Nokia
 Abstract
 
    Abstract Here...
+
+   By definition, an Internet-Draft is a work in progress.  An impactful
+   Abstract and Introduction will be added to this working draft pending
+   an initial set of reviews of this -00, and after the main sections
+   are stable.
 
 Status of This Memo
 
@@ -33,7 +38,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 30 April 2024.
+   This Internet-Draft will expire on 11 May 2024.
 
 Copyright Notice
 
@@ -45,33 +50,32 @@ Copyright Notice
    license-info) in effect on the date of publication of this document.
    Please review these documents carefully, as they describe your rights
    and restrictions with respect to this document.  Code Components
+
+
+
+Pignataro, et al.          Expires 11 May 2024                  [Page 1]
+
+Internet-Draft                 Peer-Mount                  November 2023
+
+
    extracted from this document must include Revised BSD License text as
    described in Section 4.e of the Trust Legal Provisions and are
    provided without warranty as described in the Revised BSD License.
-
-
-
-
-
-Pignataro, et al.         Expires 30 April 2024                 [Page 1]
-
-Internet-Draft                 Peer-Mount                   October 2023
-
 
 Table of Contents
 
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
    2.  Definition of Terms . . . . . . . . . . . . . . . . . . . . .   2
    3.  'Sustainable X’ versus 'X for Sustainability’ . . . . . . . .   9
-     3.1.  Sustainable Internetworking . . . . . . . . . . . . . . .   9
+     3.1.  Sustainable Internetworking . . . . . . . . . . . . . . .  10
      3.2.  Internetworking for Sustainability  . . . . . . . . . . .  11
-   4.  Key Values and Key Value Indicators . . . . . . . . . . . . .  11
-   5.  Sustainability Considerations . . . . . . . . . . . . . . . .  12
-     5.1.  Design Tradeoffs  . . . . . . . . . . . . . . . . . . . .  12
+   4.  Key Values and Key Value Indicators . . . . . . . . . . . . .  12
+   5.  Sustainability Considerations . . . . . . . . . . . . . . . .  13
+     5.1.  Design Tradeoffs  . . . . . . . . . . . . . . . . . . . .  13
      5.2.  Multi-Objective Optimization  . . . . . . . . . . . . . .  13
      5.3.  How Much Resiliency is Really Needed? . . . . . . . . . .  14
      5.4.  How Much is Performance and Quality Compromised?  . . . .  14
-   6.  End-to-End Sustainability . . . . . . . . . . . . . . . . . .  14
+   6.  End-to-End Sustainability . . . . . . . . . . . . . . . . . .  15
    7.  Sustainability Requirements and Phases  . . . . . . . . . . .  15
      7.1.  Phase 1: Visibility . . . . . . . . . . . . . . . . . . .  15
      7.2.  Phase 2: Insights and Recommendations . . . . . . . . . .  16
@@ -90,6 +94,11 @@ Table of Contents
 
    Introduction Here...
 
+   By definition, an Internet-Draft is a work in progress.  An impactful
+   Abstract and Introduction will be added to this working draft pending
+   an initial set of reviews of this -00, and after the main sections
+   are stable.
+
 2.  Definition of Terms
 
    This section defines sustainability-specific terms as they are used
@@ -97,6 +106,13 @@ Table of Contents
    goal is to provide a common sustainability considerations lexicon for
    network equipment vendors, operators, and designers.  The terms are
    alphabetically organized.
+
+
+
+Pignataro, et al.          Expires 11 May 2024                  [Page 2]
+
+Internet-Draft                 Peer-Mount                  November 2023
+
 
    Appropriate technology (or intermediate technology):
       refers to technology that is adapted to the local needs of its
@@ -106,14 +122,6 @@ Table of Contents
       could be linkages to centralization / decentralization challenges,
       as well as maintainability & deployability aspects.  Considering
       the diversity of local contexts, from developed countries with
-
-
-
-Pignataro, et al.         Expires 30 April 2024                 [Page 2]
-
-Internet-Draft                 Peer-Mount                   October 2023
-
-
       remote/rural coverage/access issues, to developing countries with
       unstable electricity grids as well as literacy and technology
       usability/accessibility issues, internetworking technology needs
@@ -154,6 +162,14 @@ Internet-Draft                 Peer-Mount                   October 2023
       use when carbon intensity is low is a target.
 
    Carbon offset and credit:
+
+
+
+Pignataro, et al.          Expires 11 May 2024                  [Page 3]
+
+Internet-Draft                 Peer-Mount                  November 2023
+
+
       is a removal of GHGs from the atmosphere as compensation for GHGs
       produced elsewhere and the credit generated and used respectively.
       For example, certified forestation projects that absorb carbon
@@ -161,14 +177,6 @@ Internet-Draft                 Peer-Mount                   October 2023
       offset its GHG emissions by using (purchasing) these credits.
       There are accredited carbon trading mechanisms to facilitate this
       exchange.
-
-
-
-
-Pignataro, et al.         Expires 30 April 2024                 [Page 3]
-
-Internet-Draft                 Peer-Mount                   October 2023
-
 
    Circularity (circular economy):
       is a model or system where material resources and products are
@@ -210,6 +218,14 @@ Internet-Draft                 Peer-Mount                   October 2023
       boundaries and seemingly opposing social boundaries, thereby
       meeting the needs of human societies without pushing earth
       environmental boundaries to their tipping points
+
+
+
+Pignataro, et al.          Expires 11 May 2024                  [Page 4]
+
+Internet-Draft                 Peer-Mount                  November 2023
+
+
       (https://en.wikipedia.org/wiki/Doughnut_(economic_model)).  The
       significance of this model for interworking is that it
       demonstrates how to conceptualize and position boundaries in our
@@ -218,13 +234,6 @@ Internet-Draft                 Peer-Mount                   October 2023
       resiliency and materials efficiency.  It is not one or the other,
       but to find a space where both can be achieved without crossing
       boundaries in respective domains.
-
-
-
-Pignataro, et al.         Expires 30 April 2024                 [Page 4]
-
-Internet-Draft                 Peer-Mount                   October 2023
-
 
    Energy, power, and their measurement:
       Energy is defined as the capacity or ability to do work in
@@ -265,6 +274,14 @@ Internet-Draft                 Peer-Mount                   October 2023
       land footprint, biodiversity footprint, etc.  Related to the
       climate emergency, we are mostly focused on our carbon footprint,
       however, it has been shown that sub-categories of footprint are
+
+
+
+Pignataro, et al.          Expires 11 May 2024                  [Page 5]
+
+Internet-Draft                 Peer-Mount                  November 2023
+
+
       not entirely independent of each other.  For example, our carbon
       footprint has a proven impact on the climate emergency through
       rising global temperatures, cascading significant impact on forest
@@ -274,13 +291,6 @@ Internet-Draft                 Peer-Mount                   October 2023
       exacerbating climate change.  A holistic approach to our
       environmental footprint would therefore provide the best
       opportunity to create impact.
-
-
-
-Pignataro, et al.         Expires 30 April 2024                 [Page 5]
-
-Internet-Draft                 Peer-Mount                   October 2023
-
 
    GHGs:
       Greenhouse gases, are types of gases that trap heat from the sun
@@ -320,6 +330,14 @@ Internet-Draft                 Peer-Mount                   October 2023
       handprint maximized as much as possible, which are by definition
       different activities anyway.  Otherwise, this might be construed
       as “greenwashing”. A popular seesaw figure in common
+
+
+
+Pignataro, et al.          Expires 11 May 2024                  [Page 6]
+
+Internet-Draft                 Peer-Mount                  November 2023
+
+
       sustainability literature depicting handprint and footprint
       sitting on opposite ends of a seesaw, one going up while the other
       is going down is a misguided representation.
@@ -330,14 +348,6 @@ Internet-Draft                 Peer-Mount                   October 2023
       from the extraction and procurement of materials, through design,
       manufacturing, distribution, deployment, operations (use),
       maintenance/repair, decommissioning, refurbishment/reuse,
-
-
-
-Pignataro, et al.         Expires 30 April 2024                 [Page 6]
-
-Internet-Draft                 Peer-Mount                   October 2023
-
-
       recycling and disposal (waste), considering the full upstream and
       downstream supply chains as well.  It is an extremely complicated
       process and there are multiple methods used worldwide, which might
@@ -376,6 +386,14 @@ Internet-Draft                 Peer-Mount                   October 2023
       increased risk of irreversible environmental change, the so-called
       tipping points.  Climate change is one of these boundaries,
       represented as carbon dioxide concentration in the atmosphere (ppm
+
+
+
+Pignataro, et al.          Expires 11 May 2024                  [Page 7]
+
+Internet-Draft                 Peer-Mount                  November 2023
+
+
       by volume) and others are biodiversity loss, land use, fresh
       water, ocean acidification, chemical pollution, ozone depletion
       (one boundary that has been successfully mitigated), atmospheric
@@ -386,14 +404,6 @@ Internet-Draft                 Peer-Mount                   October 2023
       is the reduction in the potential benefits of more efficient
       technologies and solutions to reduce resource use, due to the
       increased demand they might trigger as costs might decrease, in
-
-
-
-Pignataro, et al.         Expires 30 April 2024                 [Page 7]
-
-Internet-Draft                 Peer-Mount                   October 2023
-
-
       return even increasing the overall resource use.  This is known as
       Jevons paradox: efficiency leading to increased demand.  In
       internetworking, this can manifest itself when more energy and
@@ -432,6 +442,14 @@ Internet-Draft                 Peer-Mount                   October 2023
       the-united-nations-sustainable-development-goals.aspx . Notably,
       most UN SDGs provide guidance for the handprint impact of
       internetworking technologies, while some are also related to
+
+
+
+Pignataro, et al.          Expires 11 May 2024                  [Page 8]
+
+Internet-Draft                 Peer-Mount                  November 2023
+
+
       potential action for footprint reduction.  The 17 SDGs are:">
       SDG 1 - No poverty, SDG2 - Zero hunger, SDG3 - Good health and
       well-being, SDG 4 - Quality education, SDG 5 - Gender equality,
@@ -442,13 +460,6 @@ Internet-Draft                 Peer-Mount                   October 2023
       consumption and production, SDG 13 - Climate action, SDG 14 - Life
       below water, SDG 15 - Life on land, SDG 16 - Peace, justice, and
       strong institutions, SDG 17 - Partnerships for the goals.
-
-
-
-Pignataro, et al.         Expires 30 April 2024                 [Page 8]
-
-Internet-Draft                 Peer-Mount                   October 2023
-
 
 3.  'Sustainable X’ versus 'X for Sustainability’
 
@@ -486,6 +497,15 @@ Internet-Draft                 Peer-Mount                   October 2023
    for the direct and indirect impacts of our activity, both on demand
    and supply directions.
 
+
+
+
+
+Pignataro, et al.          Expires 11 May 2024                  [Page 9]
+
+Internet-Draft                 Peer-Mount                  November 2023
+
+
    Below, we cover the “Sustainable Internetworking” and
    “Internetworking for Sustainability” perspectives in more detail.
 
@@ -498,13 +518,6 @@ Internet-Draft                 Peer-Mount                   October 2023
    areas to be considered are:
 
    *  Climate change,
-
-
-
-Pignataro, et al.         Expires 30 April 2024                 [Page 9]
-
-Internet-Draft                 Peer-Mount                   October 2023
-
 
    *  materials efficiency, circularity, preservation of geodiversity,
       and
@@ -541,6 +554,14 @@ Internet-Draft                 Peer-Mount                   October 2023
    justice and more.  What we need to realize is that our technology has
    direct and indirect impacts in these aspects and the challenge is not
    only to meet environmental sustainability targets but social and
+
+
+
+Pignataro, et al.          Expires 11 May 2024                 [Page 10]
+
+Internet-Draft                 Peer-Mount                  November 2023
+
+
    economic ones as well.  There are very practical considerations for
    example: does centralization/concentration in internetworking affect
    empowerment and inclusion, or the relationship of automation and AI
@@ -549,18 +570,6 @@ Internet-Draft                 Peer-Mount                   October 2023
    a quantitative approach to the societal and economical aspects is
    more challenging but the KV/KVI approach described below brings some
    relief.
-
-
-
-
-
-
-
-
-Pignataro, et al.         Expires 30 April 2024                [Page 10]
-
-Internet-Draft                 Peer-Mount                   October 2023
-
 
 3.2.  Internetworking for Sustainability
 
@@ -596,6 +605,19 @@ Internet-Draft                 Peer-Mount                   October 2023
 
    TBC.
 
+
+
+
+
+
+
+
+
+Pignataro, et al.          Expires 11 May 2024                 [Page 11]
+
+Internet-Draft                 Peer-Mount                  November 2023
+
+
 4.  Key Values and Key Value Indicators
 
    In the context of sustainability, key values are what matters to
@@ -608,15 +630,6 @@ Internet-Draft                 Peer-Mount                   October 2023
    their likelihood of usefulness and impact is a paramount
    consideration.  KVs and KVIs help set our bearings right and also
    demonstrate the impact we could create.
-
-
-
-
-
-Pignataro, et al.         Expires 30 April 2024                [Page 11]
-
-Internet-Draft                 Peer-Mount                   October 2023
-
 
    While key values could be universal, like for example the United
    Nations Sustainable Development Goals (UN SDGs), how they are
@@ -654,6 +667,13 @@ Internet-Draft                 Peer-Mount                   October 2023
    heart of our engineering innovations, is the topic of the next
    section.
 
+
+
+Pignataro, et al.          Expires 11 May 2024                 [Page 12]
+
+Internet-Draft                 Peer-Mount                  November 2023
+
+
 5.  Sustainability Considerations
 
 5.1.  Design Tradeoffs
@@ -665,14 +685,6 @@ Internet-Draft                 Peer-Mount                   October 2023
    bottom-line associated costs.  This directly translates to goals of
    optimizing performance and availability, while reducing various
    costs.
-
-
-
-
-Pignataro, et al.         Expires 30 April 2024                [Page 12]
-
-Internet-Draft                 Peer-Mount                   October 2023
-
 
    Most recently, as explained above, various forces elevate the need
    for sustainability in networking technologies and architectures, to
@@ -710,6 +722,14 @@ Internet-Draft                 Peer-Mount                   October 2023
 
        Figure 1: Simplified Network for Multi-Objective Optimization
 
+
+
+
+Pignataro, et al.          Expires 11 May 2024                 [Page 13]
+
+Internet-Draft                 Peer-Mount                  November 2023
+
+
    Router 1 is connected to Router 2 with five parallel links, of 10
    Gbps each.  Router 1 can also reach Router 2 through Router 3 with 40
    Gbps links.  Let’s assume that the capacity-planned traffic between A
@@ -720,15 +740,6 @@ Internet-Draft                 Peer-Mount                   October 2023
    would likely forward traffic using two of the parallel links.
    Utilizing the path through Router 3 might lower performance, but it
    serves as a backup path.
-
-
-
-
-
-Pignataro, et al.         Expires 30 April 2024                [Page 13]
-
-Internet-Draft                 Peer-Mount                   October 2023
-
 
    On the other hand, when we add sustainability as a consideration,
    different options are presented.  One of them is to remove from the
@@ -766,6 +777,15 @@ Internet-Draft                 Peer-Mount                   October 2023
    metrics.  The relative slopes of improvement of each goal would hint
    as to where the balance lies.
 
+
+
+
+
+Pignataro, et al.          Expires 11 May 2024                 [Page 14]
+
+Internet-Draft                 Peer-Mount                  November 2023
+
+
 6.  End-to-End Sustainability
 
    The networking industry is in the starting phases of addressing this
@@ -778,13 +798,6 @@ Internet-Draft                 Peer-Mount                   October 2023
    these technologies calls for a more cohesive and complementary view
    that spans the complete product lifecycle for hardware and software,
    as well as how some of these features work in unison.
-
-
-
-Pignataro, et al.         Expires 30 April 2024                [Page 14]
-
-Internet-Draft                 Peer-Mount                   October 2023
-
 
    For example, features that provide energy saving modes for devices
    can be dynamically utilized when the network utilization is such that
@@ -821,6 +834,14 @@ Internet-Draft                 Peer-Mount                   October 2023
    work in this field, and this has greatly helped with the
    instrumentation of network equipment in collecting metrics for
    network management, performance, and troubleshooting.  On the
+
+
+
+Pignataro, et al.          Expires 11 May 2024                 [Page 15]
+
+Internet-Draft                 Peer-Mount                  November 2023
+
+
    environmental-impact side though, there has been a proliferation of a
    wide variety of vendor extensions based on these standards.  Without
    a common definition of metrics across the industry and widespread
@@ -828,19 +849,6 @@ Internet-Draft                 Peer-Mount                   October 2023
    proprietary, or even contradicting metrics.  Similarly, we also need
    to work on standard telemetry for collecting these metrics so that
    interoperability can be achieved in multi-vendor networks.
-
-
-
-
-
-
-
-
-
-Pignataro, et al.         Expires 30 April 2024                [Page 15]
-
-Internet-Draft                 Peer-Mount                   October 2023
-
 
 7.2.  Phase 2: Insights and Recommendations
 
@@ -885,17 +893,9 @@ Internet-Draft                 Peer-Mount                   October 2023
 
 
 
-
-
-
-
-
-
-
-
-Pignataro, et al.         Expires 30 April 2024                [Page 16]
+Pignataro, et al.          Expires 11 May 2024                 [Page 16]
 
-Internet-Draft                 Peer-Mount                   October 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
 8.  Conclusion
@@ -949,9 +949,9 @@ Internet-Draft                 Peer-Mount                   October 2023
 
 
 
-Pignataro, et al.         Expires 30 April 2024                [Page 17]
+Pignataro, et al.          Expires 11 May 2024                 [Page 17]
 
-Internet-Draft                 Peer-Mount                   October 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
    [M6G-VP]   Ziegler, V. and S. Yrjola, "6G Indicators of Value and
@@ -968,6 +968,8 @@ Appendix A.  Open issues
    [ISSUE 3]  Complete "Introduction"
 
    [ISSUE 4]  Finalize Call-to-Action in the Conclusion
+
+   [ISSUE 5]  Pending input from Jukka Manner
 
 Authors' Addresses
 
@@ -1003,6 +1005,4 @@ Authors' Addresses
 
 
 
-
-
-Pignataro, et al.         Expires 30 April 2024                [Page 18]
+Pignataro, et al.          Expires 11 May 2024                 [Page 18]

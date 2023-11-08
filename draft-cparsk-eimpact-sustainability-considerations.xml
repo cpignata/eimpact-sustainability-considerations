@@ -59,6 +59,9 @@
       <t>
         Abstract Here...
       </t>
+      <t>
+        By definition, an Internet-Draft is a work in progress. An impactful Abstract and Introduction will be added to this working draft pending an initial set of reviews of this -00, and after the main sections are stable.
+      </t>
     </abstract>
   </front>
 
@@ -66,6 +69,9 @@
     <section title="Introduction">
       <t>
         Introduction Here...
+      </t>
+      <t>
+        By definition, an Internet-Draft is a work in progress. An impactful Abstract and Introduction will be added to this working draft pending an initial set of reviews of this -00, and after the main sections are stable.
       </t>
     </section>
 
@@ -282,6 +288,7 @@ In this phase we build awareness into the systems to automatically recognize opp
 <t>Shall the 'Definition of Terms' be moved into its own document to be cited by all e-impact-related documents?</t>
 <t>Complete "Introduction"</t>
 <t>Finalize Call-to-Action in the Conclusion</t>
+<t>Pending input from Jukka Manner</t>
 </list>
 </t>
 </section>
