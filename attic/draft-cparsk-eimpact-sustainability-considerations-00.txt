@@ -12,7 +12,7 @@ Expires: 11 May 2024                                               Nokia
 
 
            Sustainability Considerations for Internetworking
-         draft-cparsk-eimpact-sustainability-considerations-01
+         draft-cparsk-eimpact-sustainability-considerations-00
 
 Abstract
 
@@ -55,7 +55,7 @@ Copyright Notice
 
 Pignataro, et al.          Expires 11 May 2024                  [Page 1]
 
-Internet-Draft        Sustainability Considerations        November 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
    extracted from this document must include Revised BSD License text as
@@ -111,7 +111,7 @@ Table of Contents
 
 Pignataro, et al.          Expires 11 May 2024                  [Page 2]
 
-Internet-Draft        Sustainability Considerations        November 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
    Appropriate technology (or intermediate technology):
@@ -167,7 +167,7 @@ Internet-Draft        Sustainability Considerations        November 2023
 
 Pignataro, et al.          Expires 11 May 2024                  [Page 3]
 
-Internet-Draft        Sustainability Considerations        November 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
       is a removal of GHGs from the atmosphere as compensation for GHGs
@@ -223,7 +223,7 @@ Internet-Draft        Sustainability Considerations        November 2023
 
 Pignataro, et al.          Expires 11 May 2024                  [Page 4]
 
-Internet-Draft        Sustainability Considerations        November 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
       (https://en.wikipedia.org/wiki/Doughnut_(economic_model)).  The
@@ -279,7 +279,7 @@ Internet-Draft        Sustainability Considerations        November 2023
 
 Pignataro, et al.          Expires 11 May 2024                  [Page 5]
 
-Internet-Draft        Sustainability Considerations        November 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
       not entirely independent of each other.  For example, our carbon
@@ -335,7 +335,7 @@ Internet-Draft        Sustainability Considerations        November 2023
 
 Pignataro, et al.          Expires 11 May 2024                  [Page 6]
 
-Internet-Draft        Sustainability Considerations        November 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
       sustainability literature depicting handprint and footprint
@@ -391,7 +391,7 @@ Internet-Draft        Sustainability Considerations        November 2023
 
 Pignataro, et al.          Expires 11 May 2024                  [Page 7]
 
-Internet-Draft        Sustainability Considerations        November 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
       by volume) and others are biodiversity loss, land use, fresh
@@ -447,7 +447,7 @@ Internet-Draft        Sustainability Considerations        November 2023
 
 Pignataro, et al.          Expires 11 May 2024                  [Page 8]
 
-Internet-Draft        Sustainability Considerations        November 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
       potential action for footprint reduction.  The 17 SDGs are:">
@@ -503,7 +503,7 @@ Internet-Draft        Sustainability Considerations        November 2023
 
 Pignataro, et al.          Expires 11 May 2024                  [Page 9]
 
-Internet-Draft        Sustainability Considerations        November 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
    Below, we cover the “Sustainable Internetworking” and
@@ -559,7 +559,7 @@ Internet-Draft        Sustainability Considerations        November 2023
 
 Pignataro, et al.          Expires 11 May 2024                 [Page 10]
 
-Internet-Draft        Sustainability Considerations        November 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
    economic ones as well.  There are very practical considerations for
@@ -615,7 +615,7 @@ Internet-Draft        Sustainability Considerations        November 2023
 
 Pignataro, et al.          Expires 11 May 2024                 [Page 11]
 
-Internet-Draft        Sustainability Considerations        November 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
 4.  Key Values and Key Value Indicators
@@ -671,7 +671,7 @@ Internet-Draft        Sustainability Considerations        November 2023
 
 Pignataro, et al.          Expires 11 May 2024                 [Page 12]
 
-Internet-Draft        Sustainability Considerations        November 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
 5.  Sustainability Considerations
@@ -727,7 +727,7 @@ Internet-Draft        Sustainability Considerations        November 2023
 
 Pignataro, et al.          Expires 11 May 2024                 [Page 13]
 
-Internet-Draft        Sustainability Considerations        November 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
    Router 1 is connected to Router 2 with five parallel links, of 10
@@ -783,7 +783,7 @@ Internet-Draft        Sustainability Considerations        November 2023
 
 Pignataro, et al.          Expires 11 May 2024                 [Page 14]
 
-Internet-Draft        Sustainability Considerations        November 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
 6.  End-to-End Sustainability
@@ -839,7 +839,7 @@ Internet-Draft        Sustainability Considerations        November 2023
 
 Pignataro, et al.          Expires 11 May 2024                 [Page 15]
 
-Internet-Draft        Sustainability Considerations        November 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
    environmental-impact side though, there has been a proliferation of a
@@ -895,7 +895,7 @@ Internet-Draft        Sustainability Considerations        November 2023
 
 Pignataro, et al.          Expires 11 May 2024                 [Page 16]
 
-Internet-Draft        Sustainability Considerations        November 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
 8.  Conclusion
@@ -951,7 +951,7 @@ Internet-Draft        Sustainability Considerations        November 2023
 
 Pignataro, et al.          Expires 11 May 2024                 [Page 17]
 
-Internet-Draft        Sustainability Considerations        November 2023
+Internet-Draft                 Peer-Mount                  November 2023
 
 
    [M6G-VP]   Ziegler, V. and S. Yrjola, "6G Indicators of Value and

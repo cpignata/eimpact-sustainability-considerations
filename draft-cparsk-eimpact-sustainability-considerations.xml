@@ -16,7 +16,7 @@
   <?rfc strict="yes" ?>
 
   <front>
-    <title abbrev="Peer-Mount">Sustainability Considerations for Internetworking</title>
+    <title abbrev="Sustainability Considerations">Sustainability Considerations for Internetworking</title>
 
     <author fullname="Carlos Pignataro" initials="C." surname="Pignataro">
       <organization abbrev="NC State University">North Carolina State University</organization>
