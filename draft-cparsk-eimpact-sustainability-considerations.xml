@@ -6,7 +6,7 @@
 <?rfc rfcedstyle="yes"?>
 <?rfc subcompact="no" ?>
 <?rfc symrefs="yes"?>
-<rfc category="info" docName="draft-cparsk-eimpact-sustainability-considerations-00" ipr="trust200902" submissionType="IETF">
+<rfc category="info" docName="draft-cparsk-eimpact-sustainability-considerations-01" ipr="trust200902" submissionType="IETF">
   <?xml-stylesheet type='text/xsl' href='rfc2629.xslt' ?>
   <?rfc toc="yes" ?>
   <?rfc compact="yes" ?>
@@ -16,7 +16,7 @@
   <?rfc strict="yes" ?>
 
   <front>
-    <title abbrev="Peer-Mount">Sustainability Considerations for Internetworking</title>
+    <title abbrev="Sustainability Considerations">Sustainability Considerations for Internetworking</title>
 
     <author fullname="Carlos Pignataro" initials="C." surname="Pignataro">
       <organization abbrev="NC State University">North Carolina State University</organization>
@@ -145,6 +145,15 @@
             <t>Admittedly, this might not be a straightforward task to carry out for each protocol design. Yet, such analyses could be included in design processes along with use case development, covering a group of technology design activities (protocols) together. There are ongoing efforts in mobile networking research to use KVs/KVIs efficiently <xref target="M6G-KVI"/> <xref target="M6G-VP"/>.</t>
             <t>While we find ourselves trying to optimize seemingly contradicting parameters or aspects such as reducing latency and jitter and increasing bandwidth and reach targets with sustainability ones like reduced energy consumption and increased energy efficiency, key values and key value indicators would help keep our eyes on the targets that matter for the end users and communities and societies. Considerations for such potential design trade-offs, which are at the heart of our engineering innovations, is the topic of the next section.</t>
     </section>
+
+
+
+    <section title="Implications to the IETF">
+            <t>This section describes the implications of sustainability to the IETF. Specifically, the high-level relevant areas on which the IETF can act upon, and a rough prioritization.
+              These potentially include use cases, protocols, metrics, etc.</t>
+            <t>A key area to understand the relevance and implication is regarding IETF Protocols.</t>
+    </section>
+
 
 
     <section title="Sustainability Considerations">
@@ -289,6 +298,7 @@ In this phase we build awareness into the systems to automatically recognize opp
 <t>Complete "Introduction"</t>
 <t>Finalize Call-to-Action in the Conclusion</t>
 <t>Pending input from Jukka Manner</t>
+<t>Complete and strengthen the "Implications to the IETF" section, Ali and Carlos</t>
 </list>
 </t>
 </section>
