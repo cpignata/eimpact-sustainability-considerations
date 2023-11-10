@@ -147,6 +147,15 @@
     </section>
 
 
+
+    <section title="Implications to the IETF">
+            <t>This section describes the implications of sustainability to the IETF. Specifically, the high-level relevant areas on which the IETF can act upon, and a rough prioritization.
+              These potentially include use cases, protocols, metrics, etc.</t>
+            <t>A key area to understand the relevance and implication is regarding IETF Protocols.</t>
+    </section>
+
+
+
     <section title="Sustainability Considerations">
     <section title="Design Tradeoffs">
             <t>Traditionally, digital communication networks are optimized for a specific set of criteria that proxies for business metrics. A network operator providing services to their customers intends to maximize profits, by increasing top-line revenue and decreasing bottom-line associated costs. This directly translates to goals of optimizing performance and availability, while reducing various costs.</t>
@@ -289,6 +298,7 @@ In this phase we build awareness into the systems to automatically recognize opp
 <t>Complete "Introduction"</t>
 <t>Finalize Call-to-Action in the Conclusion</t>
 <t>Pending input from Jukka Manner</t>
+<t>Complete and strengthen the "Implications to the IETF" section, Ali and Carlos</t>
 </list>
 </t>
 </section>
