@@ -53,6 +53,15 @@
       </address>
     </author>
     
+    <author fullname="Hesham ElBakoury" initials="H." surname="ElBakoury">
+      <organization>Consultant</organization>
+
+      <address>
+        <email>helbakoury@gmail.com</email>
+      </address>
+    </author>
+    
+
     <date />
 
     <abstract>
@@ -76,40 +85,75 @@
     </section>
 
       <section title="Definition of Terms">
-        <t>This section defines sustainability-specific terms as they are used in the document, and as they pertain to environmental impacts. The goal is to provide a common sustainability considerations lexicon for network equipment vendors, operators, and designers. The terms are alphabetically organized.</t>
+
+
+        <t>Given that the term 'considerations' is well known within the IETF community, it is fair to start by defining 'sustainability'. The 1983 UN Commission on Environment and Development had important influence on the current use of the term. The commission's 1987 report <xref target="UNGA42" /> defines  it as development that "meets the needs of the present without compromising the ability of future generations to meet their own needs". This in turn involves balancing economic, social, and environmental factors.</t>
+
+
+
+        <t>This section defines sustainability-specific terms as they are used in the document, and as they pertain to environmental impacts. The goal is to provide a common sustainability considerations lexicon for network equipment vendors, operators,  designers, and architects.</t>
+
+
+        <t>
+Notwithstanding the most comprehensive set of definition of relevant terms readers can find at <xref target="IPCC" />, this section contributes the application and exemplification of the terminology to the internetworking domain and field. The terms are alphabetically organized.
+        </t>
+
+
         <t>
           <list style="hanging">
-<t hangText="Appropriate technology (or intermediate technology):"><br /> refers to technology that is adapted to the local needs of its users, that is affordable, sustainable and usually small scale and decentralized. Globally impactful technology is to be adaptable to local contexts it is used in. Regarding internetworking, there could be linkages to centralization / decentralization challenges, as well as maintainability &amp; deployability aspects. Considering the diversity of local contexts, from developed countries with remote/rural coverage/access issues, to developing countries with unstable electricity grids as well as literacy and technology usability/accessibility issues, internetworking technology needs to be designed, developed and operated according to these local requirements, also supporting small scale business models to make impact. </t>
+<t hangText="Appropriate technology:"><br /> formerly referred to as 'intermediate technology', it refers to technology that is adapted to the local needs of its users, that is affordable, sustainable, and usually small scale and decentralized. Globally impactful technology is to be adaptable to local contexts it is used in. Regarding internetworking, there could be linkages to centralization / decentralization challenges, as well as maintainability &amp; deployability aspects. Considering the diversity of local contexts, from developed countries with remote/rural coverage/access issues, to developing countries with unstable electricity grids as well as literacy and technology usability/accessibility issues, internetworking technology needs to be designed, developed and operated according to these local requirements, also supporting small scale business models to make impact. </t>
 <t hangText="Biodiversity loss:"><br /> Biological diversity is a measure of the abundance and variety of life on earth. Biodiversity loss is the depletion of this diversity due to human activity, notably through the destruction of natural ecosystems and through the cascading effects of climate change, materials extraction, waste disposal and pollution, among other impacts, on the living world and species.</t>
 <t hangText="CO2e / CO2eq / CO2-eq:"><br /> Carbon dioxide equivalent, is the unit for measuring the climate change impact of non-CO2 gases as compared to CO2, which is selected as a benchmark.</t>
 <t hangText="Carbon awareness:"><br /> is being mindful of the carbon intensity of the electricity being used and prioritizing the use of low carbon intensity electricity in network set-up and operations. As carbon intensity is location and time dependent, carbon awareness requires dynamic monitoring and response, such as carbon aware routing and networking. This is a form of "demand shaping" which aims to match the use of energy with the supply of clean energy.</t>
-<t hangText="Carbon intensity (C.I):"><br /> is a measure of the carbon emission of consumed electricity, i.e., grams of carbon per kilowatt hour (gCO2e/KWh). When the supplied energy mix is purely from renewable sources such as sun and wind, carbon intensity is practically 0, when coal and gas-powered electricity gets in the mix, carbon intensity increases. Carbon intensity could change instantaneously or predictably based on the time and location of electricity use. Prioritizing electricity use when carbon intensity is low is a target.</t>
-<t hangText="Carbon offset and credit:"><br /> is a removal of GHGs from the atmosphere as compensation for GHGs produced elsewhere and the credit generated and used respectively. For example, certified forestation projects that absorb carbon dioxide are producing carbon credits that an airline can use to offset its GHG emissions by using (purchasing) these credits. There are accredited carbon trading mechanisms to facilitate this exchange.</t>
+<t hangText="Carbon intensity (CI):"><br /> is a measure of the carbon-equivalent emission of consumed electricity, i.e., grams of carbon-equivalent per kilowatt hour (gCO2e/KWh). When the supplied energy mix is purely from renewable sources such as sun and wind, carbon intensity is practically 0, when coal and gas-powered electricity generation gets in the mix, carbon intensity increases. Carbon intensity could change instantaneously or predictably based on the time and location of electricity use. Prioritizing electricity use when carbon intensity is low is a target.</t>
+<t hangText="Carbon offset and credit:"><br /> is a reduction of GHGs from the atmosphere as compensation for GHGs produced elsewhere and the credit generated and used respectively. 
+This reduction in GHG emissions can be an increase in carbon storage through land restauration, or an actual removal of GHG.
+
+For example, certified forestation projects that absorb carbon dioxide are producing carbon credits that an airline can use to offset its GHG emissions by using (purchasing) these credits. There are accredited carbon trading mechanisms to facilitate this exchange.</t>
 <t hangText="Circularity (circular economy):"><br /> is a model or system where material resources and products are kept in use for as long as possible through long life cycles, reuse, repair, refurbishing and recycling, thereby reducing materials use, waste, and pollution as well as biodiversity and geodiversity loss. Keeping internetworking equipment in longer use through modularity, serviceability, upgradeability, maintainability are strategies to improve circularity.</t>
 <t hangText="Climate change (climate emergency, global warming):"><br /> can be summarized as the increase in the global average temperatures and its destructive impact on the interconnected systems of the Earth. The climate emergency refers to the ongoing and projected catastrophic impacts of rising global temperatures and the narrow time window we have to limit temperature increases to a threshold determined by the Paris Climate Agreement (2015) to avoid the permanent destabilization of Earth life-support systems.</t>
-<t hangText="Climate change adaptation:"><br /> are the measures we can take to adjust ourselves to the already happening and projected future adverse effects of climate change. This notably includes raising the resilience of internetworking solutions but also the use of internetworking technology to increase the resilience of societies and nature itself.</t>
-<t hangText="Climate change mitigation:"><br /> encompasses all measures to reduce climate change. More specifically, any measures that reduce the amount of GHGs in the atmosphere can be considered as climate change mitigation through reduced inflow of GHGs into the atmosphere (such as burning of fossil fuels) or increasing the impact of carbon sinks such as forests and oceans. Reducing the carbon footprint of internetworking and increasing its carbon handprint by helping other sectors to decarbonize are mitigation efforts.</t>
-<t hangText="Doughnut economics:"><br /> is an effort for finding a safe operational space within planetary boundaries and seemingly opposing social boundaries, thereby meeting the needs of human societies without pushing earth environmental boundaries to their tipping points <xref target="Doughnut"/>. The significance of this model for interworking is that it demonstrates how to conceptualize and position boundaries in our designs that are seemingly opposing, to create a balanced approach, for example between energy efficiency and performance or resiliency and materials efficiency. It is not one or the other, but to find a space where both can be achieved without crossing boundaries in respective domains.</t>
-<t hangText="Energy, power, and their measurement:"><br /> Energy is defined as the capacity or ability to do work in physics. For a system to provide an output, it needs energy to be transferred to it. Energy measurement unit is joules (J). Power is energy used per second, measured in watts (W), equivalent to the rate of one joule per second (J/s). Kilowatt-hour (kWh) is also a measure of energy, equivalent to 1 kW of power maintained for 1 hour, which is equal to 3.6 MJ (million joules). Developing energy efficiency metrics for internetworking and associated measurement methodologies and conditions as well as consistently collecting this data over time are essential to demonstrating EE improvements.</t>
-<t hangText="Energy efficiency (EE):"><br /> can be summarized as doing the same task with less energy use, that is, providing a useful output/impact with as little energy as possible, eliminating energy waste. Switching to more efficient power supplies and silicon or developing more efficient transmission or signal processing algorithms improve EE.</t>
+<t hangText="Climate change adaptation:"><br /> are the measures we can take to adjust ourselves to the already happening and projected future adverse effects of climate change. This notably includes raising the resilience of internetworking solutions to higher operating temperatures and other impacts of climate change, as well as the use of internetworking technology to increase the resilience of societies and nature itself.</t>
+<t hangText="Climate change mitigation:"><br /> encompasses all measures to reduce the impact of climate change. More specifically, any measures that reduce the amount of GHGs in the atmosphere can be considered as climate change mitigation through reduced inflow of GHGs into the atmosphere (such as burning of fossil fuels) or increasing the impact of carbon sinks such as forests and oceans. Reducing the carbon footprint of internetworking and increasing its carbon handprint by helping other sectors to decarbonize are mitigation efforts.</t>
+
+<t hangText="CUE:"><br /> Carbon usage effectiveness <xref target="CUE"/> is a metric that helps determine the amount of greenhouse gas (GHG) emissions produced per unit of IT energy consumed within a data center. 
+It provides an effective way to measure operational carbon footprint and thus the environmental impact of data center operations.
+
+The CUE is the ratio of the total CO2 emissions caused by total data center energy consumption, divided by the energy consumption of IT equipment. To calculate CUE when using electricity from the grid, carbon emissions can be based on published data.
+
+See also "PUE".
+</t>
+
+
+<t hangText="Doughnut economics:"><br /> is a visual framework for sustainable development. It attempts to find a safe operational space within planetary boundaries and complementary (yet seemingly opposing) social boundaries, thereby meeting the needs of human societies without pushing earth environmental boundaries to their tipping points <xref target="Doughnut"/>. The significance of this model for interworking is that it demonstrates how to conceptualize and position boundaries in our designs that are seemingly opposing, to create a balanced approach, for example between energy efficiency and performance or resiliency and materials efficiency. It is not one or the other, but to find a space where both can be achieved without crossing boundaries in respective domains.</t>
+
+<t hangText="Energy, power, and their measurement:"><br /> In physics, energy is defined as the capacity or ability to do work. For a system to provide an output, the quantitative property of energy is transferred to it. The energy measurement unit in the International System of Units (SI) is the joule (J). Power is energy used per second, measured in the International System of Units in watts (W), equivalent to the rate of one joule per second (J/s). In other words, energy is the integration of power over kime. As such, 
+Kilowatt-hour (kWh) is also a measure of energy, equivalent to 1 kW of power maintained for 1 hour, which is equal to 3.6 MJ (million joules). </t>
+<t hangText="Energy efficiency (EE):"><br /> can be summarized as doing the same task with less energy use, that is, providing a useful output/impact with as little energy as possible, eliminating energy waste. Switching to more efficient power supplies and silicon or developing more efficient transmission or signal processing algorithms improve EE. Developing energy efficiency metrics for internetworking and associated measurement methodologies and conditions as well as consistently collecting this data over time are essential to demonstrating EE improvements. While there are various metrics that can be defined and used to quantify EE, the key to those is to choose outcome-oriented metrics (e.g., energy consumption per data volume or traffic unit, in Wh/B <xref target="Telefonica"/>.)</t>
 
 
 <t hangText="Energy equity:"><br /> Energy equity aims to minimize the negative impacts of our energy systems and maximize the benefits for all utility customers. Historically, these impacts and benefits haven’t been equitably distributed. Energy equity recognizes that disadvantaged communities have been historically marginalized and overburdened by pollution, underinvestment in clean energy infrastructure, and lack of access to energy efficient housing and transportation.</t>
 
 
-<t hangText="Energy proportionality:"><br /> is the correlation between energy used and the associated useful output. For internetworking this is generally interpreted as the proportionality of traffic and energy used. It is not a given that there is a 1-to-1 correlation between traffic and energy use, notably due to the significant idle power use by networking devices and the network capacity being allocated w.r.t. peak load.</t>
+<t hangText="Energy proportionality:"><br /> is the correlation between energy used and the associated useful output. For internetworking this is generally interpreted as the proportionality of traffic or traffic throughput and energy used. This concept is broadly applicable to networking infrastructure, data center, and other communication architectures. It is not a given that there is a one-to-one correlation between traffic and energy use, notably due to the materially significant idle power use by devices, as well as the overall network capacity being allocated to serve at times of highest traffic utilization.</t>
 <t hangText="Energy savings / conservation (ES):"><br /> is the avoidance of energy use, by eliminating a task altogether, when possible. Shutting down unused ports on a networking equipment is energy savings/conservation.</t>
 <t hangText="Footprint (environmental/ecological):"><br /> in general terms is the impact we have on the planet. It can be divided into subcategories as carbon footprint, water footprint, land footprint, biodiversity footprint, etc. Related to the climate emergency, we are mostly focused on our carbon footprint, however, it has been shown that sub-categories of footprint are not entirely independent of each other. For example, our carbon footprint has a proven impact on the climate emergency through rising global temperatures, cascading significant impact on forest cover in warming areas since tree species adapted to certain climates vanish, thereby reducing biodiversity in that region, in-return impacting the carbon sink properties of the environment and exacerbating climate change. A holistic approach to our environmental footprint would therefore provide the best opportunity to create impact.</t>
-<t hangText="GHGs:"><br /> Greenhouse gases, are types of gases that trap heat from the sun in earth's atmosphere, thereby increasing average global temperatures and creating the climate emergency. Carbon dioxide (CO2) is one of the most common (and reference) greenhouse gases. There are others such as methane (CH4 - a much more potent GHG than CO2) and sulfur hexafluoride (SF6 - an artificial electrical insulator with tens of thousands of times more warming effect than CO2.</t>
+<t hangText="GHGs:"><br /> Greenhouse gases, are types of gases that trap heat from the sun in earth's atmosphere, thereby increasing average global temperatures and creating the climate emergency. Carbon dioxide (CO2) is one of the most common (and reference) greenhouse gases. There are others such as methane (CH4 - a much more potent GHG than CO2) and sulfur hexafluoride (SF6 - an artificial electrical insulator with tens of thousands of times more warming effect than CO2).</t>
 <t hangText="GWP:"><br /> Global warming potential, is the potential impact of GHGs on climate change, measured in CO2e.</t>
 <t hangText="Geodiversity:"><br /> is the variety of the nonliving parts of nature, that is, the materials constituting Earth, including soils, water (rivers, lakes, oceans), minerals, landforms and the associated processes that form and change them. The materials used in the production of internetworking equipment as well as their manufacturing and operational processes themselves, have impact (footprint) on geodiversity. Materials efficiency as well as circularity improvements help mitigate this impact.</t>
 <t hangText="Handprint (environmental/ecological):"><br /> is a concept developed in contrast to footprint, to quantify and demonstrate the positive environmental/ecological impact of technologies, products or organizations. Through a LCA (life cycle assessment) approach, the use of a technology or the products and services of an organization would have both a footprint and handprint usually denoted by the terms "X for sustainability" (handprint) and "Sustainable X" (footprint). What is important is that handprint impact does not compensate for footprint impact. They are to be calculated and reported independently; footprint to be minimized as much as possible, and handprint maximized as much as possible, which are by definition different activities anyway. Otherwise, this might be construed as "greenwashing". A popular seesaw figure in common sustainability literature depicting handprint and footprint sitting on opposite ends of a seesaw, one going up while the other is going down is a misguided representation.</t>
 <t hangText="LCA (Life Cycle Assessment):"><br /> is a comprehensive methodology to measure the environmental impact of a product, service, or process over its complete lifecycle, from the extraction and procurement of materials, through design, manufacturing, distribution, deployment, operations (use), maintenance/repair, decommissioning, refurbishment/reuse, recycling and disposal (waste), considering the full upstream and downstream supply chains as well. It is an extremely complicated process and there are multiple methods used worldwide, which might not produce same/similar results. LCA covers full footprint aspects, not only covering carbon, but also materials and biodiversity.</t>
 <t hangText="Materials efficiency and reuse:"><br /> is the concept of using less primary and (more) recycled materials to provide the same output. A networking equipment that provides the same function with less aluminium used is more materials efficient. Reuse of materials in manufacturing, thereby reducing primary materials extraction is a cornerstone of circularity, reducing environmental footprint and promoting geodiversity.</t>
 <t hangText="Net-zero:"><br /> in general, is to bring down GHGs as close to zero as possible. It is generally recognized that it may not be possible to get GHGs to 0 in many contexts and the balance is said to be covered by carbon offset. For example, many organizations and countries have net-zero targets by certain dates and typically what they mean is that they will reduce their GHGs by more than 90% and the remaining up to 10% will be offset.</t>
-<t hangText="PUE:"><br /> Power usage effectiveness, is a data centre energy efficiency metric.</t>
+<t hangText="PUE:"><br /> Power usage effectiveness, is a data centre energy efficiency metric.
+The PUE is defined by dividing the total amount of power entering a data center by the power used solely to run the IT equipment within it. PUE is expressed as a ratio, with the overall power usage effectiveneess improving as the quotient decreases towards one. See also "CUE".
+</t>
 <t hangText="Planetary boundaries:"><br /> is a concept that defines 9 environmental boundaries, if not crossed, provides a safe space for humanity to live. This was developed and tracked by the Stockholm Resilience Centre <xref target="Planet-B"/>. Unfortunately, their latest report indicates that 6 out of the 9 boundaries have already been crossed. This translates to the increased risk of irreversible environmental change, the so-called tipping points. Climate change is one of these boundaries, represented as carbon dioxide concentration in the atmosphere (ppm by volume) and others are biodiversity loss, land use, fresh water, ocean acidification, chemical pollution, ozone depletion (one boundary that has been successfully mitigated), atmospheric aerosols and biogeochemical (nitrogen in the atmosphere and phosphorus in oceans).</t>
-<t hangText="Rebound effect:"><br /> is  the reduction in the potential benefits of more efficient technologies and solutions to reduce resource use, due to the increased demand they might trigger as costs might decrease, in return even increasing the overall resource use. This is known as Jevons paradox: efficiency leading to increased demand. In internetworking, this can manifest itself when more energy and resource efficient systems reduce the cost for infrastructure build and operations and when this is reflected to customers as reduced cost, customers respond by increased use of telecommunications services which pushes infrastructure build and operations upwards, thereby negating the projected gains from efficiency measures.</t>
+
+<t hangText="Rebound effect:"><br /> is  the reduction in the potential benefits of more efficient technologies and solutions to reduce resource use, due to the increased demand they might trigger as costs might decrease, in return even increasing the overall resource use. This is known as Jevons paradox: efficiency leading to increased demand. In internetworking, this can manifest itself when more energy and resource efficient systems reduce the cost for infrastructure build and operations and when this is reflected to customers as reduced cost, customers respond by increased use of telecommunications services which pushes infrastructure build and operations upwards, thereby negating the projected gains from efficiency measures.
+
+Another descriptive source for this phenomenon can be found at <xref target="Frontiers"/>.
+</t>
+
 <t hangText="Tipping points:"><br /> are critical environmental thresholds, which when crossed likely lead to irreversible state changes in climate systems that might push the overall earth system out of its stable state that supports life on Earth. For example, there are tipping points defined for the Antarctic and Greenland ice sheets disappearing, the Arctic sea-ice loss, Siberian permafrost loss or the dieback of the Amazon and Boreal forests. As planetary boundaries are crossed, the likelihood of the tipping points being reached also increases. When the tipping points are hit, notably simultaneously, the overall impact to the global Earth system might be catastrophic, as another stable state which no longer supports life could be reached.</t>
 <t hangText="UN SDGs:"><br /> United Nations Sustainable Development Goals are 17 global objectives that collectively define a framework for a sustainable global system where people and the planet collectively thrive and live in peace, prosperity and equity. They were adopted in 2015 and most of them have a target achievement date of 2030 <xref target="UN-SDG"/>. They are part of the so-called UN 2030 Agenda. The International Telecommunications Union (ITU) has published on how our technology could help meet the UN SDGs <xref target="ITU-ICT-SDG"/>. Notably, most UN SDGs provide guidance for the handprint impact of internetworking technologies, while some are also related to potential action for footprint reduction. 
 The 17 SDGs are:
@@ -134,7 +178,7 @@ The 17 SDGs are:
 <t hangText="Goal 17">Partnerships for the Goals</t>
           </list>
 <?rfc subcompact="no" ?>
-
+The SDG Academy <xref target="SDG-Acad"/> also provides useful information on the topic, as well as progress to date.
 </t>
           </list></t>
       </section>
@@ -144,7 +188,7 @@ The 17 SDGs are:
     <section title="'Sustainable X' versus 'X for Sustainability'">
             <t>Every technology solution, system or process has sustainability impacts, as it uses energy and resources and operates in a given context to provide a [perceived] useful output. These impacts could be both negative and positive w.r.t sustainability outcomes. With a simplistic view, the negative impact is termed as footprint and the positive impact is handprint, as defined in the terms section above. Again, generally speaking, footprint considerations of a technology are grouped under "Sustainable X" and the handprint considerations are covered under "X for Sustainability".</t>
             <t>Additionally, when sustainability impacts are considered, not only environmental but also societal and economic perspectives need to be taken into account, both for footprint and handprint domains. A systems perspective ensures that the interactions and feedback loops are not forgotten among different sub-areas of sustainability.</t>
-            <t>Another fundamental sustainability impact assessment requirement is to cover the complete impact of a product, service or process over its full lifetime. Life Cycle Assessment (LCA) starts from the raw materials extraction &amp; acquisition phases, and continues with design, manufacturing, distribution, deployment, use, maintenance, decommissioning, refurbishment/reuse, and ends with end-of-life treatment (recycling &amp; waste). It is imperative that we consider not only the design and build stages of our technologies but also its use and end-of-life phases. An equally essential way of ensuring a holistic perspective is the supply-chain dimension. When we consider the footprint impact of a technology we are building, we need to consider the full supply chain that the technology is part of, both upstream, what it inherits from the materials, components and services used, to downstream for wherever the technology is used and then decommissioned. What this implies is that we are responsible for the direct and indirect impacts of our activity, both on demand and supply directions.</t>
+            <t>Another fundamental sustainability impact assessment requirement is to cover the complete impact of a product, service or process over its full lifetime. Life Cycle Assessment (LCA) starts from the raw materials extraction &amp; acquisition phases, and continues with design, manufacturing, distribution, deployment, use, maintenance, decommissioning, refurbishment/reuse, and ends with end-of-life treatment (recycling &amp; waste). It is imperative that we consider not only the design and build stages of our technologies but also its use and end-of-life phases. An equally essential way of ensuring a holistic perspective is the supply-chain dimension. When we consider the footprint impact of a technology we are building, we need to consider the full supply chain that the technology is part of, both upstream, what it inherits from the material acquisition, components and services used, to downstream for wherever the technology is used and then decommissioned. Further, this includes transportation of materials or products, and the carbon-friendliness of the means and routes chosen. What this implies is that we are responsible for the direct and indirect impacts of our activity, both on demand and supply directions.</t>
             <t>Below, we cover the "Sustainable Internetworking" and "Internetworking for Sustainability" perspectives in more detail.</t>
 
     <section title="Sustainable Internetworking">
@@ -282,8 +326,12 @@ In this phase we build awareness into the systems to automatically recognize opp
   <back>
     <references title="Normative References">
 
+
+<!--
       &RFC2119;
-            
+    -->
+
+
     </references>
     
     <references title="Informative References">
@@ -340,11 +388,74 @@ In this phase we build awareness into the systems to automatically recognize opp
         </front>
     </reference>
 
+    <reference anchor="SDG-Acad" target="https://sdgacademy.org">
+        <front>
+            <title>SDG Academy</title>
+              <author initials="" surname="" fullname="Sustainable Development Solutions Network"></author>
+            <date month="" day="" year="2023"/>
+        </front>
+    </reference>
+
     <reference anchor="ITU-ICT-SDG" target="https://www.itu.int/en/mediacentre/backgrounders/Pages/icts-to-achieve-the-united-nations-sustainable-development-goals.aspx">
         <front>
             <title>Digital technologies to achieve the UN SDGs</title>
               <author initials="" surname="ITU" fullname="ITU"></author>
             <date month="" day="" year="2023"/>
+        </front>
+    </reference>
+
+    <reference anchor="Frontiers" target="https://www.frontiersin.org/research-topics/6598/the-rebound-effect-and-the-jevons-paradox-beyond-the-conventional-wisdom#overview">
+        <front>
+            <title>The Rebound Effect and the Jevons' Paradox: Beyond the Conventional Wisdom</title>
+              <author initials="" surname="Frontiers" fullname="Frontiers"></author>
+            <date month="" day="" year="2023"/>
+        </front>
+    </reference>
+
+    <reference anchor="CUE" target="https://www.thegreengrid.org/en/resources/library-and-tools/241-Carbon-Usage-Effectiveness-%28CUE%29%3A-A-Green-Grid-Data-Center-Sustainability-Metric">
+        <front>
+            <title>Carbon Usage Effectiveness
+(CUE): A Green Grid Data Center
+Sustainability Metric</title>
+              <author initials="C." surname="Belady" fullname="Christian Belady"></author>
+              <author initials="D." surname="Azevedo" fullname="Dan Azevedo"></author>
+              <author initials="M." surname="Patterson" fullname="Michael Patterson"></author>
+              <author initials="J." surname="Pouchet" fullname="Jack Pouchet"></author>
+              <author initials="R." surname="Tipley" fullname="Roger Tipley"></author>
+            <date month="12" day="2" year="2010"/>
+        </front>
+    </reference>
+
+    <reference anchor="Telefonica" target="https://statics.telefonica.com/en/financial-reports/2021/Consolidated-Annual-Report/#i7111116644124bd299d124820baf28f7_394">
+        <front>
+            <title>Consolidated Annual Report 2021</title>
+              <author initials="" surname="Telefonica" fullname="Telefonica"></author>
+            <date month="" day="" year="2021"/>
+        </front>
+    </reference>
+
+
+    <reference anchor="IPCC" target="https://www.ipcc.ch/sr15/chapter/glossary/">
+        <front>
+            <title>Intergovernmental Panel on Climate Change (IPCC). (2022). Annex I: Glossary. In Global Warming of 1.5°C: IPCC Special Report on Impacts of Global Warming of 1.5°C above Pre-industrial Levels in Context of Strengthening Response to Climate Change, Sustainable Development, and Efforts to Eradicate Poverty (pp. 541-562)</title>
+            <author />
+            <date month="" day="" year="2022"/>
+        </front>
+        <refcontent>Cambridge University Press</refcontent>
+        <seriesInfo name="doi" value="10.1017/9781009157940.008" />
+    </reference>
+
+
+    <reference anchor="UNGA42" target="http://digitallibrary.un.org/record/139811">
+        <front>
+            <title>Report of the World Commission on Environment and Development : "Our common future"</title>
+            <author initials="" surname="UN" fullname="UN">
+              <address>
+<postal>
+<city>New York</city>
+</postal>
+            </address></author>
+            <date month="8" day="4" year="1987"/>
         </front>
     </reference>
 
