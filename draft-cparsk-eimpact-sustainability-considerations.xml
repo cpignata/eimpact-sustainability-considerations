@@ -18,7 +18,7 @@
   <front>
     <title abbrev="Sustainability Considerations">Sustainability Considerations for Internetworking</title>
 
-    <author fullname="Carlos Pignataro" initials="C." surname="Pignataro">
+    <author fullname="Carlos Pignataro" initials="C." surname="Pignataro" role="editor">
       <organization abbrev="NC State University">North Carolina State University</organization>
 
       <address>
@@ -235,22 +235,28 @@ The SDG Academy <xref target="SDG-Acad"/> also provides useful information on th
 </t>
             <t>Climate change considerations in internetworking by and large translate to energy sourcing, consumption, savings and efficiency as this impacts the GHGs of the internetworking systems directly, when mostly non-renewable energy sources are used for the operations of the networks. When the carbon intensity of the energy supply used in operations decreases (more renewable energy in the supply mix), then the use phase GHGs also proportionally decrease. This might put the GHG emissions of the manufacturing and materials extraction and acquisition phases ahead of the use phase. These are called the embodied emissions.</t>
             <t>However, energy is not the only aspect to consider: materials efficiency and circularity are key actions to limit the resource use of our technologies, thereby reducing the scarcity of materials but also the destruction of many ecosystems during their extraction and manufacturing, polluting water and land with waste, which might also impact directly or indirectly the abundance and health of the species on the planet, namely biodiversity. While it is significantly more difficult to quantify and measure the impact of our technologies in these domains, the planetary boundaries framework provides helpful guidance.</t>
-            <t>For the societal and economic footprint of our technologies, we need to be mindful about the potential negative effects of our technologies w.r.t. the social boundaries, as depicted in the so-called doughnut economics model, that includes education, health, incomes, housing, gender equality, social equity, inclusiveness, justice and more. What we need to realize is that our technology has direct and indirect impacts in these aspects and the challenge is not only to meet environmental sustainability targets but social and economic ones as well. There are very practical considerations for example: does centralization/concentration in internetworking affect empowerment and inclusion, or the relationship of automation and AI use with bias or job creation. More technology doesn't always mean better outcomes for all and can we mitigate this impact? Admittedly, a quantitative approach to the societal and economical aspects is more challenging but the KV/KVI approach described below brings some relief.</t>
+            <t>For the societal and economic footprint of our technologies, we need to be mindful about the potential negative effects of our technologies w.r.t. the social boundaries, as depicted in the so-called doughnut economics model, that includes education, health, incomes, housing, gender equality, social equity, inclusiveness, justice and more. What we need to realize is that our technology has direct and indirect impacts in these aspects and the challenge is not only to meet environmental sustainability targets but social and economic ones as well. There are very practical considerations, for example: are there partial or total barriers to accessing the Internet or its services? what is the impact of biases in artificial intelligence (AI), as it pertains gender biases, when those AI models are used in job selection? More technology doesn't always mean better outcomes for all and can we mitigate this impact? Admittedly, a quantitative approach to the societal and economical aspects is more challenging; thinking in terms of profit, people, and planet, as well as the KV/KVI approach described below bring some relief.</t>
 </section>
     <section title="Internetworking for Sustainability">
-            <t>When it comes to the positive impact of internetworking in tackling the sustainability challenges faced, we are in the "internetworking for sustainability" realm. This is a very diverse topic covering innumerable industrial and societal verticals and use cases. Essentially, we are asking how our technology can help other sectors and users to decarbonize, and to reduce their own footprints and to increase their handprints in environmental, societal and economic dimensions. These are induced or enablement effects. Examples are how internetworking is being used in smart energy grids or smart cities, transport, health care, education, agriculture, manufacturing and other verticals. While efficiency gains are usually a basis, there are also other impacts through ubiquitous network coverage, sensing, affordability, ease of maintenance and operation, decentralization, to name a few.</t>
+            <t>When it comes to the positive impact of internetworking in tackling the sustainability challenges faced, we are in the "internetworking for sustainability" realm. This is a very diverse topic covering innumerable industrial and societal verticals and use cases. Essentially, we are asking how our technology can help other sectors and users to decarbonize, and to reduce their own footprints and to increase their handprints in environmental, societal and economic dimensions. These are induced or enablement effects. Examples are how internetworking is being used in smart energy grids or smart cities, transport, health care, education, agriculture, manufacturing and other verticals. While efficiency gains are usually a basis, there are also other impacts through ubiquitous network coverage, sensing, affordability, ease of maintenance and operation, equity in access, to name a few.</t>
             <t>Climate change mitigation and climate change adaptation, as defined in the terms section above, are particular focus areas where internetworking could help create more resilience in our societies and economies along with sustainability.</t>
-            <t>Essentially, handprint considerations are asking us to think about how our technology could be used to tackle sustainability challenges at first, and second, to generate feedback on how to create enablers and improvements in our technology for it to be more impactful. The usual KPIs related to technical system parameters would be largely insufficient for this purpose. Supporting this effort, Key Values (KV) and Key Value Indicators (KVIs) concepts have been developed, to be used in conjunction with use cases to develop impactful solutions. KV and KVIs are the subject of the nxt section below.</t>
-            <t>TBC.</t>
+            <t>Essentially, handprint considerations are asking us to think about how our technology could be used to tackle sustainability challenges at first, and second, to generate feedback on how to create enablers and improvements in our technology for it to be more impactful. The usual KPIs related to technical system parameters would be largely insufficient for this purpose. Supporting this effort, the Key Values (KV) and Key Value Indicators (KVIs) concepts have been developed, to be used in conjunction with use cases to develop impactful solutions.</t>
 </section>      
     </section>
 
 
     <section title="Key Values and Key Value Indicators">
-            <t>In the context of sustainability, key values are what matters to societies and to people when it comes to direct and indirect outcomes of the use of our technology. While KPIs help us to build, monitor and improve the design and implementation of our technologies, key values and their qualitative and quantitative indicators tell us about their usefulness and value to society and people. As we want our technology to help tackle the grand challenges of our planet, their likelihood of usefulness and impact is a paramount consideration. KVs and KVIs help set our bearings right and also demonstrate the impact we could create.</t>
-            <t>While key values could be universal, like for example the United Nations Sustainable Development Goals (UN SDGs), how they are measured, or perceived (KVIs) could be context dependent, that is, use case specific. To give a simplified example, UN SDG 3, "good health and well-being" is a key value for any society and individual. Then, when we consider the use case of providing health care and wellness services in a remote, rural community which doesn't have any hospitals or specialist doctors, a key value indicator could be how fast a patient could access health care services without having to travel out of town, or the successful medical interventions that could be carried out remotely. Then the next step is to identify which parts of our technology could help enable this and design our technology to create impact for the KVs as per KVIs. In this case, universal network coverage, capacity and features to integrate multitude of sensors, low-latency and jitter communication services could all be enablers with their own design targets and KPIs defined. Subsequently, we would track the KVIs and the KPIs together for successful outcomes.</t>
-            <t>Admittedly, this might not be a straightforward task to carry out for each protocol design. Yet, such analyses could be included in design processes along with use case development, covering a group of technology design activities (protocols) together. There are ongoing efforts in mobile networking research to use KVs/KVIs efficiently <xref target="M6G-KVI"/> <xref target="M6G-VP"/>.</t>
+            <t>In the context of sustainability, key values are what matters to societies and to people when it comes to direct and indirect outcomes of the use of our technology. While KPIs help us to build, monitor and improve the design and implementation of our technologies, key values and their qualitative and quantitative indicators tell us about their usefulness and value to society and people. As we want our technology to help tackle the grand challenges of our planet, their likelihood of usefulness and impact is a paramount consideration. KVs and KVIs help set our bearings right and also demonstrate the impact we could create. The main idea is shifting from measuring performance to measuring value.</t>
+            <t>While key values could be universal, like for example the United Nations Sustainable Development Goals (UN SDGs) <xref target="UN-SDG"/>, how they are measured, or perceived (KVIs) could be context dependent and use case specific. To give a simplified example, UN SDG 3, "good health and well-being" is a key value for any society and individual. Then, when we consider the use case of providing health care and wellness services in a remote, rural community which doesn't have any hospitals or specialist doctors, a key value indicator could be how fast a patient could access health care services without having to travel out of town, or the successful medical interventions that could be carried out remotely. Then the next step is to identify which parts of our technology could help enable this and design our technology to create impact for the KVs as per KVIs. In this case, universal network coverage, capacity and features to integrate multitude of sensors, low-latency and jitter communication services could all be enablers with their own design targets and KPIs defined. Subsequently, we would track the KVIs and the KPIs together for successful outcomes.</t>
+            <t>Admittedly, this might not be a straightforward task to carry out for each protocol design. Yet, such analyses could be included in design processes along with use case development, covering a group of technology design activities (protocols) together. There are ongoing efforts in mobile networking research to use KVs/KVIs efficiently <xref target="M6G-SOCIETAL-KV-KVI"/> <xref target="M6G-VALUE-PERF"/> <xref target="Hexa-X_D1.2" />.</t>
             <t>While we find ourselves trying to optimize seemingly contradicting parameters or aspects such as reducing latency and jitter and increasing bandwidth and reach targets with sustainability ones like reduced energy consumption and increased energy efficiency, key values and key value indicators would help keep our eyes on the targets that matter for the end users and communities and societies. Considerations for such potential design trade-offs, which are at the heart of our engineering innovations, is the topic of the next section.</t>
+
+
+    <section title="Key Value Enablers">
+      <t>Between the design and creation of a technology, and realization of the value generated by it, there are a number of enablers and blockers of its usage. We generally refer to them as KV Enablers.  These are the key factors that would scale and spread use cases, or block their deployment. Beyond technical aspects, there are criteria such as level of adaptation to a particular society or ecosystem, cost of connectivity and Internet service access, availability of services, security and privacy. An important corollary is that KV enablers can be used to drive technological requirements and advancements to maximize key value.</t>
+    </section>
+
+
     </section>
 
 
@@ -267,7 +273,8 @@ The SDG Academy <xref target="SDG-Acad"/> also provides useful information on th
     <section title="Design Tradeoffs">
             <t>Traditionally, digital communication networks are optimized for a specific set of criteria that proxies for business metrics. A network operator providing services to their customers intends to maximize profits, by increasing top-line revenue and decreasing bottom-line associated costs. This directly translates to goals of optimizing performance and availability, while reducing various costs.</t>
             <t>Most recently, as explained above, various forces elevate the need for sustainability in networking technologies and architectures, to quantify and minimize negative environmental impact.</t>
-            <t>A first approximation to this conundrum indicates that optimizing network availability (e.g., by having excess capacity and backup paths) or optimizing performance (e.g., by increasing speeds selecting paths based on delays only) can be in opposition to optimizing sustainability objectives. As such, network architects and designers are presented with a set of new design tradeoffs: a multi-objective optimization that satisfies border requirements and global optima for availability, performance, and sustainability simultaneously. This is not unlike the doughnut economics model concept introduced in the Terms above.</t>
+            <t>A first approximation to this conundrum indicates that optimizing only network availability (e.g., by having excess capacity and backup paths) or optimizing only performance (e.g., by increasing speeds selecting paths based on delays only) can be in opposition to optimizing sustainability objectives. 
+            </t><t>Consequently, network architects and designers are presented with a set of new design tradeoffs: a multi-objective optimization that satisfies border requirements and global optima for availability, performance, and sustainability simultaneously. This is not unlike the doughnut economics model concept introduced in the Terms above.</t>
 </section>
     <section title="Multi-Objective Optimization">
             <t>To understand this new model, we can analyze a simplified example. Assume the following topology, passing traffic from A to B:</t>
@@ -376,7 +383,7 @@ In this phase we build awareness into the systems to automatically recognize opp
     
     <references title="Informative References">
 
-    <reference anchor="M6G-KVI" target="https://doi.org/10.5281/zenodo.6557534">
+    <reference anchor="M6G-SOCIETAL-KV-KVI" target="https://doi.org/10.5281/zenodo.6557534">
         <front>
             <title>What societal values will 6G address?</title>
 <author initials="G." surname="Wikström" fullname="Gustav Wikström"></author>
@@ -394,7 +401,7 @@ In this phase we build awareness into the systems to automatically recognize opp
         </front>
     </reference>
 
-    <reference anchor="M6G-VP" target="https://doi.org/10.1109/6GSUMMIT49458.2020.9083885">
+    <reference anchor="M6G-VALUE-PERF" target="https://doi.org/10.1109/6GSUMMIT49458.2020.9083885">
         <front>
             <title>6G Indicators of Value and Performance</title>
 <author initials="V." surname="Ziegler" fullname="Volker Ziegler"></author>
@@ -509,6 +516,20 @@ Sustainability Metric</title>
         <refcontent>Geneva: World Business Council for Sustainable Development</refcontent>
         <refcontent>Washington, DC: World Resources Institute</refcontent>
     </reference>
+
+
+    <reference anchor="Hexa-X_D1.2" target="https://hexa-x.eu/wp-content/uploads/2021/05/Hexa-X_D1.2.pdf">
+        <front>
+            <title>Expanded 6G vision, use cases and societal values - including aspects of sustainability, security and spectrum</title>
+            <author initials="" surname="" fullname="Hexa-X">
+            </author>
+            <date month="4" day="30" year="2021"/>
+        </front>
+        <refcontent>Deliverable D1.2</refcontent>
+    </reference>
+
+
+
 
 
 
