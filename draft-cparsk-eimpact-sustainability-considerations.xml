@@ -61,6 +61,20 @@
       </address>
     </author>
     
+    <author fullname="Alexander Clemm" initials="A." surname="Clemm">
+      <organization>Futurewei</organization>
+      <address>
+        <postal>
+          <street>2220 Central Expressway</street>
+          <city>Santa Clara</city>
+          <country>USA</country>
+          <code>CA 95050</code>
+        </postal>
+        <phone/>
+        <email>ludwig@clemm.org</email>
+      </address>
+    </author>
+
 
     <date />
 
@@ -284,10 +298,9 @@ The SDG Academy <xref target="SDG-Acad"/> also provides useful information on th
             <t>When we add sustainability considerations, resiliency is not the single objective to optimize. And while the graphs of resiliency and sustainability might be impractical to approximate with formulas, there are ratios that can give a sense of border conditions.</t>
             <t>For example, consider the overall network capacity over the used capacity, and let's call it "Resiliency Index". If this number is one, there's no resiliency; and as the ratio grows, so potentially unused capacity that could be utilized in a failure event. Similarly, consider the values os sustainability metrics for when the Resiliency Index is one and for when it is two. These borders points might give an indication of the slope for each objective.</t>
 </section>      
-    <section title="How Much is Performance and Quality Compromised?">
+    <section title="How Much are Performance and Quality Compromised?">
             <t>The fields of performance and quality of experience have the benefit of significant study and standardization of metrics. In a similar way than with resiliency, a degradation of performance and Quality of Service parameters, such as bandwidth, latency, jitter, etc., can very well be observed and measured, as a variation of sustainability metrics. The relative slopes of improvement of each goal would hint as to where the balance lies.</t>
 </section>      
-    </section>
 
 
     <section title="End-to-End Sustainability">
@@ -295,6 +308,13 @@ The SDG Academy <xref target="SDG-Acad"/> also provides useful information on th
             <t>For example, features that provide energy saving modes for devices can be dynamically utilized when the network utilization is such that performance would not significantly suffer. Or consider  a core router of today that becomes more usable as an edge/access router of the future due to the need for higher throughput in the core. This section explores the benefits of macro-optimizations by clustering in specific phases, versus micro-optimizing locally without awareness of the network context.</t>
     </section>
 
+    <section title="The Role of Network Management and Orchestration">
+            <t>Alex -- from telemetry to, well, you know... :-) </t>
+            <t>Alex TODO</t>
+    </section>
+
+
+    </section>
 
 
     <section title="Sustainability Requirements and Phases">
