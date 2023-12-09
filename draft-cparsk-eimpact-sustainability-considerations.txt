@@ -91,9 +91,7 @@ Table of Contents
      8.1.  Call to Action  . . . . . . . . . . . . . . . . . . . . .  21
    9.  Security Considerations . . . . . . . . . . . . . . . . . . .  21
    10. Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .  21
-   11. References  . . . . . . . . . . . . . . . . . . . . . . . . .  21
-     11.1.  Normative References . . . . . . . . . . . . . . . . . .  21
-     11.2.  Informative References . . . . . . . . . . . . . . . . .  21
+   11. Informative References  . . . . . . . . . . . . . . . . . . .  21
    Appendix A.  Open Issues and TODOs  . . . . . . . . . . . . . . .  23
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  23
 
@@ -105,6 +103,8 @@ Table of Contents
    Abstract and Introduction will be added to this working draft pending
    an initial set of reviews of this -00, and after the main sections
    are stable.
+
+
 
 
 
@@ -1157,11 +1157,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
    TBC.
 
-11.  References
-
-11.1.  Normative References
-
-11.2.  Informative References
+11.  Informative References
 
    [CUE]      Belady, C., Azevedo, D., Patterson, M., Pouchet, J., and
               R. Tipley, "Carbon Usage Effectiveness (CUE): A Green Grid
@@ -1170,6 +1166,10 @@ Internet-Draft        Sustainability Considerations        December 2023
               tools/241-Carbon-Usage-Effectiveness-%28CUE%29%3A-A-Green-
               Grid-Data-Center-Sustainability-Metric>.
 
+   [Doughnut] Wikipedia, "Doughnut (economic model)", 13 October 2023,
+              <https://en.wikipedia.org/wiki/Doughnut_(economic_model)>.
+
+
 
 
 
@@ -1177,9 +1177,6 @@ Pignataro, et al.         Expires 11 June 2024                 [Page 21]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
-
-   [Doughnut] Wikipedia, "Doughnut (economic model)", 13 October 2023,
-              <https://en.wikipedia.org/wiki/Doughnut_(economic_model)>.
 
    [Frontiers]
               Frontiers, "The Rebound Effect and the Jevons' Paradox:
@@ -1224,7 +1221,10 @@ Internet-Draft        Sustainability Considerations        December 2023
               values will 6G address?", 17 May 2022,
               <https://doi.org/10.5281/zenodo.6557534>.
 
-
+   [M6G-VALUE-PERF]
+              Ziegler, V. and S. Yrjola, "6G Indicators of Value and
+              Performance", 4 May 2020,
+              <https://doi.org/10.1109/6GSUMMIT49458.2020.9083885>.
 
 
 
@@ -1233,11 +1233,6 @@ Pignataro, et al.         Expires 11 June 2024                 [Page 22]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
-
-   [M6G-VALUE-PERF]
-              Ziegler, V. and S. Yrjola, "6G Indicators of Value and
-              Performance", 4 May 2020,
-              <https://doi.org/10.1109/6GSUMMIT49458.2020.9083885>.
 
    [Planet-B] Azote for Stockholm Resilience Centre, based on analysis
               in Richardson et al 2023, "Planetary boundaries", 2023,
@@ -1282,15 +1277,17 @@ Authors' Addresses
    Carlos Pignataro (editor)
    North Carolina State University
    United States of America
+   Email: cpignata@gmail.com, cmpignat@ncsu.edu
+
+
+
+
 
 
 
 Pignataro, et al.         Expires 11 June 2024                 [Page 23]
 
 Internet-Draft        Sustainability Considerations        December 2023
-
-
-   Email: cpignata@gmail.com, cmpignat@ncsu.edu
 
 
    Ali Rezaki
@@ -1308,6 +1305,9 @@ Internet-Draft        Sustainability Considerations        December 2023
    Hesham ElBakoury
    Independent Consultant
    Email: helbakoury@gmail.com
+
+
+
 
 
 

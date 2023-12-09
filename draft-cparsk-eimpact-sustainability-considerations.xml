@@ -385,15 +385,14 @@ In this phase we build awareness into the systems to automatically recognize opp
   </middle>
 
   <back>
+
+    <!--
     <references title="Normative References">
 
-
-<!--
       &RFC2119;
-    -->
-
 
     </references>
+  -->
     
     <references title="Informative References">
 
