@@ -94,7 +94,7 @@ Table of Contents
    11. References  . . . . . . . . . . . . . . . . . . . . . . . . .  21
      11.1.  Normative References . . . . . . . . . . . . . . . . . .  21
      11.2.  Informative References . . . . . . . . . . . . . . . . .  21
-   Appendix A.  Open issues  . . . . . . . . . . . . . . . . . . . .  23
+   Appendix A.  Open Issues and TODOs  . . . . . . . . . . . . . . .  23
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  23
 
 1.  Introduction
@@ -1259,35 +1259,38 @@ Internet-Draft        Sustainability Considerations        December 2023
               Development : "Our common future"", 4 August 1987,
               <http://digitallibrary.un.org/record/139811>.
 
-Appendix A.  Open issues
+Appendix A.  Open Issues and TODOs
 
    [ISSUE 1]  Complete "Abstract"
 
    [ISSUE 2]  Complete "Introduction"
 
-   [ISSUE 3]  Shall the 'Definition of Terms' be moved into its own
-              document to be cited by all e-impact-related documents?
+   [ISSUE 3]  Complete and strengthen the "Implications to the IETF"
+              section
 
-   [ISSUE 4]  Finalize Call-to-Action in the Conclusion
+   [ISSUE 4]  Strengthen "Metrics for Sustainability"
 
-   [ISSUE 5]  Complete and strengthen the "Implications to the IETF"
-              section, Ali and Carlos
+   [ISSUE 5]  Add "The Role of Network Management and Orchestration"
+
+   [ISSUE 6]  What can the IETF do for "Phase 2: Insights and
+              Recommendations"
+
+   [ISSUE 7]  Finalize Call-to-Action in the Conclusion
 
 Authors' Addresses
 
    Carlos Pignataro (editor)
    North Carolina State University
    United States of America
-   Email: cpignata@gmail.com, cmpignat@ncsu.edu
-
-
-
 
 
 
 Pignataro, et al.         Expires 11 June 2024                 [Page 23]
 
 Internet-Draft        Sustainability Considerations        December 2023
+
+
+   Email: cpignata@gmail.com, cmpignat@ncsu.edu
 
 
    Ali Rezaki
@@ -1305,9 +1308,6 @@ Internet-Draft        Sustainability Considerations        December 2023
    Hesham ElBakoury
    Independent Consultant
    Email: helbakoury@gmail.com
-
-
-
 
 
 
