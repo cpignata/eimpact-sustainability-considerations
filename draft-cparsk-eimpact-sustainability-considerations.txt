@@ -9,7 +9,7 @@ Expires: 11 June 2024                                              Nokia
                                                              S. Krishnan
                                                                    Cisco
                                                             H. ElBakoury
-                                                              Consultant
+                                                  Independent Consultant
                                                          9 December 2023
 
 
@@ -1303,7 +1303,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
    Hesham ElBakoury
-   Consultant
+   Independent Consultant
    Email: helbakoury@gmail.com
 
 
