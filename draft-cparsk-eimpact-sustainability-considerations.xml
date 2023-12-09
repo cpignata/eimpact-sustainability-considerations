@@ -61,6 +61,8 @@
       </address>
     </author>
     
+
+    <!--
     <author fullname="Alexander Clemm" initials="A." surname="Clemm">
       <organization>Futurewei</organization>
       <address>
@@ -74,6 +76,7 @@
         <email>ludwig@clemm.org</email>
       </address>
     </author>
+  -->
 
 
     <date />
@@ -320,11 +323,12 @@ The SDG Academy <xref target="SDG-Acad"/> also provides useful information on th
             <t>For example, features that provide energy saving modes for devices can be dynamically utilized when the network utilization is such that performance would not significantly suffer. Or consider  a core router of today that becomes more usable as an edge/access router of the future due to the need for higher throughput in the core. This section explores the benefits of macro-optimizations by clustering in specific phases, versus micro-optimizing locally without awareness of the network context.</t>
     </section>
 
+<!--
     <section title="The Role of Network Management and Orchestration">
-            <t>Alex -- from telemetry to, well, you know... :-) </t>
+            <t>Alex: from telemetry to, well, you know... :-) </t>
             <t>Alex TODO</t>
     </section>
-
+-->
 
     </section>
 
