@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE rfc [
-<!ENTITY RFC2119 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.2119.xml">
+
+<!ENTITY RFC6272 SYSTEM "https://bib.ietf.org/public/rfc/bibxml/reference.RFC.6272.xml">
+
+<!ENTITY I-D.irtf-nmrg-green-ps SYSTEM "https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.irtf-nmrg-green-ps.xml">
+
 ]>
 <?rfc toc="yes"?>
 <?rfc rfcedstyle="yes"?>
@@ -125,7 +129,7 @@ This reduction in GHG emissions can be an increase in carbon storage through lan
 
 For example, certified forestation projects that absorb carbon dioxide are producing carbon credits that an airline can use to offset its GHG emissions by using (purchasing) these credits. There are accredited carbon trading mechanisms to facilitate this exchange.</t>
 <t hangText="Circularity (circular economy):"><br /> is a model or system where material resources and products are kept in use for as long as possible through long life cycles, reuse, repair, refurbishing and recycling, thereby reducing materials use, waste, and pollution as well as biodiversity and geodiversity loss. Keeping internetworking equipment in longer use through modularity, serviceability, upgradeability, maintainability are strategies to improve circularity.</t>
-<t hangText="Climate change (climate emergency, global warming):"><br /> can be summarized as the increase in the global average temperatures and its destructive impact on the interconnected systems of the Earth. The climate emergency refers to the ongoing and projected catastrophic impacts of rising global temperatures and the narrow time window we have to limit temperature increases to a threshold determined by the Paris Climate Agreement (2015) to avoid the permanent destabilization of Earth life-support systems.</t>
+<t hangText="Climate change (climate emergency, global warming):"><br /> can be summarized as the increase in the global average temperatures and its destructive impact on the interconnected systems of the Earth. The climate emergency refers to the ongoing and projected impacts of rising global temperatures and the narrow time window we have to limit temperature increases to a threshold determined by the Paris Climate Agreement (2015) to avoid the permanent destabilization of Earth life-support systems.</t>
 <t hangText="Climate change adaptation:"><br /> are the measures we can take to adjust ourselves to the already happening and projected future adverse effects of climate change. This notably includes raising the resilience of internetworking solutions to higher operating temperatures and other impacts of climate change, as well as the use of internetworking technology to increase the resilience of societies and nature itself.</t>
 <t hangText="Climate change mitigation:"><br /> encompasses all measures to reduce the impact of climate change. More specifically, any measures that reduce the amount of GHGs in the atmosphere can be considered as climate change mitigation through reduced inflow of GHGs into the atmosphere (such as burning of fossil fuels) or increasing the impact of carbon sinks such as forests and oceans. Reducing the carbon footprint of internetworking and increasing its carbon handprint by helping other sectors to decarbonize are mitigation efforts.</t>
 
@@ -181,9 +185,9 @@ In telecommunications networks, Scope 3 emissions include the use phase of the s
 <t hangText="PUE:"><br /> Power usage effectiveness, is a data centre energy efficiency metric.
 The PUE is defined by dividing the total amount of power entering a data center by the power used solely to run the IT equipment within it. PUE is expressed as a ratio, with the overall power usage effectiveneess improving as the quotient decreases towards one. See also "CUE".
 </t>
-<t hangText="Planetary boundaries:"><br /> is a concept that defines 9 environmental boundaries, if not crossed, provides a safe space for humanity to live. This was developed and tracked by the Stockholm Resilience Centre <xref target="Planet-B"/>. Unfortunately, their latest report indicates that 6 out of the 9 boundaries have already been crossed. This translates to the increased risk of irreversible environmental change, the so-called tipping points. Climate change is one of these boundaries, represented as carbon dioxide concentration in the atmosphere (ppm by volume) and others are biodiversity loss, land use, fresh water, ocean acidification, chemical pollution, ozone depletion (one boundary that has been successfully mitigated), atmospheric aerosols and biogeochemical (nitrogen in the atmosphere and phosphorus in oceans).</t>
+<t hangText="Planetary boundaries:"><br /> is a concept that defines 9 environmental boundaries, if not crossed, provides a safe space for humanity to live. This was developed and tracked by the Stockholm Resilience Centre <xref target="Planet-B"/>. Their latest report indicates that 6 out of the 9 boundaries have already been crossed. This translates to the increased risk of irreversible environmental change, the so-called tipping points. Climate change is one of these boundaries, represented as carbon dioxide concentration in the atmosphere (ppm by volume) and others are biodiversity loss, land use, fresh water, ocean acidification, chemical pollution, ozone depletion (one boundary that has been successfully mitigated), atmospheric aerosols and biogeochemical (nitrogen in the atmosphere and phosphorus in oceans).</t>
 
-<t hangText="Rebound effect:"><br /> is  the reduction in the potential benefits of more efficient technologies and solutions to reduce resource use, due to the increased demand they might trigger as costs might decrease, in return even increasing the overall resource use. This is known as Jevons paradox: efficiency leading to increased demand. In internetworking, this can manifest itself when more energy and resource efficient systems reduce the cost for infrastructure build and operations and when this is reflected to customers as reduced cost, customers respond by increased use of telecommunications services which pushes infrastructure build and operations upwards, thereby negating the projected gains from efficiency measures.
+<t hangText="Rebound effect:"><br /> is the reduction in the potential benefits of more efficient technologies and solutions to reduce resource use, due to the increased demand they might trigger as costs might decrease, in return even increasing the overall resource use. This is known as Jevons paradox: efficiency leading to increased demand. In internetworking, this can manifest itself when more energy and resource efficient systems reduce the cost for infrastructure build and operations and when this is reflected to customers as reduced cost, customers respond by increased use of telecommunications services which pushes infrastructure build and operations upwards, thereby negating the projected gains from efficiency measures.
 
 Another descriptive source for this phenomenon can be found at <xref target="Frontiers"/>.
 </t>
@@ -241,7 +245,13 @@ The SDG Academy <xref target="SDG-Acad"/> also provides useful information on th
             <t>When it comes to the positive impact of internetworking in tackling the sustainability challenges faced, we are in the "internetworking for sustainability" realm. This is a very diverse topic covering innumerable industrial and societal verticals and use cases. Essentially, we are asking how our technology can help other sectors and users to decarbonize, and to reduce their own footprints and to increase their handprints in environmental, societal and economic dimensions. These are induced or enablement effects. Examples are how internetworking is being used in smart energy grids or smart cities, transport, health care, education, agriculture, manufacturing and other verticals. While efficiency gains are usually a basis, there are also other impacts through ubiquitous network coverage, sensing, affordability, ease of maintenance and operation, decentralization, to name a few.</t>
             <t>Climate change mitigation and climate change adaptation, as defined in the terms section above, are particular focus areas where internetworking could help create more resilience in our societies and economies along with sustainability.</t>
             <t>Essentially, handprint considerations are asking us to think about how our technology could be used to tackle sustainability challenges at first, and second, to generate feedback on how to create enablers and improvements in our technology for it to be more impactful. The usual KPIs related to technical system parameters would be largely insufficient for this purpose. Supporting this effort, Key Values (KV) and Key Value Indicators (KVIs) concepts have been developed, to be used in conjunction with use cases to develop impactful solutions. KV and KVIs are the subject of the nxt section below.</t>
-            <t>TBC.</t>
+            <t>The following are some examples of internetworking for sustainability.  This is not a comprehensive list; many more such examples can be found. Leveraging internetworking for sustainability usually involves special requirements, which are listed along with the examples. 
+            <list style="symbols">
+            <t>Smart Grid: The Smart Grid <xref target="RFC6272" /> generally refers to enhancements to traditional electrical grids that offer additional features such as two-way flows of electricity (e.g., accommodating solar panels, electrical batteries) and granular control of the grid (e.g., allowing to selectively turn off certain consumers such as Heating, Ventilation, and Air Conditioning (HVAC) units during certain times.)  The Smart Grid aims to improve sustainability by facilitating concepts such as peak shaving (i.e., lowering peak usage to reduce the amount of  excess generation of electricity that is not needed during non-peak periods), and encouraging residential homes and business to invest in renewable energy sources such as solar, for example offering credit for feeding surplus energy being generated back into the grid. For this to work, the Smart Grid requires support by networking technology that enables the required control loops as well as visibility into grid telemetry. This, in turn, requires the support of new requirements, including aspects of security (since a critical infrastructure is at stake), adherence to high precision service levels and ultra-low latency communication (e.g., to mitigate sudden spikes in voltage), and special provisions to ensure data privacy (given that data from private households, electrical vehicles, and personal devices is involved.)</t>
+            <t>Smart Cities: Many applications for smart cities involve optimizations to make cities more sustainable.  Examples include smart garbage disposals that reduce the number of truck rolls (and associated emissions) to collect garbage only when needed, and guidance systems for smart parking that reduce the amount of vehicle traffic used to find parking spots.  These applications are enabled by networking. Again, special requirements need to be supported for networks to support those applications, such as the ability to deploy equipment in harsh urban environments, or monitoring for vandalism.</t>
+            <t>Smart Agriculture: Smart agriculture involves minimizing usage of resources such as fertilizer and water in the production of agricultural output.  This also helps minimize the area set aside for farming and reclaim land for other purposes including biodiversity. Similarly, networking is an enabler for environmental sustainability. Special requirements for applications in this space include aspects such as the ability to support networking equipment without the need to run power lines (e.g., using battery or solar), and support for intermittent communications.  </t>
+            </list>
+            </t>
 </section>      
     </section>
 
@@ -307,10 +317,53 @@ The SDG Academy <xref target="SDG-Acad"/> also provides useful information on th
             <t>The networking industry is in the starting phases of addressing this objective. We are seeing a sprinkling of sustainability features across the networking stack and components of devices, whether it is on forwarding chips, power supplies, optics, or compute. Many of those optimizations and features are typically local in nature, and widely scattered across different elements of a network architecture. An opportunity for maximizing the positive environmental impact of these technologies calls for a more cohesive and complementary view that spans the complete product lifecycle for hardware and software, as well as how some of these features work in unison.</t>
             <t>For example, features that provide energy saving modes for devices can be dynamically utilized when the network utilization is such that performance would not significantly suffer. Or consider  a core router of today that becomes more usable as an edge/access router of the future due to the need for higher throughput in the core. This section explores the benefits of macro-optimizations by clustering in specific phases, versus micro-optimizing locally without awareness of the network context.</t>
     </section>
+    
+    <!--
+    <section title="Sustainability Considerations for the Development of Networking Technology">
+        <t>The following subsections provide an overview of some of the guiding principles that should be taken into consideration for the development of networking technology that is more sustainable. </t>
+        
+    <section title="Minimize energy consumption">
+    <t>Minimizing energy consumption is perhaps the most obvious and the most critical consideration in making networks more sustainable. Minimizing energy consumption typically comes also with important economic side benefits associated with reducing operational expenses and making network providers more competitive.  
+    </t>
+    <t>The following are some of the considerations to take into account.
+    <list style="symbols">
+    <t>Energy linearity. </t>
+    <t>Power saving modes. </t>
+    <t>Chattiness of protocols. </t>
+    <t>Exploiting burstiness versus smoothening of traffic. </t>
+    <t>Rapid discovery and convergence. </t>
+    </list>
+    </t>
+    </section>
+    
+    <section title="Provide visibility">
+    <t>TBD. Instrument equipment, and networks, with a set of meaningful metrics that provide visibility into power consumption.  This is the foundation for any mechanisms to help improve and optimize sustainability.  As the adage goes, you cannot manage nor optimize what you cannot measure, and this applies to sustainability as well. </t>
+    </section>
+    
+    <section title="Facilitate power supply side management">
+    <t>TBD. Provide visibility into sourced power, e.g. energy mix. Allow to account for the "dirtiness" of power being consumed to obtain a truer picture of sustainability than can be gained by visiblity into power consumption alone. </t>
+    </section>
+    
+    <section title="Extend equipment lifecycles">
+    <t>TBD.  Facilitate the possibility of software upgrades, avoid the need for forklift upgrades to the greatest extent possible.</t>
+    </section>
+    
+    <section title="Enable sustainable manufacturing">
+    <t>TBD.  Design hardware that faciliates recycling, involves fairly sourced materials, possibly materials that are bio-degradable.</t>
+    </section>
+    
+    </section>
+-->
+
 
     <section title="The Role of Network Management and Orchestration">
-            <t>Alex -- from telemetry to, well, you know... :-) </t>
-            <t>Alex TODO</t>
+            <t>Deployment and operational aspects play a critical role in making networks more sustainable.  A detailed explanation of that role, the associated challenges, as well as an outline of solution approaches is provided in <xref target="I-D.irtf-nmrg-green-ps"/>.  Here are some areas in which network management can help make networks more sustainable; for a more extensive treatment, please refer to that document.
+            <list style="symbols">
+            <t>Dimensioning:  Networks should be deployed and configured with sufficient capacity to serve their intended purpose.  At the same time, overprovisioning and providing too many resources should be avoided, as this results in waste and unnecessary environmental impact.  Network management can faciliate proper dimensioning of networks by providing the methods and tools that allow to assess network usage, determine required capacities, identify trends to allow to proactively accommodate traffic growth and new services.</t>
+            <t>Network optimization: Network management applications can help solve difficult network optimization problems involving multiple parameters, multiple and sometimes conflicting objectives, and mitigation of tradeoffs.  Network optimization examples include maximization of utilization or of aggregate QoE scores, minimization of the possibility of SLA violations with a given amount of network resources, or optimization of the cost of configured paths. Network metrics related to sustainability are another set of parameters that can be optimized. </t>
+            <t>Rapid Discovery and Provisioning Schemes: One of the biggest potential opportunities in reducing environmental impact of networks concerns the ability to power resources such as equipment or line cards down when they are momentarily not needed due to swings in traffic demands. In general, this involves fully automated management control loops with very short time scales. Network management can enable such schemes, involving algorithms that determine and control the rapid de- and re-commissioning of networking resources, as well as the necessary control protocols that facilitate aspects such as rapid resource discovery, reprovisioning, or reconvergence of management state.</t>
+            </list>
+            </t>
     </section>
 
 
@@ -510,7 +563,9 @@ Sustainability Metric</title>
         <refcontent>Washington, DC: World Resources Institute</refcontent>
     </reference>
 
+    &RFC6272;
 
+    &I-D.irtf-nmrg-green-ps;
 
     </references>
 
