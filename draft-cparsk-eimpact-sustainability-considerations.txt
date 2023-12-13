@@ -566,7 +566,7 @@ Internet-Draft        Sustainability Considerations        December 2023
       might be catastrophic, as another stable state which no longer
       supports life could be reached.
 
-   UN SDGs:  The SDG Academy
+   UN SDGs:
       United Nations Sustainable Development Goals are 17 global
       objectives that collectively define a framework for a sustainable
       global system where people and the planet collectively thrive and
@@ -597,8 +597,9 @@ Internet-Draft        Sustainability Considerations        December 2023
       Goal 16   Peace, justice and strong institutions
       Goal 17   Partnerships for the Goals
 
-      [SDG-Acad] also provides useful information on the topic, as well
-      as progress to date.
+
+      The SDG Academy [SDG-Acad] also provides useful information on the
+      topic, as well as progress to date.
 
 3.  'Sustainable X' versus 'X for Sustainability'
 
@@ -609,7 +610,6 @@ Internet-Draft        Sustainability Considerations        December 2023
    simplistic view, the negative impact is termed as footprint and the
    positive impact is handprint, as defined in the "Definition of Terms"
    section.  Again, generally speaking, footprint considerations of a
-   technology are grouped under "Sustainable X" and the handprint
 
 
 
@@ -618,6 +618,7 @@ Pignataro, et al.         Expires 15 June 2024                 [Page 11]
 Internet-Draft        Sustainability Considerations        December 2023
 
 
+   technology are grouped under "Sustainable X" and the handprint
    considerations are covered under "X for Sustainability".
 
    Additionally, when sustainability impacts are considered, not only
@@ -663,7 +664,6 @@ Internet-Draft        Sustainability Considerations        December 2023
       and
 
    *  biodiversity preservation.
-
 
 
 
