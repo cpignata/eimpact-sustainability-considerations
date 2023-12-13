@@ -438,15 +438,14 @@ In this phase we build awareness into the systems to automatically recognize opp
   </middle>
 
   <back>
+
+    <!--
     <references title="Normative References">
 
-
-<!--
       &RFC2119;
-    -->
-
 
     </references>
+  -->
     
     <references title="Informative References">
 
@@ -602,15 +601,19 @@ Sustainability Metric</title>
 
     </references>
 
-
-<section title="Open issues">
+<!--
+  TODO:
+-->
+<section title="Open Issues and TODOs">
 <t>
 <list style="format [ISSUE %d]">
 <t>Complete "Abstract"</t>
 <t>Complete "Introduction"</t>
-<t>Shall the 'Definition of Terms' be moved into its own document to be cited by all e-impact-related documents?</t>
+<t>Complete and strengthen the "Implications to the IETF" section</t>
+<t>Strengthen "Metrics for Sustainability"</t>
+<t>Add "The Role of Network Management and Orchestration"</t>
+<t>What can the IETF do for "Phase 2: Insights and Recommendations"</t>
 <t>Finalize Call-to-Action in the Conclusion</t>
-<t>Complete and strengthen the "Implications to the IETF" section, Ali and Carlos</t>
 </list>
 </t>
 </section>

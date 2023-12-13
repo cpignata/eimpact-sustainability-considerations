@@ -9,9 +9,8 @@ Expires: 15 June 2024                                              Nokia
                                                              S. Krishnan
                                                                    Cisco
                                                             H. ElBakoury
-                                                              Consultant
-                                                                A. Clemm
-                                                               Futurewei
+                                                  Independent Consultant
+                                                        13 December 2023
 
 
            Sustainability Considerations for Internetworking
@@ -41,6 +40,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
+   This Internet-Draft will expire on 15 June 2024.
 
 Copyright Notice
 
@@ -53,6 +53,7 @@ Copyright Notice
 
 
 
+Pignataro, et al.         Expires 15 June 2024                  [Page 1]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -71,28 +72,29 @@ Table of Contents
      3.1.  Sustainable Internetworking . . . . . . . . . . . . . . .  12
      3.2.  Internetworking for Sustainability  . . . . . . . . . . .  14
    4.  Key Values and Key Value Indicators . . . . . . . . . . . . .  15
-   5.  Implications to the IETF  . . . . . . . . . . . . . . . . . .  16
-   6.  Sustainability Considerations . . . . . . . . . . . . . . . .  16
+     4.1.  Key Value Enablers  . . . . . . . . . . . . . . . . . . .  16
+   5.  Implications to the IETF  . . . . . . . . . . . . . . . . . .  17
+   6.  Sustainability Considerations . . . . . . . . . . . . . . . .  17
      6.1.  Design Tradeoffs  . . . . . . . . . . . . . . . . . . . .  17
-     6.2.  Multi-Objective Optimization  . . . . . . . . . . . . . .  17
-     6.3.  How Much Resiliency is Really Needed? . . . . . . . . . .  18
-     6.4.  How Much are Performance and Quality Compromised? . . . .  18
-     6.5.  End-to-End Sustainability . . . . . . . . . . . . . . . .  19
-     6.6.  The Role of Network Management and Orchestration  . . . .  19
-   7.  Sustainability Requirements and Phases  . . . . . . . . . . .  20
-     7.1.  Phase 1: Visibility . . . . . . . . . . . . . . . . . . .  20
-     7.2.  Phase 2: Insights and Recommendations . . . . . . . . . .  21
-     7.3.  Phase 3: Self-optimization and Automation . . . . . . . .  21
-   8.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .  22
-     8.1.  Call to Action  . . . . . . . . . . . . . . . . . . . . .  22
-   9.  Security Considerations . . . . . . . . . . . . . . . . . . .  22
-   10. Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .  22
-   11. References  . . . . . . . . . . . . . . . . . . . . . . . . .  22
-     11.1.  Normative References . . . . . . . . . . . . . . . . . .  22
-     11.2.  Informative References . . . . . . . . . . . . . . . . .  22
-   Appendix A.  Open issues  . . . . . . . . . . . . . . . . . . . .  24
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  24
-
+     6.2.  Multi-Objective Optimization  . . . . . . . . . . . . . .  18
+     6.3.  How Much Resiliency is Really Needed? . . . . . . . . . .  19
+     6.4.  How Much are Performance and Quality of Experience
+           Compromised?  . . . . . . . . . . . . . . . . . . . . . .  19
+     6.5.  Metrics for Sustainability  . . . . . . . . . . . . . . .  19
+     6.6.  End-to-End Sustainability . . . . . . . . . . . . . . . .  20
+     6.7.  The Role of Network Management and Orchestration  . . . .  20
+   7.  Sustainability Requirements and Phases  . . . . . . . . . . .  21
+     7.1.  Phase 1: Visibility . . . . . . . . . . . . . . . . . . .  21
+     7.2.  Phase 2: Insights and Recommendations . . . . . . . . . .  22
+     7.3.  Phase 3: Self-optimization and Automation . . . . . . . .  22
+       7.3.1.  Cycle of Phases . . . . . . . . . . . . . . . . . . .  23
+   8.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .  23
+     8.1.  Call to Action  . . . . . . . . . . . . . . . . . . . . .  23
+   9.  Security Considerations . . . . . . . . . . . . . . . . . . .  23
+   10. Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .  23
+   11. Informative References  . . . . . . . . . . . . . . . . . . .  23
+   Appendix A.  Open Issues and TODOs  . . . . . . . . . . . . . . .  25
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  26
 
 1.  Introduction
 
@@ -106,6 +108,8 @@ Table of Contents
 
 
 
+
+Pignataro, et al.         Expires 15 June 2024                  [Page 2]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -161,6 +165,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
+Pignataro, et al.         Expires 15 June 2024                  [Page 3]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -216,6 +221,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
+Pignataro, et al.         Expires 15 June 2024                  [Page 4]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -271,6 +277,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
+Pignataro, et al.         Expires 15 June 2024                  [Page 5]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -326,6 +333,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
+Pignataro, et al.         Expires 15 June 2024                  [Page 6]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -381,6 +389,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
+Pignataro, et al.         Expires 15 June 2024                  [Page 7]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -436,6 +445,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
+Pignataro, et al.         Expires 15 June 2024                  [Page 8]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -491,6 +501,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
+Pignataro, et al.         Expires 15 June 2024                  [Page 9]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -546,6 +557,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
+Pignataro, et al.         Expires 15 June 2024                 [Page 10]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -601,6 +613,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
+Pignataro, et al.         Expires 15 June 2024                 [Page 11]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -656,6 +669,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
+Pignataro, et al.         Expires 15 June 2024                 [Page 12]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -711,6 +725,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
+Pignataro, et al.         Expires 15 June 2024                 [Page 13]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -742,10 +757,10 @@ Internet-Draft        Sustainability Considerations        December 2023
    at first, and second, to generate feedback on how to create enablers
    and improvements in our technology for it to be more impactful.  The
    usual KPIs related to technical system parameters would be largely
-   insufficient for this purpose.  Supporting this effort, Key Values
-   (KV) and Key Value Indicators (KVIs) concepts have been developed, to
-   be used in conjunction with use cases to develop impactful solutions.
-   KV and KVIs are the subject of the nxt section below.
+   insufficient for this purpose.  Supporting this effort, the Key
+   Values (KV) and Key Value Indicators (KVIs) concepts have been
+   developed, to be used in conjunction with use cases to develop
+   impactful solutions.  KV and KVIs are the subject of Section 4.
 
    The following are some examples of internetworking for
    sustainability.  This is not a comprehensive list; many more such
@@ -819,14 +834,15 @@ Internet-Draft        Sustainability Considerations        December 2023
    their likelihood of usefulness and impact is a paramount
    consideration.  KVs and KVIs help set our bearings right and also
    demonstrate the impact we could create.  The main idea is shifting
-   from measuring performance to measuring value.
 
 
 
-
+Pignataro, et al.         Expires 15 June 2024                 [Page 15]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
+
+   from measuring performance to measuring value.
 
    While key values could be universal, like for example the United
    Nations Sustainable Development Goals (UN SDGs) [UN-SDG], how they
@@ -874,15 +890,16 @@ Internet-Draft        Sustainability Considerations        December 2023
    such as level of adaptation to a particular society or ecosystem,
    cost of connectivity and Internet service access, availability of
    services, security and privacy.  An important corollary is that KV
-   enablers can be used to drive technological requirements and
-   advancements to maximize key value.
 
 
 
-Pignataro, et al.         Expires 11 June 2024                 [Page 15]
+Pignataro, et al.         Expires 15 June 2024                 [Page 16]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
+
+   enablers can be used to drive technological requirements and
+   advancements to maximize key value.
 
 5.  Implications to the IETF
 
@@ -927,18 +944,20 @@ Internet-Draft        Sustainability Considerations        December 2023
    the doughnut economics model concept introduced in the "Definition of
    Terms" section.
 
+
+
+
+
+
+Pignataro, et al.         Expires 15 June 2024                 [Page 17]
+
+Internet-Draft        Sustainability Considerations        December 2023
+
+
 6.2.  Multi-Objective Optimization
 
    To understand this new model, we can analyze a simplified example.
    Assume the following topology, passing traffic from A to B:
-
-
-
-
-Pignataro, et al.         Expires 11 June 2024                 [Page 16]
-
-Internet-Draft        Sustainability Considerations        December 2023
-
 
                            A
                            |
@@ -979,22 +998,23 @@ Internet-Draft        Sustainability Considerations        December 2023
    the aggregate sustainability metrics of network elements in each of
    the two topologies.
 
+
+
+
+
+
+
+
+Pignataro, et al.         Expires 15 June 2024                 [Page 18]
+
+Internet-Draft        Sustainability Considerations        December 2023
+
+
    Another option is to use flexible Ethernet, where the five links
    combined are aggregated into one active virtual link which has 15
    Gbps, and another inactive link of 35 Gbps of capacity -- although a
    physical link cannot be half-active and half-inactive as far as PHY
    and optics are concerned.
-
-
-
-
-
-
-
-Pignataro, et al.         Expires 11 June 2024                 [Page 17]
-
-Internet-Draft        Sustainability Considerations        December 2023
-
 
 6.3.  How Much Resiliency is Really Needed?
 
@@ -1031,7 +1051,22 @@ Internet-Draft        Sustainability Considerations        December 2023
    understanding the sustainability posture of a system, as well as its
    potential for aid in sustainability outcomes.
 
-6.5.  End-to-End Sustainability
+
+
+
+
+
+
+
+
+
+
+Pignataro, et al.         Expires 15 June 2024                 [Page 19]
+
+Internet-Draft        Sustainability Considerations        December 2023
+
+
+6.6.  End-to-End Sustainability
 
    The networking industry is in the starting phases of addressing this
    objective.  We are seeing a sprinkling of sustainability features
@@ -1044,14 +1079,6 @@ Internet-Draft        Sustainability Considerations        December 2023
    that spans the complete product lifecycle for hardware and software,
    as well as how some of these features work in unison.
 
-
-
-
-Pignataro, et al.         Expires 11 June 2024                 [Page 18]
-
-Internet-Draft        Sustainability Considerations        December 2023
-
-
    For example, features that provide energy saving modes for devices
    can be dynamically utilized when the network utilization is such that
    performance would not significantly suffer.  Or consider a core
@@ -1061,7 +1088,7 @@ Internet-Draft        Sustainability Considerations        December 2023
    specific phases, versus micro-optimizing locally without awareness of
    the network context.
 
-6.6.  The Role of Network Management and Orchestration
+6.7.  The Role of Network Management and Orchestration
 
    Deployment and operational aspects play a critical role in making
    networks more sustainable.  A detailed explanation of that role, the
@@ -1090,7 +1117,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 15 June 2024                 [Page 19]
+Pignataro, et al.         Expires 15 June 2024                 [Page 20]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -1143,15 +1170,15 @@ Internet-Draft        Sustainability Considerations        December 2023
    consistent manner.  The IETF, IRTF and the IAB have a long history of
    work in this field, and this has greatly helped with the
    instrumentation of network equipment in collecting metrics for
-   network management, performance, and troubleshooting.  On the
 
 
 
-Pignataro, et al.         Expires 15 June 2024                 [Page 20]
+Pignataro, et al.         Expires 15 June 2024                 [Page 21]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
 
+   network management, performance, and troubleshooting.  On the
    environmental-impact side though, there has been a proliferation of a
    wide variety of vendor extensions based on these standards.  Without
    a common definition of metrics across the industry and widespread
@@ -1159,18 +1186,6 @@ Internet-Draft        Sustainability Considerations        December 2023
    proprietary, or even contradicting metrics.  Similarly, we also need
    to work on standard telemetry for collecting these metrics so that
    interoperability can be achieved in multi-vendor networks.
-
-
-
-
-
-
-
-
-Pignataro, et al.         Expires 11 June 2024                 [Page 19]
-
-Internet-Draft        Sustainability Considerations        December 2023
-
 
 7.2.  Phase 2: Insights and Recommendations
 
@@ -1211,6 +1226,14 @@ Internet-Draft        Sustainability Considerations        December 2023
       energy efficient paths, directing topological graphs to optimize
       environmental impacts, and
 
+
+
+
+Pignataro, et al.         Expires 15 June 2024                 [Page 22]
+
+Internet-Draft        Sustainability Considerations        December 2023
+
+
    *  protocols that can instruct equipment to move under-utilized links
       and devices into low-energy modes.
 
@@ -1219,14 +1242,6 @@ Internet-Draft        Sustainability Considerations        December 2023
    The three phases run in an iterative fashion, such that after phases
    1, 2, and 3 are completed for an interation, there will be an added
    awareness of what (else) to collect back to phase 1.
-
-
-
-
-Pignataro, et al.         Expires 11 June 2024                 [Page 20]
-
-Internet-Draft        Sustainability Considerations        December 2023
-
 
    Further, sustainability-aware self-optimization is something to
    explore in Autonomic Networking.
@@ -1263,11 +1278,17 @@ Internet-Draft        Sustainability Considerations        December 2023
 
    TBC.
 
-11.  References
+11.  Informative References
 
-11.1.  Normative References
 
-11.2.  Informative References
+
+
+
+
+Pignataro, et al.         Expires 15 June 2024                 [Page 23]
+
+Internet-Draft        Sustainability Considerations        December 2023
+
 
    [CUE]      Belady, C., Azevedo, D., Patterson, M., Pouchet, J., and
               R. Tipley, "Carbon Usage Effectiveness (CUE): A Green Grid
@@ -1276,24 +1297,8 @@ Internet-Draft        Sustainability Considerations        December 2023
               tools/241-Carbon-Usage-Effectiveness-%28CUE%29%3A-A-Green-
               Grid-Data-Center-Sustainability-Metric>.
 
-
-
-
-Pignataro, et al.         Expires 11 June 2024                 [Page 21]
-
-Internet-Draft        Sustainability Considerations        December 2023
-
-
    [Doughnut] Wikipedia, "Doughnut (economic model)", 13 October 2023,
               <https://en.wikipedia.org/wiki/Doughnut_(economic_model)>.
-
-
-
-
-Pignataro, et al.         Expires 15 June 2024                 [Page 22]
-
-Internet-Draft        Sustainability Considerations        December 2023
-
 
    [Frontiers]
               Frontiers, "The Rebound Effect and the Jevons' Paradox:
@@ -1310,6 +1315,12 @@ Internet-Draft        Sustainability Considerations        December 2023
               <https://ghgprotocol.org/sites/default/files/standards/
               ghg-protocol-revised.pdf>.
 
+   [Hexa-X_D1.2]
+              "Expanded 6G vision, use cases and societal values -
+              including aspects of sustainability, security and
+              spectrum", Deliverable D1.2, 30 April 2021, <https://hexa-
+              x.eu/wp-content/uploads/2021/05/Hexa-X_D1.2.pdf>.
+
    [I-D.irtf-nmrg-green-ps]
               Clemm, A., Westphal, C., Tantsura, J., Ciavaglia, L., and
               M. Odini, "Challenges and Opportunities in Management for
@@ -1317,11 +1328,6 @@ Internet-Draft        Sustainability Considerations        December 2023
               draft-irtf-nmrg-green-ps-01, 23 October 2023,
               <https://datatracker.ietf.org/doc/html/draft-irtf-nmrg-
               green-ps-01>.
-   [Hexa-X_D1.2]
-              "Expanded 6G vision, use cases and societal values -
-              including aspects of sustainability, security and
-              spectrum", Deliverable D1.2, 30 April 2021, <https://hexa-
-              x.eu/wp-content/uploads/2021/05/Hexa-X_D1.2.pdf>.
 
    [IPCC]     "Intergovernmental Panel on Climate Change (IPCC). (2022).
               Annex I: Glossary. In Global Warming of 1.5°C: IPCC
@@ -1331,6 +1337,14 @@ Internet-Draft        Sustainability Considerations        December 2023
               Eradicate Poverty (pp. 541-562)", Cambridge University
               Press, doi 10.1017/9781009157940.008, 2022,
               <https://www.ipcc.ch/sr15/chapter/glossary/>.
+
+
+
+
+Pignataro, et al.         Expires 15 June 2024                 [Page 24]
+
+Internet-Draft        Sustainability Considerations        December 2023
+
 
    [ITU-ICT-SDG]
               ITU, "Digital technologies to achieve the UN SDGs", 2023,
@@ -1344,17 +1358,6 @@ Internet-Draft        Sustainability Considerations        December 2023
               P., Hamon, M., Hallingby, H., and D. Lund, "What societal
               values will 6G address?", 17 May 2022,
               <https://doi.org/10.5281/zenodo.6557534>.
-
-   [M6G-VP]   Ziegler, V. and S. Yrjola, "6G Indicators of Value and
-              Performance", 4 May 2020,
-              <https://doi.org/10.1109/6GSUMMIT49458.2020.9083885>.
-
-
-
-
-
-Internet-Draft        Sustainability Considerations        December 2023
-
 
    [M6G-VALUE-PERF]
               Ziegler, V. and S. Yrjola, "6G Indicators of Value and
@@ -1385,19 +1388,31 @@ Internet-Draft        Sustainability Considerations        December 2023
               Development : "Our common future"", 4 August 1987,
               <http://digitallibrary.un.org/record/139811>.
 
-Appendix A.  Open issues
+Appendix A.  Open Issues and TODOs
 
    [ISSUE 1]  Complete "Abstract"
 
    [ISSUE 2]  Complete "Introduction"
 
-   [ISSUE 3]  Shall the 'Definition of Terms' be moved into its own
-              document to be cited by all e-impact-related documents?
 
-   [ISSUE 4]  Finalize Call-to-Action in the Conclusion
 
-   [ISSUE 5]  Complete and strengthen the "Implications to the IETF"
-              section, Ali and Carlos
+
+Pignataro, et al.         Expires 15 June 2024                 [Page 25]
+
+Internet-Draft        Sustainability Considerations        December 2023
+
+
+   [ISSUE 3]  Complete and strengthen the "Implications to the IETF"
+              section
+
+   [ISSUE 4]  Strengthen "Metrics for Sustainability"
+
+   [ISSUE 5]  Add "The Role of Network Management and Orchestration"
+
+   [ISSUE 6]  What can the IETF do for "Phase 2: Insights and
+              Recommendations"
+
+   [ISSUE 7]  Finalize Call-to-Action in the Conclusion
 
 Authors' Addresses
 
@@ -1405,14 +1420,6 @@ Authors' Addresses
    North Carolina State University
    United States of America
    Email: cpignata@gmail.com, cmpignat@ncsu.edu
-
-
-
-
-
-
-
-Internet-Draft        Sustainability Considerations        December 2023
 
 
    Ali Rezaki
@@ -1446,17 +1453,4 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Pignataro, et al.         Expires 15 June 2024                 [Page 26]
