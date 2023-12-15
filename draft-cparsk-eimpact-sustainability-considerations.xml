@@ -84,10 +84,7 @@
 
     <abstract>
       <t>
-        Abstract Here...
-      </t>
-      <t>
-        By definition, an Internet-Draft is a work in progress. An impactful Abstract and Introduction will be added to this working draft pending an initial set of reviews of this -00, and after the main sections are stable.
+        This document defines a set of sustainability related terms to be used while describing and evaluating environmental impacts of Internet technologies. It also describes several of the design tradeoffs for trying to optimize for sustainability along with the other common networking metrics such as performance and availability.  
       </t>
     </abstract>
   </front>
@@ -95,10 +92,7 @@
   <middle>
     <section title="Introduction">
       <t>
-        Introduction Here...
-      </t>
-      <t>
-        By definition, an Internet-Draft is a work in progress. An impactful Abstract and Introduction will be added to this working draft pending an initial set of reviews of this -00, and after the main sections are stable.
+      Over the past decade, there has been increased awareness of the environmental impact produced by the widespread adoption of Internet technologies. While the impact of Internet technologies has been overwhelmingly positive over the past years (e.g. providing alternatives to travel, enabling remote/hybrid work, enabling technology-based endangered species conservation, etc.) there is still room for improvement. This document describes some of the tradeoffs that could be involved while optimizing for sustainability in addition to or in lieu of traditional metrics such as performance or availability. It also proposes some common terminology for discussing environmental impacts of Internet technologies. Finally, it discusses how Internet technologies can be used to help other fields become more sustainable. 
       </t>
     </section>
 
