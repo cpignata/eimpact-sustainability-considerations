@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rfc [
+<!ENTITY RFC2119 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.2119.xml">
+]>
+<?rfc toc="yes"?>
+<?rfc rfcedstyle="yes"?>
+<?rfc subcompact="no" ?>
+<?rfc symrefs="yes"?>
+<rfc category="info" docName="draft-cparsk-eimpact-sustainability-considerations-00" ipr="trust200902" submissionType="IETF">
+  <?xml-stylesheet type='text/xsl' href='rfc2629.xslt' ?>
+  <?rfc toc="yes" ?>
+  <?rfc compact="yes" ?>
+  <?rfc symrefs="yes" ?>
+  <?rfc sortrefs="yes"?>
+  <?rfc iprnotified="no" ?>
+  <?rfc strict="yes" ?>
+
+  <front>
+    <title abbrev="Peer-Mount">Sustainability Considerations for Internetworking</title>
+
+    <author fullname="Carlos Pignataro" initials="C." surname="Pignataro">
+      <organization abbrev="NC State University">North Carolina State University</organization>
+
+      <address>
+        <postal>
+          <country>US</country>
+        </postal>        
+        <email>cpignata@gmail.com</email>
+        <email>cmpignat@ncsu.edu</email>
+      </address>
+    </author>
+
+    <author fullname="Ali Rezaki" initials="A." surname="Rezaki">
+      <organization>Nokia</organization>
+
+      <address>
+        <postal>
+          <country>Germany</country>
+        </postal>        
+
+        <email>ali.rezaki@nokia.com</email>
+      </address>
+    </author>
+
+    <author fullname="Suresh Krishnan" initials="S." surname="Krishnan">
+      <organization abbrev="Cisco">Cisco Systems, Inc.</organization>
+
+      <address>
+        <postal>
+          <country>US</country>
+        </postal>
+        <email>sureshk@cisco.com</email>
+      </address>
+    </author>
+    
+    <date />
+
+    <abstract>
+      <t>
+        Abstract Here...
+      </t>
+      <t>
+        By definition, an Internet-Draft is a work in progress. An impactful Abstract and Introduction will be added to this working draft pending an initial set of reviews of this -00, and after the main sections are stable.
+      </t>
+    </abstract>
+  </front>
+
+  <middle>
+    <section title="Introduction">
+      <t>
+        Introduction Here...
+      </t>
+      <t>
+        By definition, an Internet-Draft is a work in progress. An impactful Abstract and Introduction will be added to this working draft pending an initial set of reviews of this -00, and after the main sections are stable.
+      </t>
+    </section>
+
+      <section title="Definition of Terms">
+        <t>This section defines sustainability-specific terms as they are used in the document, and as they pertain to environmental impacts. The goal is to provide a common sustainability considerations lexicon for network equipment vendors, operators, and designers. The terms are alphabetically organized.</t>
+        <t>
+          <list style="hanging">
+<t hangText="Appropriate technology (or intermediate technology):"><br /> refers to technology that is adapted to the local needs of its users, that is affordable, sustainable and usually small scale and decentralized. Globally impactful technology is to be adaptable to local contexts it is used in. Regarding internetworking, there could be linkages to centralization / decentralization challenges, as well as maintainability &amp; deployability aspects. Considering the diversity of local contexts, from developed countries with remote/rural coverage/access issues, to developing countries with unstable electricity grids as well as literacy and technology usability/accessibility issues, internetworking technology needs to be designed, developed and operated according to these local requirements, also supporting small scale business models to make impact. </t>
+<t hangText="Biodiversity loss:"><br /> Biological diversity is a measure of the abundance and variety of life on earth. Biodiversity loss is the depletion of this diversity due to human activity, notably through the destruction of natural ecosystems and through the cascading effects of climate change, materials extraction, waste disposal and pollution, among other impacts, on the living world and species.</t>
+<t hangText="CO2e / CO2eq / CO2-eq:"><br /> Carbon dioxide equivalent, is the unit for measuring the climate change impact of non-CO2 gases as compared to CO2, which is selected as a benchmark.</t>
+<t hangText="Carbon awareness:"><br /> is being mindful of the carbon intensity of the electricity being used and prioritizing the use of low carbon intensity electricity in network set-up and operations. As carbon intensity is location and time dependent, carbon awareness requires dynamic monitoring and response, such as carbon aware routing and networking. This is a form of “demand shaping” which aims to match the use of energy with the supply of clean energy.</t>
+<t hangText="Carbon intensity (C.I):"><br /> is a measure of the carbon emission of consumed electricity, i.e., grams of carbon per kilowatt hour (gCO2e/KWh). When the supplied energy mix is purely from renewable sources such as sun and wind, carbon intensity is practically 0, when coal and gas-powered electricity gets in the mix, carbon intensity increases. Carbon intensity could change instantaneously or predictably based on the time and location of electricity use. Prioritizing electricity use when carbon intensity is low is a target.</t>
+<t hangText="Carbon offset and credit:"><br /> is a removal of GHGs from the atmosphere as compensation for GHGs produced elsewhere and the credit generated and used respectively. For example, certified forestation projects that absorb carbon dioxide are producing carbon credits that an airline can use to offset its GHG emissions by using (purchasing) these credits. There are accredited carbon trading mechanisms to facilitate this exchange.</t>
+<t hangText="Circularity (circular economy):"><br /> is a model or system where material resources and products are kept in use for as long as possible through long life cycles, reuse, repair, refurbishing and recycling, thereby reducing materials use, waste, and pollution as well as biodiversity and geodiversity loss. Keeping internetworking equipment in longer use through modularity, serviceability, upgradeability, maintainability are strategies to improve circularity.</t>
+<t hangText="Climate change (climate emergency, global warming):"><br /> can be summarized as the increase in the global average temperatures and its destructive impact on the interconnected systems of the Earth. The climate emergency refers to the ongoing and projected catastrophic impacts of rising global temperatures and the narrow time window we have to limit temperature increases to a threshold determined by the Paris Climate Agreement (2015) to avoid the permanent destabilization of Earth life-support systems.</t>
+<t hangText="Climate change adaptation:"><br /> are the measures we can take to adjust ourselves to the already happening and projected future adverse effects of climate change. This notably includes raising the resilience of internetworking solutions but also the use of internetworking technology to increase the resilience of societies and nature itself.</t>
+<t hangText="Climate change mitigation:"><br /> encompasses all measures to reduce climate change. More specifically, any measures that reduce the amount of GHGs in the atmosphere can be considered as climate change mitigation through reduced inflow of GHGs into the atmosphere (such as burning of fossil fuels) or increasing the impact of carbon sinks such as forests and oceans. Reducing the carbon footprint of internetworking and increasing its carbon handprint by helping other sectors to decarbonize are mitigation efforts.</t>
+<t hangText="Doughnut economics:"><br /> is an effort for finding a safe operational space within planetary boundaries and seemingly opposing social boundaries, thereby meeting the needs of human societies without pushing earth environmental boundaries to their tipping points (https://en.wikipedia.org/wiki/Doughnut_(economic_model)). The significance of this model for interworking is that it demonstrates how to conceptualize and position boundaries in our designs that are seemingly opposing, to create a balanced approach, for example between energy efficiency and performance or resiliency and materials efficiency. It is not one or the other, but to find a space where both can be achieved without crossing boundaries in respective domains.</t>
+<t hangText="Energy, power, and their measurement:"><br /> Energy is defined as the capacity or ability to do work in physics. For a system to provide an output, it needs energy to be transferred to it. Energy measurement unit is joules (J). Power is energy used per second, measured in watts (W), equivalent to the rate of one joule per second (J/s). Kilowatt-hour (kWh) is also a measure of energy, equivalent to 1 kW of power maintained for 1 hour, which is equal to 3.6 MJ (million joules). Developing energy efficiency metrics for internetworking and associated measurement methodologies and conditions as well as consistently collecting this data over time are essential to demonstrating EE improvements.</t>
+<t hangText="Energy efficiency (EE):"><br /> can be summarized as doing the same task with less energy use, that is, providing a useful output/impact with as little energy as possible, eliminating energy waste. Switching to more efficient power supplies and silicon or developing more efficient transmission or signal processing algorithms improve EE.</t>
+<t hangText="Energy proportionality:"><br /> is the correlation between energy used and the associated useful output. For internetworking this is generally interpreted as the proportionality of traffic and energy used. It is not a given that there is a 1-to-1 correlation between traffic and energy use, notably due to the significant idle power use by networking devices and the network capacity being allocated w.r.t. peak load.</t>
+<t hangText="Energy savings / conservation (ES):"><br /> is the avoidance of energy use, by eliminating a task altogether, when possible. Shutting down unused ports on a networking equipment is energy savings/conservation.</t>
+<t hangText="Footprint (environmental/ecological):"><br /> in general terms is the impact we have on the planet. It can be divided into subcategories as carbon footprint, water footprint, land footprint, biodiversity footprint, etc. Related to the climate emergency, we are mostly focused on our carbon footprint, however, it has been shown that sub-categories of footprint are not entirely independent of each other. For example, our carbon footprint has a proven impact on the climate emergency through rising global temperatures, cascading significant impact on forest cover in warming areas since tree species adapted to certain climates vanish, thereby reducing biodiversity in that region, in-return impacting the carbon sink properties of the environment and exacerbating climate change. A holistic approach to our environmental footprint would therefore provide the best opportunity to create impact.</t>
+<t hangText="GHGs:"><br /> Greenhouse gases, are types of gases that trap heat from the sun in earth’s atmosphere, thereby increasing average global temperatures and creating the climate emergency. Carbon dioxide (CO2) is one of the most common (and reference) greenhouse gases. There are others such as methane (CH4 – a much more potent GHG than CO2) and sulfur hexafluoride (SF6 – an artificial electrical insulator with tens of thousands of times more warming effect than CO2.</t>
+<t hangText="GWP:"><br /> Global warming potential, is the potential impact of GHGs on climate change, measured in CO2e.</t>
+<t hangText="Geodiversity:"><br /> is the variety of the nonliving parts of nature, that is, the materials constituting Earth, including soils, water (rivers, lakes, oceans), minerals, landforms and the associated processes that form and change them. The materials used in the production of internetworking equipment as well as their manufacturing and operational processes themselves, have impact (footprint) on geodiversity. Materials efficiency as well as circularity improvements help mitigate this impact.</t>
+<t hangText="Handprint (environmental/ecological):"><br /> is a concept developed in contrast to footprint, to quantify and demonstrate the positive environmental/ecological impact of technologies, products or organizations. Through a LCA (life cycle assessment) approach, the use of a technology or the products and services of an organization would have both a footprint and handprint usually denoted by the terms “X for sustainability” (handprint) and “Sustainable X” (footprint). What is important is that handprint impact does not compensate for footprint impact. They are to be calculated and reported independently; footprint to be minimized as much as possible, and handprint maximized as much as possible, which are by definition different activities anyway. Otherwise, this might be construed as “greenwashing”. A popular seesaw figure in common sustainability literature depicting handprint and footprint sitting on opposite ends of a seesaw, one going up while the other is going down is a misguided representation.</t>
+<t hangText="LCA (Life Cycle Assessment):"><br /> is a comprehensive methodology to measure the environmental impact of a product, service, or process over its complete lifecycle, from the extraction and procurement of materials, through design, manufacturing, distribution, deployment, operations (use), maintenance/repair, decommissioning, refurbishment/reuse, recycling and disposal (waste), considering the full upstream and downstream supply chains as well. It is an extremely complicated process and there are multiple methods used worldwide, which might not produce same/similar results. LCA covers full footprint aspects, not only covering carbon, but also materials and biodiversity.</t>
+<t hangText="Materials efficiency and reuse:"><br /> is the concept of using less primary and (more) recycled materials to provide the same output. A networking equipment that provides the same function with less aluminium used is more materials efficient. Reuse of materials in manufacturing, thereby reducing primary materials extraction is a cornerstone of circularity, reducing environmental footprint and promoting geodiversity.</t>
+<t hangText="Net-zero:"><br /> in general, is to bring down GHGs as close to zero as possible. It is generally recognized that it may not be possible to get GHGs to 0 in many contexts and the balance is said to be covered by carbon offset. For example, many organizations and countries have net-zero targets by certain dates and typically what they mean is that they will reduce their GHGs by more than 90% and the remaining up to 10% will be offset.</t>
+<t hangText="PUE:"><br /> Power usage effectiveness, is a data centre energy efficiency metric.</t>
+<t hangText="Planetary boundaries:"><br /> is a concept that defines 9 environmental boundaries, if not crossed, provides a safe space for humanity to live. This was developed and tracked by the Stockholm Resilience Centre (https:"><br />//www.stockholmresilience.org/research/planetary-boundaries.html ). Unfortunately, their latest report indicates that 6 out of the 9 boundaries have already been crossed. This translates to the increased risk of irreversible environmental change, the so-called tipping points. Climate change is one of these boundaries, represented as carbon dioxide concentration in the atmosphere (ppm by volume) and others are biodiversity loss, land use, fresh water, ocean acidification, chemical pollution, ozone depletion (one boundary that has been successfully mitigated), atmospheric aerosols and biogeochemical (nitrogen in the atmosphere and phosphorus in oceans).</t>
+<t hangText="Rebound effect:"><br /> is  the reduction in the potential benefits of more efficient technologies and solutions to reduce resource use, due to the increased demand they might trigger as costs might decrease, in return even increasing the overall resource use. This is known as Jevons paradox: efficiency leading to increased demand. In internetworking, this can manifest itself when more energy and resource efficient systems reduce the cost for infrastructure build and operations and when this is reflected to customers as reduced cost, customers respond by increased use of telecommunications services which pushes infrastructure build and operations upwards, thereby negating the projected gains from efficiency measures.</t>
+<t hangText="Tipping points:"><br /> are critical environmental thresholds, which when crossed likely lead to irreversible state changes in climate systems that might push the overall earth system out of its stable state that supports life on Earth. For example, there are tipping points defined for the Antarctic and Greenland ice sheets disappearing, the Arctic sea-ice loss, Siberian permafrost loss or the dieback of the Amazon and Boreal forests. As planetary boundaries are crossed, the likelihood of the tipping points being reached also increases. When the tipping points are hit, notably simultaneously, the overall impact to the global Earth system might be catastrophic, as another stable state which no longer supports life could be reached.</t>
+<t hangText="UN SDGs:"><br /> United Nations Sustainable Development Goals are 17 global objectives that collectively define a framework for a sustainable global system where people and the planet collectively thrive and live in peace, prosperity and equity. They were adopted in 2015 and most of them have a target achievement date of 2030 (https:"><br />//sdgs.un.org/goals). They are part of the so-called UN 2030 Agenda. The International Telecommunications Union (ITU) has published on how our technology could help meet the UN SDGs:"><br /> https:"><br />//www.itu.int/en/mediacentre/backgrounders/Pages/icts-to-achieve-the-united-nations-sustainable-development-goals.aspx . Notably, most UN SDGs provide guidance for the handprint impact of internetworking technologies, while some are also related to potential action for footprint reduction. The 17 SDGs are:"><br /> SDG 1 - No poverty, SDG2 - Zero hunger, SDG3 - Good health and well-being, SDG 4 - Quality education, SDG 5 - Gender equality, SDG 6 - Clean water and sanitation, SDG 7 - Affordable and clean energy, SDG 8 - Decent work and economic growth, SDG 9 - Industry, innovation and infrastructure, SDG 10 - Reduced inequalities, SDG 11 - Sustainable cities and communities, SDG 12 - Responsible consumption and production, SDG 13 - Climate action, SDG 14 - Life below water, SDG 15 - Life on land, SDG 16 - Peace, justice, and strong institutions, SDG 17 - Partnerships for the goals.</t>
+          </list></t>
+      </section>
+
+
+
+    <section title="'Sustainable X’ versus 'X for Sustainability’">
+            <t>Every technology solution, system or process has sustainability impacts, as it uses energy and resources and operates in a given context to provide a [perceived] useful output. These impacts could be both negative and positive w.r.t sustainability outcomes. With a simplistic view, the negative impact is termed as footprint and the positive impact is handprint, as defined in the terms section above. Again, generally speaking, footprint considerations of a technology are grouped under “Sustainable X” and the handprint considerations are covered under “X for Sustainability”.</t>
+            <t>Additionally, when sustainability impacts are considered, not only environmental but also societal and economic perspectives need to be taken into account, both for footprint and handprint domains. A systems perspective ensures that the interactions and feedback loops are not forgotten among different sub-areas of sustainability.</t>
+            <t>Another fundamental sustainability impact assessment requirement is to cover the complete impact of a product, service or process over its full lifetime. Life Cycle Assessment (LCA) starts from the raw materials extraction &amp; acquisition phases, and continues with design, manufacturing, distribution, deployment, use, maintenance, decommissioning, refurbishment/reuse, and ends with end-of-life treatment (recycling &amp; waste). It is imperative that we consider not only the design and build stages of our technologies but also its use and end-of-life phases. An equally essential way of ensuring a holistic perspective is the supply-chain dimension. When we consider the footprint impact of a technology we are building, we need to consider the full supply chain that the technology is part of, both upstream, what it inherits from the materials, components and services used, to downstream for wherever the technology is used and then decommissioned. What this implies is that we are responsible for the direct and indirect impacts of our activity, both on demand and supply directions.</t>
+            <t>Below, we cover the “Sustainable Internetworking” and “Internetworking for Sustainability” perspectives in more detail.</t>
+
+    <section title="Sustainable Internetworking">
+            <t>Sustainable internetworking is about ensuring that the negative impacts of internetworking are minimized as much as possible.</t>
+            <t>In the environmental / ecological sustainability domain, the sub-areas to be considered are:
+<list style="symbols">
+                <t>Climate change,</t>
+                <t>materials efficiency, circularity, preservation of geodiversity, and</t>
+                <t>biodiversity preservation.</t></list>
+</t>
+            <t>Climate change considerations in internetworking by and large translate to energy sourcing, consumption, savings and efficiency as this impacts the GHGs of the internetworking systems directly, when mostly non-renewable energy sources are used for the operations of the networks. When the carbon intensity of the energy supply used in operations decreases (more renewable energy in the supply mix), then the use phase GHGs also proportionally decrease. This might put the GHG emissions of the manufacturing and materials extraction and acquisition phases ahead of the use phase. These are called the embodied emissions.</t>
+            <t>However, energy is not the only aspect to consider: materials efficiency and circularity are key actions to limit the resource use of our technologies, thereby reducing the scarcity of materials but also the destruction of many ecosystems during their extraction and manufacturing, polluting water and land with waste, which might also impact directly or indirectly the abundance and health of the species on the planet, namely biodiversity. While it is significantly more difficult to quantify and measure the impact of our technologies in these domains, the planetary boundaries framework provides helpful guidance.</t>
+            <t>For the societal and economic footprint of our technologies, we need to be mindful about the potential negative effects of our technologies w.r.t. the social boundaries, as depicted in the so-called doughnut economics model, that includes education, health, incomes, housing, gender equality, social equity, inclusiveness, justice and more. What we need to realize is that our technology has direct and indirect impacts in these aspects and the challenge is not only to meet environmental sustainability targets but social and economic ones as well. There are very practical considerations for example: does centralization/concentration in internetworking affect empowerment and inclusion, or the relationship of automation and AI use with bias or job creation. More technology doesn’t always mean better outcomes for all and can we mitigate this impact? Admittedly, a quantitative approach to the societal and economical aspects is more challenging but the KV/KVI approach described below brings some relief.</t>
+</section>
+    <section title="Internetworking for Sustainability">
+            <t>When it comes to the positive impact of internetworking in tackling the sustainability challenges faced, we are in the “internetworking for sustainability” realm. This is a very diverse topic covering innumerable industrial and societal verticals and use cases. Essentially, we are asking how our technology can help other sectors and users to decarbonize, and to reduce their own footprints and to increase their handprints in environmental, societal and economic dimensions. These are induced or enablement effects. Examples are how internetworking is being used in smart energy grids or smart cities, transport, health care, education, agriculture, manufacturing and other verticals. While efficiency gains are usually a basis, there are also other impacts through ubiquitous network coverage, sensing, affordability, ease of maintenance and operation, decentralization, to name a few.</t>
+            <t>Climate change mitigation and climate change adaptation, as defined in the terms section above, are particular focus areas where internetworking could help create more resilience in our societies and economies along with sustainability.</t>
+            <t>Essentially, handprint considerations are asking us to think about how our technology could be used to tackle sustainability challenges at first, and second, to generate feedback on how to create enablers and improvements in our technology for it to be more impactful. The usual KPIs related to technical system parameters would be largely insufficient for this purpose. Supporting this effort, Key Values (KV) and Key Value Indicators (KVIs) concepts have been developed, to be used in conjunction with use cases to develop impactful solutions. KV and KVIs are the subject of the nxt section below.</t>
+            <t>TBC.</t>
+</section>      
+    </section>
+
+
+    <section title="Key Values and Key Value Indicators">
+            <t>In the context of sustainability, key values are what matters to societies and to people when it comes to direct and indirect outcomes of the use of our technology. While KPIs help us to build, monitor and improve the design and implementation of our technologies, key values and their qualitative and quantitative indicators tell us about their usefulness and value to society and people. As we want our technology to help tackle the grand challenges of our planet, their likelihood of usefulness and impact is a paramount consideration. KVs and KVIs help set our bearings right and also demonstrate the impact we could create.</t>
+            <t>While key values could be universal, like for example the United Nations Sustainable Development Goals (UN SDGs), how they are measured, or perceived (KVIs) could be context dependent, that is, use case specific. To give a simplified example, UN SDG 3, “good health and well-being” is a key value for any society and individual. Then, when we consider the use case of providing health care and wellness services in a remote, rural community which doesn’t have any hospitals or specialist doctors, a key value indicator could be how fast a patient could access health care services without having to travel out of town, or the successful medical interventions that could be carried out remotely. Then the next step is to identify which parts of our technology could help enable this and design our technology to create impact for the KVs as per KVIs. In this case, universal network coverage, capacity and features to integrate multitude of sensors, low-latency and jitter communication services could all be enablers with their own design targets and KPIs defined. Subsequently, we would track the KVIs and the KPIs together for successful outcomes.</t>
+            <t>Admittedly, this might not be a straightforward task to carry out for each protocol design. Yet, such analyses could be included in design processes along with use case development, covering a group of technology design activities (protocols) together. There are ongoing efforts in mobile networking research to use KVs/KVIs efficiently <xref target="M6G-KVI"/> <xref target="M6G-VP"/>.</t>
+            <t>While we find ourselves trying to optimize seemingly contradicting parameters or aspects such as reducing latency and jitter and increasing bandwidth and reach targets with sustainability ones like reduced energy consumption and increased energy efficiency, key values and key value indicators would help keep our eyes on the targets that matter for the end users and communities and societies. Considerations for such potential design trade-offs, which are at the heart of our engineering innovations, is the topic of the next section.</t>
+    </section>
+
+
+    <section title="Sustainability Considerations">
+    <section title="Design Tradeoffs">
+            <t>Traditionally, digital communication networks are optimized for a specific set of criteria that proxies for business metrics. A network operator providing services to their customers intends to maximize profits, by increasing top-line revenue and decreasing bottom-line associated costs. This directly translates to goals of optimizing performance and availability, while reducing various costs.</t>
+            <t>Most recently, as explained above, various forces elevate the need for sustainability in networking technologies and architectures, to quantify and minimize negative environmental impact.</t>
+            <t>A first approximation to this conundrum indicates that optimizing network availability (e.g., by having excess capacity and backup paths) or optimizing performance (e.g., by increasing speeds selecting paths based on delays only) can be in opposition to optimizing sustainability objectives. As such, network architects and designers are presented with a set of new design tradeoffs: a multi-objective optimization that satisfies border requirements and global optima for availability, performance, and sustainability simultaneously. This is not unlike the doughnut economics model concept introduced in the Terms above.</t>
+</section>
+    <section title="Multi-Objective Optimization">
+            <t>To understand this new model, we can analyze a simplified example. Assume the following topology, passing traffic from A to B:</t>
+        <figure anchor="anchor" align="center"
+                title="Simplified Network for Multi-Objective Optimization">
+          <artwork height="23" xml:space="preserve">
+     A
+     |
++----------+
+| Router 1 |------------+
++----------+            |
+ | | | | |         +----------+
+ | | | | |         | Router 3 |
+ | | | | |         +----------+
++----------+            |
+| Router 2 |------------+
++----------+
+     |
+     B
+          </artwork>
+        </figure>
+
+            <t>Router 1 is connected to Router 2 with five parallel links, of 10 Gbps each. Router 1 can also reach Router 2 through Router 3 with 40 Gbps links. Let’s assume that the capacity-planned traffic between A and B equals 15 Gbps.</t>
+            <t>In this scenario, a topology optimized for performance and availability/resiliency would have all links and routers on, and would likely forward traffic using two of the parallel links. Utilizing the path through Router 3 might lower performance, but it serves as a backup path.</t>
+            <t>On the other hand, when we add sustainability as a consideration, different options are presented. One of them is to remove from the topology Router 3 and associated links, and shutdown links and optics in two or three of the parallel links. Another option is to completely shutdown all the parallel links and route traffic through Router 3 (i.e., not maximizing performance alone, but maximizing at the time performance, availability and resiliency, and sustainability.) The choice between these two options will depend on the aggregate sustainability metrics of network elements in each of the two topologies.</t>
+</section>      
+    <section title="How Much Resiliency is Really Needed?">
+            <t>When we add sustainability considerations, resiliency is not the single objective to optimize. And while the graphs of resiliency and sustainability might be impractical to approximate with formulas, there are ratios that can give a sense of border conditions.</t>
+            <t>For example, consider the overall network capacity over the used capacity, and let’s call it “Resiliency Index”. If this number is one, there’s no resiliency; and as the ratio grows, so potentially unused capacity that could be utilized in a failure event. Similarly, consider the values os sustainability metrics for when the Resiliency Index is one and for when it is two. These borders points might give an indication of the slope for each objective.</t>
+</section>      
+    <section title="How Much is Performance and Quality Compromised?">
+            <t>The fields of performance and quality of experience have the benefit of significant study and standardization of metrics. In a similar way than with resiliency, a degradation of performance and Quality of Service parameters, such as bandwidth, latency, jitter, etc., can very well be observed and measured, as a variation of sustainability metrics. The relative slopes of improvement of each goal would hint as to where the balance lies.</t>
+</section>      
+    </section>
+
+
+    <section title="End-to-End Sustainability">
+            <t>The networking industry is in the starting phases of addressing this objective. We are seeing a sprinkling of sustainability features across the networking stack and components of devices, whether it is on forwarding chips, power supplies, optics, or compute. Many of those optimizations and features are typically local in nature, and widely scattered across different elements of a network architecture. An opportunity for maximizing the positive environmental impact of these technologies calls for a more cohesive and complementary view that spans the complete product lifecycle for hardware and software, as well as how some of these features work in unison.</t>
+            <t>For example, features that provide energy saving modes for devices can be dynamically utilized when the network utilization is such that performance would not significantly suffer. Or consider  a core router of today that becomes more usable as an edge/access router of the future due to the need for higher throughput in the core. This section explores the benefits of macro-optimizations by clustering in specific phases, versus micro-optimizing locally without awareness of the network context.</t>
+    </section>
+
+
+
+    <section title="Sustainability Requirements and Phases">
+            <t>The sustainability considerations described above and the associated goals cannot always be achieved at the same time and we expect the following high level phases:</t>
+<list style="numbers">
+                <t>Visibility: 
+In this phase we focus on the measurement and collection of metrics.</t>
+                <t>Insights and Recommendations:
+In this phase we focus on deriving insights and providing recommendations that can be acted upon manually over large time scales.</t>
+                <t>Self-Optimization via Automation:
+In this phase we build awareness into the systems to automatically recognize opportunities for improvement and implement them.</t></list>
+    <section title="Phase 1: Visibility">
+            <t>Visibility represents collecting and organizing data in a standard vendor agnostic manner. The first step in improving our environmental impact is to actually measure it in a clear and consistent manner. The IETF, IRTF and the IAB have a long history of work in this field, and this has greatly helped with the instrumentation of network equipment in collecting metrics for network management, performance, and troubleshooting. On the environmental-impact side though, there has been a proliferation of a wide variety of vendor extensions based on these standards. Without a common definition of metrics across the industry and widespread adoption we will be left with ill-defined, potentially redundant, proprietary, or even contradicting metrics. Similarly, we also need to work on standard telemetry for collecting these metrics so that interoperability can be achieved in multi-vendor networks.</t>
+</section>
+    <section title="Phase 2: Insights and Recommendations">
+            <t>Once the metrics have been collected, categorized, and aggregated in a common format, it would be straightforward to visualize these metrics and allow consumers to draw insights into their GHG and energy impact. The visualizations would take the form of high-level dashboards that provide aggregate metrics and potentially some form of maturity continuum. We think this can be accomplished using reference implementations of the standards developed in phase 1. We do expect vendors and other open projects to customize this and incorporate specific features. This will allow identifying sources of environmental impact and address any potential issues through operational changes, creation of best-practices, and changes towards a greener, more environmentally friendly equipment, software, platforms, applications, and protocols.</t>
+</section>      
+    <section title="Phase 3: Self-optimization and Automation">
+            <t>Manually making changes as mentioned in Phase 2 works for changes needed on large timescales but does not scale to improvements on smaller scales (i.e., it is impractical in many levels for an operator to be looking at a dashboard monitoring usage and making changes in real-time 24x7). There is a need to provision some amount of self-awareness into the network itself, at various layers, so that it can recognize opportunities for improvement and make those changes and measure the effects by closing the loop. The goals of the consumers can be stated in a declarative fashion, and the networks can continually use mechanisms such as ML/DL/AI with an additional goal to optimize for improvements in the environmental impact. These include, for example:</t>
+                          <list style="symbols">
+                <t>Discovery and advertisement of networking characteristics that have either direct or indirect environmental impact,</t>
+                <t>greener networking protocols that can move traffic on to more energy efficient paths, directing topological graphs to optimize environmental impacts, and</t>
+                <t>protocols that can instruct equipment to move under-utilized links and devices into low-energy modes.</t></list>
+</section>      
+    </section>
+
+
+
+    <section title="Conclusion">
+            <t>The pre-eminent message in this document is to elevate the need and sense of urgency of including sustainability considerations in our protocol and system design, and to provide editors with sustainability lexicon, definitions, and priorities to carry out that task. As an added benefit, by including sustainability considerations, it will be possible to optimize for not only performance parameters but also sustainability ones, through respective trade-offs in our protocols and systems.</t>
+            <t>We also envision that on top of minimizing the environmental impact of our technologies and helping consumers identify and reduce the environmental impact of their use, we can also make a positive impact on other less-traditionally and non-Internet technologies as well as non-technologies. E.g., use our technologies to choose greener and more efficient sources of power, control HVAC systems efficiently, etc. We are looking forward to our efforts that will positively impact the environment using Internet technologies and protocols.</t>
+                <section title="Call to Action">
+            <t>INSERT specific call to action here.</t>
+</section>
+
+</section>
+
+
+
+    <section title="Security Considerations">
+      <t>TBC.</t>
+    </section>
+
+    <section title="Acknowledgements">
+      <t>TBC.</t>
+    </section>
+  </middle>
+
+  <back>
+    <references title="Normative References">
+
+      &RFC2119;
+            
+    </references>
+    
+    <references title="Informative References">
+
+    <reference anchor="M6G-KVI" target="https://doi.org/10.5281/zenodo.6557534">
+        <front>
+            <title>What societal values will 6G address?</title>
+<author initials="G." surname="Wikström" fullname="Gustav Wikström"></author>
+<author initials="A." surname="Schuler Scott" fullname="Arianna Schuler Scott"></author>
+<author initials="I." surname="Mesogiti" fullname="Ioanna Mesogiti"></author>
+<author initials="R." surname="Stoica" fullname="Razvan-Andrei Stoica"></author>
+<author initials="G." surname="Georgiev" fullname="Georgi Georgiev"></author>
+<author initials="S." surname="Barmpounakis" fullname="Sokratis Barmpounakis"></author>
+<author initials="A." surname="Gavras" fullname="Anastasius Gavras"></author>
+<author initials="P." surname="Demestichas" fullname="Panagiotis Demestichas"></author>
+<author initials="M." surname="Hamon" fullname="Marie-Helene Hamon"></author>
+<author initials="H." surname="Hallingby" fullname="Hanne-Stine9 Hallingby"></author>
+<author initials="D." surname="Lund" fullname="David Lund"></author>
+            <date month="May" day="17" year="2022"/>
+        </front>
+    </reference>
+
+    <reference anchor="M6G-VP" target="https://doi.org/10.1109/6GSUMMIT49458.2020.9083885">
+        <front>
+            <title>6G Indicators of Value and Performance</title>
+<author initials="V." surname="Ziegler" fullname="Volker Ziegler"></author>
+<author initials="S." surname="Yrjola" fullname="Seppo Yrjola"></author>
+            <date month="May" day="4" year="2020"/>
+        </front>
+    </reference>
+
+
+    </references>
+
+
+<section title="Open issues">
+<t>
+<list style="format [ISSUE %d]">
+<t>Complete "Abstract"</t>
+<t>Shall the 'Definition of Terms' be moved into its own document to be cited by all e-impact-related documents?</t>
+<t>Complete "Introduction"</t>
+<t>Finalize Call-to-Action in the Conclusion</t>
+<t>Pending input from Jukka Manner</t>
+</list>
+</t>
+</section>
+
+  </back>
+</rfc>
