@@ -10,7 +10,7 @@
 <?rfc rfcedstyle="yes"?>
 <?rfc subcompact="no" ?>
 <?rfc symrefs="yes"?>
-<rfc category="info" docName="draft-cparsk-eimpact-sustainability-considerations-01" ipr="trust200902" submissionType="IETF">
+<rfc category="info" docName="draft-cparsk-eimpact-sustainability-considerations-02" ipr="trust200902" submissionType="IETF">
   <?xml-stylesheet type='text/xsl' href='rfc2629.xslt' ?>
   <?rfc toc="yes" ?>
   <?rfc compact="yes" ?>
@@ -61,6 +61,9 @@
       <organization>Independent Consultant</organization>
 
       <address>
+        <postal>
+          <country>US</country>
+        </postal>
         <email>helbakoury@gmail.com</email>
       </address>
     </author>
@@ -71,7 +74,7 @@
         <postal>
           <street>2220 Central Expressway</street>
           <city>Santa Clara</city>
-          <country>USA</country>
+          <country>US</country>
           <code>CA 95050</code>
         </postal>
         <phone/>
@@ -143,7 +146,7 @@ Kilowatt-hour (kWh) is also a measure of energy, equivalent to 1 kW of power mai
 <t hangText="Energy efficiency (EE):"><br /> can be summarized as doing the same task with less energy use, that is, providing a useful output/impact with as little energy as possible, eliminating energy waste. Switching to more efficient power supplies and silicon or developing more efficient transmission or signal processing algorithms improve EE. Developing energy efficiency metrics for internetworking and associated measurement methodologies and conditions as well as consistently collecting this data over time are essential to demonstrating EE improvements. While there are various metrics that can be defined and used to quantify EE, the key to those is to choose outcome-oriented metrics (e.g., energy consumption per data volume or traffic unit, in Wh/B <xref target="Telefonica"/>.)</t>
 
 
-<t hangText="Energy equity:"><br /> Energy equity aims to minimize the negative impacts of our energy systems and maximize the benefits for all utility customers. Historically, these impacts and benefits haven’t been equitably distributed. Energy equity recognizes that disadvantaged communities have been historically marginalized and overburdened by pollution, underinvestment in clean energy infrastructure, and lack of access to energy efficient housing and transportation.</t>
+<t hangText="Energy equity:"><br /> Energy equity aims to minimize the negative impacts of our energy systems and maximize the benefits for all utility customers. Historically, these impacts and benefits haven't been equitably distributed. Energy equity recognizes that disadvantaged communities have been historically marginalized and overburdened by pollution, underinvestment in clean energy infrastructure, and lack of access to energy efficient housing and transportation.</t>
 
 
 <t hangText="Energy proportionality:"><br /> is the correlation between energy used and the associated useful output. For internetworking this is generally interpreted as the proportionality of traffic or traffic throughput and energy used. This concept is broadly applicable to networking infrastructure, data center, and other communication architectures. It is not a given that there is a one-to-one correlation between traffic and energy use, notably due to the materially significant idle power use by devices, as well as the overall network capacity being allocated to serve at times of highest traffic utilization.</t>
@@ -513,7 +516,7 @@ Sustainability Metric</title>
 
     <reference anchor="IPCC" target="https://www.ipcc.ch/sr15/chapter/glossary/">
         <front>
-            <title>Intergovernmental Panel on Climate Change (IPCC). (2022). Annex I: Glossary. In Global Warming of 1.5°C: IPCC Special Report on Impacts of Global Warming of 1.5°C above Pre-industrial Levels in Context of Strengthening Response to Climate Change, Sustainable Development, and Efforts to Eradicate Poverty (pp. 541-562)</title>
+            <title>Intergovernmental Panel on Climate Change (IPCC). (2022). Annex I: Glossary. In Global Warming of 1.5 degrees Celsius: IPCC Special Report on Impacts of Global Warming of 1.5 degrees Celsius above Pre-industrial Levels in Context of Strengthening Response to Climate Change, Sustainable Development, and Efforts to Eradicate Poverty (pp. 541-562)</title>
             <author />
             <date month="" day="" year="2022"/>
         </front>
