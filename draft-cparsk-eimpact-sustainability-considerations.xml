@@ -220,7 +220,7 @@ The 17 SDGs are:
 
 
 
-    <section title="'Sustainable X' versus 'X for Sustainability'">
+    <section anchor="sustainx" title="'Sustainable X' versus 'X for Sustainability'">
             <t>Every technology solution, system or process has sustainability impacts, as it uses energy and resources and operates in a given context to provide a [perceived] useful output. These impacts could be both negative and positive w.r.t sustainability outcomes. With a simplistic view, the negative impact is termed as footprint and the positive impact is handprint, as defined in the "<xref target="terms" format="title" />" section. Again, generally speaking, footprint considerations of a technology are grouped under "Sustainable X" and the handprint considerations are covered under "X for Sustainability".</t>
             <t>Additionally, when sustainability impacts are considered, not only environmental but also societal and economic perspectives need to be taken into account, both for footprint and handprint domains. A systems perspective ensures that the interactions and feedback loops are not forgotten among different sub-areas of sustainability.</t>
             <t>Another fundamental sustainability impact assessment requirement is to cover the complete impact of a product, service or process over its full lifetime. Life Cycle Assessment (LCA) starts from the raw materials extraction &amp; acquisition phases, and continues with design, manufacturing, distribution, deployment, use, maintenance, decommissioning, refurbishment/reuse, and ends with end-of-life treatment (recycling &amp; waste). It is imperative that we consider not only the design and build stages of our technologies but also its use and end-of-life phases. An equally essential way of ensuring a holistic perspective is the supply-chain dimension. When we consider the footprint impact of a technology we are building, we need to consider the full supply chain that the technology is part of, both upstream, what it inherits from the material acquisition, components and services used, to downstream for wherever the technology is used and then decommissioned. Further, this includes transportation of materials or products, and the carbon-friendliness of the means and routes chosen. What this implies is that we are responsible for the direct and indirect impacts of our activity, both on demand and supply directions.</t>
@@ -279,7 +279,7 @@ The 17 SDGs are:
 
 
 
-    <section anchor="considerations" title="Sustainability Considerations">
+    <section anchor="considerations" title="Sustainability Considerations - How Will the Natural Environment be Impacted?">
     <section title="Design Tradeoffs">
             <t>Traditionally, digital communication networks are optimized for a specific set of criteria that proxies for business metrics. A network operator providing services to their customers intends to maximize profits, by increasing top-line revenue and decreasing bottom-line associated costs. This directly translates to goals of optimizing performance and availability, while reducing various costs.</t>
             <t>Most recently, various forces elevate the need for sustainability in networking technologies and architectures, to quantify and minimize negative environmental impact.</t>
@@ -345,14 +345,8 @@ The 17 SDGs are:
     </section>
 
 
-    <section anchor="advice" title="Sustainability Advice and Guidelines for Protocol and Network Designers and Implementers">
-            <t>This section renders the sustainability considerations into specific guidelines and advice for the design and development of networking technologies.</t>
-            <t>WIP</t>
-    </section>
 
-
-
-    <section title="Sustainability Requirements and Phases">
+    <section anchor="phases" title="Sustainability Requirements and Phases">
             <t>The considerations and advice for sustainability described in the "<xref target="considerations" format="title" />" and "<xref target="advice" format="title" />" sections and their associated goals cannot always be achieved at the same time and we expect the following high level phases:</t>
 <list style="numbers">
                 <t>Visibility: 
@@ -383,11 +377,24 @@ In this phase we build awareness into the systems to automatically recognize opp
 
 
 
+    <section anchor="advice" title="Sustainability Guidelines for Protocol and Network Designers and Implementers">
+            <t>This section renders the sustainability considerations into specific guidelines and advice for the design and development of networking technologies.</t>
+            <t>WIP</t>
+    </section>
+
+
+
+
     <section title="Conclusion">
             <t>The pre-eminent message in this document is to elevate the need and sense of urgency of including sustainability considerations in our protocol and system design, and to provide editors with sustainability lexicon, definitions, and priorities to carry out that task. As an added benefit, by including sustainability considerations, it will be possible to optimize for not only performance parameters but also sustainability ones, through respective trade-offs in our protocols and systems.</t>
             <t>We also envision that on top of minimizing the environmental impact of our technologies and helping consumers identify and reduce the environmental impact of their use, we can also make a positive impact on other less-traditionally and non-Internet technologies as well as non-technologies. E.g., use our technologies to choose greener and more efficient sources of power, control HVAC systems efficiently, etc. We are looking forward to our efforts that will positively impact the environment using Internet technologies and protocols.</t>
                 <section title="Call to Action">
-            <t>INSERT specific call to action here.</t>
+            <t>The invention of this document is multifaceted: align on definitions and lexicon for sustainability, characterize environmental implications of internetworking technologies, and provide specific guidelines for designers and implementors. Making these objectives actionable involves:</t>
+                          <list style="symbols">
+                <t>Familiarize yourself with the terms defined in <xref target="terms" />,</t>
+                <t>understand the sustainability considerations (<xref target="sustainx" /> through <xref target="phases" />) and their implications to your protocol and architecture, and</t>
+                <t>consider, qualify, quantify, and explain the specific guidelines in <xref target="advice" />.</t></list>
+
 </section>
 
 </section>
