@@ -10,7 +10,7 @@
 <?rfc rfcedstyle="yes"?>
 <?rfc subcompact="no" ?>
 <?rfc symrefs="yes"?>
-<rfc category="info" docName="draft-cparsk-eimpact-sustainability-considerations-02" ipr="trust200902" submissionType="IETF">
+<rfc category="info" docName="draft-cparsk-eimpact-sustainability-considerations-03" ipr="trust200902" submissionType="IETF">
   <?xml-stylesheet type='text/xsl' href='rfc2629.xslt' ?>
   <?rfc toc="yes" ?>
   <?rfc compact="yes" ?>
@@ -405,11 +405,13 @@ In this phase we build awareness into the systems to automatically recognize opp
             <t>The pre-eminent message in this document is to elevate the need and sense of urgency of including sustainability considerations in our protocol and system design, and to provide editors with sustainability lexicon, definitions, and priorities to carry out that task. As an added benefit, by including sustainability considerations, it will be possible to optimize for not only performance parameters but also sustainability ones, through respective trade-offs in our protocols and systems.</t>
             <t>We also envision that on top of minimizing the environmental impact of our technologies and helping consumers identify and reduce the environmental impact of their use, we can also make a positive impact on other less-traditionally and non-Internet technologies as well as non-technologies. E.g., use our technologies to choose greener and more efficient sources of power, control HVAC systems efficiently, etc. We are looking forward to our efforts that will positively impact the environment using Internet technologies and protocols.</t>
                 <section title="Call to Action">
-            <t>The invention of this document is multifaceted: align on definitions and lexicon for sustainability, characterize environmental implications of internetworking technologies, and provide specific guidelines for designers and implementors. Making these objectives actionable involves:</t>
-                          <list style="symbols">
+            <t>The intention of this document is multifaceted: establish definitions and lexicon for sustainability, characterize environmental implications of internetworking technologies, and provide specific guidelines for designers and implementors. 
+    </t><t>
+              Making these objectives actionable involves:</t>
+                          <list style="numbers">
                 <t>Familiarize yourself with the terms defined in <xref target="terms" />,</t>
-                <t>understand the sustainability considerations (<xref target="sustainx" /> through <xref target="phases" />) and their implications to your protocol and architecture, and</t>
-                <t>consider, qualify, quantify, and explain the specific guidelines in <xref target="advice" />.</t></list>
+                <t>understand the sustainability considerations (<xref target="sustainx" /> through <xref target="phases" />) and their implications to protocol and architecture, and</t>
+                <t>consider, qualify, quantify, and explain the specific guidelines in <xref target="advice" /> as you develop protocols, extensions, and architectures.</t></list>
 
 </section>
 
