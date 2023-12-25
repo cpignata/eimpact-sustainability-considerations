@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE rfc [
 
-<!ENTITY RFC6272 SYSTEM "https://bib.ietf.org/public/rfc/bibxml/reference.RFC.6272.xml">
+<!ENTITY RFC.6272 SYSTEM "https://bib.ietf.org/public/rfc/bibxml/reference.RFC.6272.xml">
+<!ENTITY RFC.8403 SYSTEM "https://bib.ietf.org/public/rfc/bibxml/reference.RFC.8403.xml">
 
 <!ENTITY I-D.irtf-nmrg-green-ps SYSTEM "https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.irtf-nmrg-green-ps.xml">
 
@@ -314,7 +315,7 @@ The 17 SDGs are:
 </section>      
     <section title="How Much Resiliency is Really Needed?">
             <t>When we add sustainability considerations, resiliency is not the single objective to optimize. We can represent a computer network as a mathematics graph, in which different nodes and links are selected depending on the network and path optimization. And while the graphs of resiliency and sustainability might be impractical to approximate with formulas, there are ratios that can give a sense of border conditions.</t>
-            <t>There are many methods to improve network resiliency, including a design eliminating single-points-of-failure, performing software safe-release selections and upgrades, deploying network real-time testing systems (including operations, administration, and maintenance (OAM) tools, chaos-based testing, and site reliability engineering (SRE) principles), and utlizing redundancy across network elements as well as across a topology. Each one of these methods incurs also a sustanability cost. Yet, the functions for resiliency improvement and sustainability cost for each of these methods are not the same. Considering sustainability means quantifying its impact in the decision of how to improve resiliency, and how much is needed.</t>
+            <t>There are many methods to improve network resiliency, including a design eliminating single-points-of-failure, performing software safe-release selections and upgrades, deploying network real-time testing systems (including operations, administration, and maintenance (OAM) tools, monitoring systems (e.g., <xref target="RFC8403" />), chaos-based testing, and site reliability engineering (SRE) principles), and utlizing redundancy across network elements as well as across a topology. Each one of these methods incurs also a sustanability cost. Yet, the functions for resiliency improvement and sustainability cost for each of these methods are not the same. Considering sustainability means quantifying its impact in the decision of how to improve resiliency, and how much is needed.</t>
 
             <section title="Redundancy and Sustainability">
 
@@ -442,6 +443,14 @@ In this phase we build awareness into the systems to automatically recognize opp
   -->
     
     <references title="Informative References">
+
+
+    &RFC.6272;
+    &RFC.8403;
+
+    &I-D.irtf-nmrg-green-ps;
+
+
 
     <reference anchor="M6G-SOCIETAL-KV-KVI" target="https://doi.org/10.5281/zenodo.6557534">
         <front>
@@ -576,10 +585,6 @@ Sustainability Metric</title>
         <refcontent>Geneva: World Business Council for Sustainable Development</refcontent>
         <refcontent>Washington, DC: World Resources Institute</refcontent>
     </reference>
-
-    &RFC6272;
-
-    &I-D.irtf-nmrg-green-ps;
 
     <reference anchor="Hexa-X_D1.2" target="https://hexa-x.eu/wp-content/uploads/2021/05/Hexa-X_D1.2.pdf">
         <front>

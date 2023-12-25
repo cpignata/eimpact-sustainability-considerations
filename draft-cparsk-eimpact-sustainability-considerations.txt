@@ -1080,13 +1080,14 @@ Internet-Draft        Sustainability Considerations        December 2023
    design eliminating single-points-of-failure, performing software
    safe-release selections and upgrades, deploying network real-time
    testing systems (including operations, administration, and
-   maintenance (OAM) tools, chaos-based testing, and site reliability
-   engineering (SRE) principles), and utlizing redundancy across network
-   elements as well as across a topology.  Each one of these methods
-   incurs also a sustanability cost.  Yet, the functions for resiliency
-   improvement and sustainability cost for each of these methods are not
-   the same.  Considering sustainability means quantifying its impact in
-   the decision of how to improve resiliency, and how much is needed.
+   maintenance (OAM) tools, monitoring systems (e.g., [RFC8403]), chaos-
+   based testing, and site reliability engineering (SRE) principles),
+   and utlizing redundancy across network elements as well as across a
+   topology.  Each one of these methods incurs also a sustanability
+   cost.  Yet, the functions for resiliency improvement and
+   sustainability cost for each of these methods are not the same.
+   Considering sustainability means quantifying its impact in the
+   decision of how to improve resiliency, and how much is needed.
 
 6.3.1.  Redundancy and Sustainability
 
@@ -1111,9 +1112,8 @@ Internet-Draft        Sustainability Considerations        December 2023
       higher over time.
 
    Justified Redundancy:
-      Traditionally, network operators would be much less worried about
-      energy use than about the possibility that the network would have
-      brownout or blacout outages - thus the measuring will help better
+
+
 
 
 
@@ -1122,6 +1122,9 @@ Pignataro, et al.         Expires 27 June 2024                 [Page 20]
 Internet-Draft        Sustainability Considerations        December 2023
 
 
+      Traditionally, network operators would be much less worried about
+      energy use than about the possibility that the network would have
+      brownout or blacout outages - thus the measuring will help better
       balance the "adequate redundancy" against the related energy use,
       resulting in turn in "justified redundancy": a balance between
       costs and benefits, with energy use as well as material use as a
@@ -1163,13 +1166,10 @@ Internet-Draft        Sustainability Considerations        December 2023
    that spans the complete product lifecycle for hardware and software,
    as well as how some of these features work in unison.
 
-
-
-
-
-
-
-
+   For example, features that provide energy saving modes for devices
+   can be dynamically utilized when the network utilization is such that
+   performance would not significantly suffer.  Or consider a core
+   router of today that becomes more usable as an edge/access router of
 
 
 
@@ -1178,10 +1178,6 @@ Pignataro, et al.         Expires 27 June 2024                 [Page 21]
 Internet-Draft        Sustainability Considerations        December 2023
 
 
-   For example, features that provide energy saving modes for devices
-   can be dynamically utilized when the network utilization is such that
-   performance would not significantly suffer.  Or consider a core
-   router of today that becomes more usable as an edge/access router of
    the future due to the need for higher throughput in the core.  This
    section explores the benefits of macro-optimizations by clustering in
    specific phases, versus micro-optimizing locally without awareness of
@@ -1226,6 +1222,10 @@ Internet-Draft        Sustainability Considerations        December 2023
       networking resources, as well as the necessary control protocols
       that facilitate aspects such as rapid resource discovery,
       reprovisioning, or reconvergence of management state.
+
+
+
+
 
 
 
@@ -1500,12 +1500,12 @@ Internet-Draft        Sustainability Considerations        December 2023
               Grid", RFC 6272, DOI 10.17487/RFC6272, June 2011,
               <https://www.rfc-editor.org/info/rfc6272>.
 
+   [RFC8403]  Geib, R., Ed., Filsfils, C., Pignataro, C., Ed., and N.
+              Kumar, "A Scalable and Topology-Aware MPLS Data-Plane
+              Monitoring System", RFC 8403, DOI 10.17487/RFC8403, July
+              2018, <https://www.rfc-editor.org/info/rfc8403>.
+
    [SDG-Acad] "SDG Academy", 2023, <https://sdgacademy.org>.
-
-
-
-
-
 
 
 
