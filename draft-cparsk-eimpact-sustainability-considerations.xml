@@ -314,7 +314,23 @@ The 17 SDGs are:
 </section>      
     <section title="How Much Resiliency is Really Needed?">
             <t>When we add sustainability considerations, resiliency is not the single objective to optimize. We can represent a computer network as a mathematics graph, in which different nodes and links are selected depending on the network and path optimization. And while the graphs of resiliency and sustainability might be impractical to approximate with formulas, there are ratios that can give a sense of border conditions.</t>
-            <t>For example, consider the ratio of overall network capacity (in bandwidth, compute power, etc.) over the used network capacity, and let's call it "Resiliency Index". If this number is one, there's no resiliency; and as the ratio grows, so potentially unused capacity that could be utilized in a failure event. Similarly, consider the values os sustainability metrics for when the Resiliency Index is one and for when it is two. These borders points might give an indication of the slope for each objective.</t>
+            <t>There are many methods to improve network resiliency, including a design eliminating single-points-of-failure, performing software safe-release selections and upgrades, deploying network real-time testing systems (including operations, administration, and maintenance (OAM) tools, chaos-based testing, and site reliability engineering (SRE) principles), and utlizing redundancy across network elements as well as across a topology. Each one of these methods incurs also a sustanability cost. Yet, the functions for resiliency improvement and sustainability cost for each of these methods are not the same. Considering sustainability means quantifying its impact in the decision of how to improve resiliency, and how much is needed.</t>
+
+            <section title="Redundancy and Sustainability">
+
+            <t>Let's first explore redundancy. For example, consider the ratio of overall network capacity (in bandwidth, compute power, etc.) over the used network capacity, and let's call it "Redundancy Index". If this number is one, there's no redundancy; and as the ratio grows, so does the potentially unused capacity that could be utilized in a failure event. Similarly, consider the values os sustainability metrics for when the Redundancy Index is one and for when it is two. These borders points might give an indication of the slope for each objective function.</t>
+            <t><list style="hanging">
+<t hangText="Adequate Redundancy:"><br />
+              In order to determine how much redundancy needs to be build into the overall network capacity, which can be referred to as “adequate redundancy to avoid network outings”, it will be important to (1) measure the bandwidth of attacks against the overall network capacity; and (2) understand how quickly “high bandwidth” attacks can be detected and diverted.  Measuring these results over time may lead the “adequate redundancy” to become higher over time.
+            </t>
+<t hangText="Justified Redundancy:"><br />
+              Traditionally, network operators would be much less worried about energy use than about the possibility that the network would have brownout or blacout outages - thus the measuring will help better balance the “adequate redundancy” against the related energy use, resulting in turn in “justified redundancy”: a balance between costs and benefits, with energy use as well as material use as a clear cost factor. 
+            </t></list></t>
+            <t>
+              Please note that “justified redundancy” may be higher than “adequate redundancy” when we manage to organize the redundancy in a multi-layer fashion: (1) capacity that is “always on” and always uses energy; (2) capacity that can turn on quickly when needed; (and possibly (3) capacity that is “on the shelf” (even in the box) but ready to be deployed quickly when needed.)
+            </t>
+          </section>
+
 </section>      
     <section title="How Much are Performance and Quality of Experience Compromised?">
             <t>The fields of performance and quality of experience have the benefit of significant study and standardization of metrics. In a similar way than with resiliency, a degradation of performance and Quality of Service parameters, such as bandwidth, latency, jitter, etc., can very well be observed and measured, as a variation of sustainability metrics. The relative slopes of improvement of each goal would hint as to where the balance lies.</t>
@@ -405,8 +421,11 @@ In this phase we build awareness into the systems to automatically recognize opp
       <t>TBC.</t>
     </section>
 
-    <section title="Acknowledgements">
-      <t>TBC.</t>
+    <section title="Acknowledgements and Contributions">
+      <t>The subject of sustainability considerations for internetworking sits in the intersection of several disciplines, benefiting from the collaboration of diverse educational, experiential, and exposure backgrounds. The authors are not only grateful but also inspired by the open collaboration and expertise of many individuals, including:</t>
+      <t><list style="bullets">
+        <t>Maarten Botterman provided text on network redundancy, and definitions for justified redundancy balancing adequate redundancy.</t>
+      </list></t>
     </section>
   </middle>
 

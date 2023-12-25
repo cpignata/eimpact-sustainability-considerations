@@ -5,14 +5,14 @@
 Network Working Group                                  C. Pignataro, Ed.
 Internet-Draft                                       NC State University
 Intended status: Informational                                 A. Rezaki
-Expires: 24 June 2024                                              Nokia
+Expires: 27 June 2024                                              Nokia
                                                              S. Krishnan
                                                                    Cisco
                                                             H. ElBakoury
                                                   Independent Consultant
                                                                 A. Clemm
                                                                Futurewei
-                                                        22 December 2023
+                                                        25 December 2023
 
 
            Sustainability Considerations for Internetworking
@@ -43,7 +43,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 June 2024.
+   This Internet-Draft will expire on 27 June 2024.
 
 Copyright Notice
 
@@ -53,7 +53,7 @@ Copyright Notice
 
 
 
-Pignataro, et al.         Expires 24 June 2024                  [Page 1]
+Pignataro, et al.         Expires 27 June 2024                  [Page 1]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -82,25 +82,26 @@ Table of Contents
      6.1.  Design Tradeoffs  . . . . . . . . . . . . . . . . . . . .  18
      6.2.  Multi-Objective Optimization  . . . . . . . . . . . . . .  18
      6.3.  How Much Resiliency is Really Needed? . . . . . . . . . .  20
+       6.3.1.  Redundancy and Sustainability . . . . . . . . . . . .  20
      6.4.  How Much are Performance and Quality of Experience
-           Compromised?  . . . . . . . . . . . . . . . . . . . . . .  20
-     6.5.  Metrics for Sustainability  . . . . . . . . . . . . . . .  20
-     6.6.  End-to-End Sustainability . . . . . . . . . . . . . . . .  20
-     6.7.  The Role of Network Management and Orchestration  . . . .  21
-   7.  Sustainability Requirements and Phases  . . . . . . . . . . .  22
-     7.1.  Phase 1: Visibility . . . . . . . . . . . . . . . . . . .  22
-     7.2.  Phase 2: Insights and Recommendations . . . . . . . . . .  22
-     7.3.  Phase 3: Self-optimization and Automation . . . . . . . .  23
-       7.3.1.  Cycle of Phases . . . . . . . . . . . . . . . . . . .  23
+           Compromised?  . . . . . . . . . . . . . . . . . . . . . .  21
+     6.5.  Metrics for Sustainability  . . . . . . . . . . . . . . .  21
+     6.6.  End-to-End Sustainability . . . . . . . . . . . . . . . .  21
+     6.7.  The Role of Network Management and Orchestration  . . . .  22
+   7.  Sustainability Requirements and Phases  . . . . . . . . . . .  23
+     7.1.  Phase 1: Visibility . . . . . . . . . . . . . . . . . . .  23
+     7.2.  Phase 2: Insights and Recommendations . . . . . . . . . .  23
+     7.3.  Phase 3: Self-optimization and Automation . . . . . . . .  24
+       7.3.1.  Cycle of Phases . . . . . . . . . . . . . . . . . . .  24
    8.  Sustainability Guidelines for Protocol and Network Designers
-           and Implementers  . . . . . . . . . . . . . . . . . . . .  23
-   9.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .  24
-     9.1.  Call to Action  . . . . . . . . . . . . . . . . . . . . .  24
-   10. Security Considerations . . . . . . . . . . . . . . . . . . .  24
-   11. Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .  24
-   12. Informative References  . . . . . . . . . . . . . . . . . . .  24
-   Appendix A.  Open Issues and TODOs  . . . . . . . . . . . . . . .  26
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  27
+           and Implementers  . . . . . . . . . . . . . . . . . . . .  24
+   9.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .  25
+     9.1.  Call to Action  . . . . . . . . . . . . . . . . . . . . .  25
+   10. Security Considerations . . . . . . . . . . . . . . . . . . .  25
+   11. Acknowledgements and Contributions  . . . . . . . . . . . . .  25
+   12. Informative References  . . . . . . . . . . . . . . . . . . .  26
+   Appendix A.  Open Issues and TODOs  . . . . . . . . . . . . . . .  28
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  28
 
 
 
@@ -108,8 +109,7 @@ Table of Contents
 
 
 
-
-Pignataro, et al.         Expires 24 June 2024                  [Page 2]
+Pignataro, et al.         Expires 27 June 2024                  [Page 2]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -165,7 +165,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                  [Page 3]
+Pignataro, et al.         Expires 27 June 2024                  [Page 3]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -221,7 +221,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                  [Page 4]
+Pignataro, et al.         Expires 27 June 2024                  [Page 4]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -277,7 +277,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                  [Page 5]
+Pignataro, et al.         Expires 27 June 2024                  [Page 5]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -333,7 +333,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                  [Page 6]
+Pignataro, et al.         Expires 27 June 2024                  [Page 6]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -389,7 +389,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                  [Page 7]
+Pignataro, et al.         Expires 27 June 2024                  [Page 7]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -445,7 +445,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                  [Page 8]
+Pignataro, et al.         Expires 27 June 2024                  [Page 8]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -501,7 +501,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                  [Page 9]
+Pignataro, et al.         Expires 27 June 2024                  [Page 9]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -557,7 +557,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                 [Page 10]
+Pignataro, et al.         Expires 27 June 2024                 [Page 10]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -613,7 +613,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                 [Page 11]
+Pignataro, et al.         Expires 27 June 2024                 [Page 11]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -669,7 +669,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                 [Page 12]
+Pignataro, et al.         Expires 27 June 2024                 [Page 12]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -725,7 +725,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                 [Page 13]
+Pignataro, et al.         Expires 27 June 2024                 [Page 13]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -781,7 +781,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                 [Page 14]
+Pignataro, et al.         Expires 27 June 2024                 [Page 14]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -837,7 +837,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                 [Page 15]
+Pignataro, et al.         Expires 27 June 2024                 [Page 15]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -893,7 +893,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                 [Page 16]
+Pignataro, et al.         Expires 27 June 2024                 [Page 16]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -949,7 +949,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                 [Page 17]
+Pignataro, et al.         Expires 27 June 2024                 [Page 17]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -1005,7 +1005,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                 [Page 18]
+Pignataro, et al.         Expires 27 June 2024                 [Page 18]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -1061,7 +1061,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                 [Page 19]
+Pignataro, et al.         Expires 27 June 2024                 [Page 19]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -1076,14 +1076,63 @@ Internet-Draft        Sustainability Considerations        December 2023
    with formulas, there are ratios that can give a sense of border
    conditions.
 
-   For example, consider the ratio of overall network capacity (in
-   bandwidth, compute power, etc.) over the used network capacity, and
-   let's call it "Resiliency Index".  If this number is one, there's no
-   resiliency; and as the ratio grows, so potentially unused capacity
-   that could be utilized in a failure event.  Similarly, consider the
-   values os sustainability metrics for when the Resiliency Index is one
-   and for when it is two.  These borders points might give an
-   indication of the slope for each objective.
+   There are many methods to improve network resiliency, including a
+   design eliminating single-points-of-failure, performing software
+   safe-release selections and upgrades, deploying network real-time
+   testing systems (including operations, administration, and
+   maintenance (OAM) tools, chaos-based testing, and site reliability
+   engineering (SRE) principles), and utlizing redundancy across network
+   elements as well as across a topology.  Each one of these methods
+   incurs also a sustanability cost.  Yet, the functions for resiliency
+   improvement and sustainability cost for each of these methods are not
+   the same.  Considering sustainability means quantifying its impact in
+   the decision of how to improve resiliency, and how much is needed.
+
+6.3.1.  Redundancy and Sustainability
+
+   Let's first explore redundancy.  For example, consider the ratio of
+   overall network capacity (in bandwidth, compute power, etc.) over the
+   used network capacity, and let's call it "Redundancy Index".  If this
+   number is one, there's no redundancy; and as the ratio grows, so does
+   the potentially unused capacity that could be utilized in a failure
+   event.  Similarly, consider the values os sustainability metrics for
+   when the Redundancy Index is one and for when it is two.  These
+   borders points might give an indication of the slope for each
+   objective function.
+
+   Adequate Redundancy:
+      In order to determine how much redundancy needs to be build into
+      the overall network capacity, which can be referred to as
+      “adequate redundancy to avoid network outings”, it will be
+      important to (1) measure the bandwidth of attacks against the
+      overall network capacity; and (2) understand how quickly “high
+      bandwidth” attacks can be detected and diverted.  Measuring these
+      results over time may lead the “adequate redundancy” to become
+      higher over time.
+
+   Justified Redundancy:
+      Traditionally, network operators would be much less worried about
+      energy use than about the possibility that the network would have
+      brownout or blacout outages - thus the measuring will help better
+
+
+
+Pignataro, et al.         Expires 27 June 2024                 [Page 20]
+
+Internet-Draft        Sustainability Considerations        December 2023
+
+
+      balance the “adequate redundancy” against the related energy use,
+      resulting in turn in “justified redundancy”: a balance between
+      costs and benefits, with energy use as well as material use as a
+      clear cost factor.
+
+   Please note that “justified redundancy” may be higher than “adequate
+   redundancy” when we manage to organize the redundancy in a multi-
+   layer fashion: (1) capacity that is “always on” and always uses
+   energy; (2) capacity that can turn on quickly when needed; (and
+   possibly (3) capacity that is “on the shelf” (even in the box) but
+   ready to be deployed quickly when needed.)
 
 6.4.  How Much are Performance and Quality of Experience Compromised?
 
@@ -1117,7 +1166,14 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                 [Page 20]
+
+
+
+
+
+
+
+Pignataro, et al.         Expires 27 June 2024                 [Page 21]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -1173,7 +1229,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                 [Page 21]
+Pignataro, et al.         Expires 27 June 2024                 [Page 22]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -1229,7 +1285,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                 [Page 22]
+Pignataro, et al.         Expires 27 June 2024                 [Page 23]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -1285,7 +1341,7 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-Pignataro, et al.         Expires 24 June 2024                 [Page 23]
+Pignataro, et al.         Expires 27 June 2024                 [Page 24]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
@@ -1331,20 +1387,26 @@ Internet-Draft        Sustainability Considerations        December 2023
 
    TBC.
 
-11.  Acknowledgements
+11.  Acknowledgements and Contributions
 
-   TBC.
+   The subject of sustainability considerations for internetworking sits
+   in the intersection of several disciplines, benefiting from the
+   collaboration of diverse educational, experiential, and exposure
+   backgrounds.  The authors are not only grateful but also inspired by
+   the open collaboration and expertise of many individuals, including:
 
-12.  Informative References
 
 
-
-
-
-Pignataro, et al.         Expires 24 June 2024                 [Page 24]
+Pignataro, et al.         Expires 27 June 2024                 [Page 25]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
+
+   *  Maarten Botterman provided text on network redundancy, and
+      definitions for justified redundancy balancing adequate
+      redundancy.
+
+12.  Informative References
 
    [CUE]      Belady, C., Azevedo, D., Patterson, M., Pouchet, J., and
               R. Tipley, "Carbon Usage Effectiveness (CUE): A Green Grid
@@ -1388,19 +1450,20 @@ Internet-Draft        Sustainability Considerations        December 2023
    [IPCC]     "Intergovernmental Panel on Climate Change (IPCC). (2022).
               Annex I: Glossary. In Global Warming of 1.5 degrees
               Celsius: IPCC Special Report on Impacts of Global Warming
+
+
+
+Pignataro, et al.         Expires 27 June 2024                 [Page 26]
+
+Internet-Draft        Sustainability Considerations        December 2023
+
+
               of 1.5 degrees Celsius above Pre-industrial Levels in
               Context of Strengthening Response to Climate Change,
               Sustainable Development, and Efforts to Eradicate Poverty
               (pp. 541-562)", Cambridge University Press,
               doi 10.1017/9781009157940.008, 2022,
               <https://www.ipcc.ch/sr15/chapter/glossary/>.
-
-
-
-Pignataro, et al.         Expires 24 June 2024                 [Page 25]
-
-Internet-Draft        Sustainability Considerations        December 2023
-
 
    [ITU-ICT-SDG]
               ITU, "Digital technologies to achieve the UN SDGs", 2023,
@@ -1444,19 +1507,18 @@ Internet-Draft        Sustainability Considerations        December 2023
               Development : "Our common future"", 4 August 1987,
               <http://digitallibrary.un.org/record/139811>.
 
+
+
+Pignataro, et al.         Expires 27 June 2024                 [Page 27]
+
+Internet-Draft        Sustainability Considerations        December 2023
+
+
 Appendix A.  Open Issues and TODOs
 
    [ISSUE 1]  Complete "Abstract"
 
    [ISSUE 2]  Complete "Introduction"
-
-
-
-
-Pignataro, et al.         Expires 24 June 2024                 [Page 26]
-
-Internet-Draft        Sustainability Considerations        December 2023
-
 
    [ISSUE 3]  Complete and strengthen the "Implications to the IETF"
               section
@@ -1497,6 +1559,17 @@ Authors' Addresses
    Email: helbakoury@gmail.com
 
 
+
+
+
+
+
+
+Pignataro, et al.         Expires 27 June 2024                 [Page 28]
+
+Internet-Draft        Sustainability Considerations        December 2023
+
+
    Alexander Clemm
    Futurewei
    2220 Central Expressway
@@ -1509,4 +1582,43 @@ Authors' Addresses
 
 
 
-Pignataro, et al.         Expires 24 June 2024                 [Page 27]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pignataro, et al.         Expires 27 June 2024                 [Page 29]
