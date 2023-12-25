@@ -337,10 +337,6 @@ The 17 SDGs are:
             <t>The fields of performance and quality of experience have the benefit of significant study and standardization of metrics. In a similar way than with resiliency, a degradation of performance and Quality of Service parameters, such as bandwidth, latency, jitter, etc., can very well be observed and measured, as a variation of sustainability metrics. The relative slopes of improvement of each goal would hint as to where the balance lies.</t>
 </section>      
 
-    <section title="Metrics for Sustainability">
-            <t>A sustainability quantification framework is paramount for understanding the sustainability posture of a system, as well as its potential for aid in sustainability outcomes. </t>
-</section>      
-
 
     <section title="End-to-End Sustainability">
             <t>The networking industry is in the starting phases of addressing this objective. We are seeing a sprinkling of sustainability features across the networking stack and components of devices, whether it is on forwarding chips, power supplies, optics, or compute. Many of those optimizations and features are typically local in nature, and widely scattered across different elements of a network architecture. An opportunity for maximizing the positive environmental impact of these technologies calls for a more cohesive and complementary view that spans the complete product lifecycle for hardware and software, as well as how some of these features work in unison.</t>
@@ -356,6 +352,13 @@ The 17 SDGs are:
             <t>Rapid Discovery and Provisioning Schemes: One of the biggest potential opportunities in reducing environmental impact of networks concerns the ability to power resources such as equipment or line cards down when they are momentarily not needed due to swings in traffic demands. In general, this involves fully automated management control loops with very short time scales. Network management can enable such schemes, involving algorithms that determine and control the rapid de- and re-commissioning of networking resources, as well as the necessary control protocols that facilitate aspects such as rapid resource discovery, reprovisioning, or reconvergence of management state.</t>
             </list>
             </t>
+
+            <section title="Metrics for Sustainability">
+            <t>A sustainability quantification framework is paramount for understanding the sustainability posture of a system, as well as its potential for aid in sustainability outcomes. </t>
+            </section>      
+
+
+
     </section>
 
 
@@ -601,21 +604,8 @@ Sustainability Metric</title>
     </references>
 
 <!--
-  TODO:
+  TODO moved to GitHub Issues
 -->
-<section title="Open Issues and TODOs">
-<t>
-<list style="format [ISSUE %d]">
-<t>Complete "Abstract"</t>
-<t>Complete "Introduction"</t>
-<t>Complete and strengthen the "Implications to the IETF" section</t>
-<t>Strengthen "Metrics for Sustainability"</t>
-<t>Align on Main Section, "Concrete Advice/Requirements for Designers and Developers"</t>
-<t>What can the IETF do for "Phase 2: Insights and Recommendations"</t>
-<t>Finalize Call-to-Action in the Conclusion</t>
-</list>
-</t>
-</section>
 
 
 <!--

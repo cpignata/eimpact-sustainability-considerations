@@ -85,9 +85,9 @@ Table of Contents
        6.3.1.  Redundancy and Sustainability . . . . . . . . . . . .  20
      6.4.  How Much are Performance and Quality of Experience
            Compromised?  . . . . . . . . . . . . . . . . . . . . . .  21
-     6.5.  Metrics for Sustainability  . . . . . . . . . . . . . . .  21
-     6.6.  End-to-End Sustainability . . . . . . . . . . . . . . . .  21
-     6.7.  The Role of Network Management and Orchestration  . . . .  22
+     6.5.  End-to-End Sustainability . . . . . . . . . . . . . . . .  21
+     6.6.  The Role of Network Management and Orchestration  . . . .  22
+       6.6.1.  Metrics for Sustainability  . . . . . . . . . . . . .  22
    7.  Sustainability Requirements and Phases  . . . . . . . . . . .  23
      7.1.  Phase 1: Visibility . . . . . . . . . . . . . . . . . . .  23
      7.2.  Phase 2: Insights and Recommendations . . . . . . . . . .  23
@@ -100,8 +100,8 @@ Table of Contents
    10. Security Considerations . . . . . . . . . . . . . . . . . . .  25
    11. Acknowledgements and Contributions  . . . . . . . . . . . . .  26
    12. Informative References  . . . . . . . . . . . . . . . . . . .  26
-   Appendix A.  Open Issues and TODOs  . . . . . . . . . . . . . . .  28
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  28
+
 
 
 
@@ -1147,13 +1147,7 @@ Internet-Draft        Sustainability Considerations        December 2023
    metrics.  The relative slopes of improvement of each goal would hint
    as to where the balance lies.
 
-6.5.  Metrics for Sustainability
-
-   A sustainability quantification framework is paramount for
-   understanding the sustainability posture of a system, as well as its
-   potential for aid in sustainability outcomes.
-
-6.6.  End-to-End Sustainability
+6.5.  End-to-End Sustainability
 
    The networking industry is in the starting phases of addressing this
    objective.  We are seeing a sprinkling of sustainability features
@@ -1170,6 +1164,12 @@ Internet-Draft        Sustainability Considerations        December 2023
    can be dynamically utilized when the network utilization is such that
    performance would not significantly suffer.  Or consider a core
    router of today that becomes more usable as an edge/access router of
+   the future due to the need for higher throughput in the core.  This
+   section explores the benefits of macro-optimizations by clustering in
+   specific phases, versus micro-optimizing locally without awareness of
+   the network context.
+
+
 
 
 
@@ -1178,12 +1178,7 @@ Pignataro, et al.         Expires 27 June 2024                 [Page 21]
 Internet-Draft        Sustainability Considerations        December 2023
 
 
-   the future due to the need for higher throughput in the core.  This
-   section explores the benefits of macro-optimizations by clustering in
-   specific phases, versus micro-optimizing locally without awareness of
-   the network context.
-
-6.7.  The Role of Network Management and Orchestration
+6.6.  The Role of Network Management and Orchestration
 
    Deployment and operational aspects play a critical role in making
    networks more sustainable.  A detailed explanation of that role, the
@@ -1223,6 +1218,11 @@ Internet-Draft        Sustainability Considerations        December 2023
       that facilitate aspects such as rapid resource discovery,
       reprovisioning, or reconvergence of management state.
 
+6.6.1.  Metrics for Sustainability
+
+   A sustainability quantification framework is paramount for
+   understanding the sustainability posture of a system, as well as its
+   potential for aid in sustainability outcomes.
 
 
 
@@ -1527,25 +1527,6 @@ Internet-Draft        Sustainability Considerations        December 2023
               Development : "Our common future"", 4 August 1987,
               <http://digitallibrary.un.org/record/139811>.
 
-Appendix A.  Open Issues and TODOs
-
-   [ISSUE 1]  Complete "Abstract"
-
-   [ISSUE 2]  Complete "Introduction"
-
-   [ISSUE 3]  Complete and strengthen the "Implications to the IETF"
-              section
-
-   [ISSUE 4]  Strengthen "Metrics for Sustainability"
-
-   [ISSUE 5]  Align on Main Section, "Concrete Advice/Requirements for
-              Designers and Developers"
-
-   [ISSUE 6]  What can the IETF do for "Phase 2: Insights and
-              Recommendations"
-
-   [ISSUE 7]  Finalize Call-to-Action in the Conclusion
-
 Authors' Addresses
 
    Carlos Pignataro (editor)
@@ -1558,16 +1539,6 @@ Authors' Addresses
    Nokia
    Germany
    Email: ali.rezaki@nokia.com
-
-
-
-
-
-
-
-Pignataro, et al.         Expires 27 June 2024                 [Page 28]
-
-Internet-Draft        Sustainability Considerations        December 2023
 
 
    Suresh Krishnan
@@ -1594,31 +1565,4 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Pignataro, et al.         Expires 27 June 2024                 [Page 29]
+Pignataro, et al.         Expires 27 June 2024                 [Page 28]
