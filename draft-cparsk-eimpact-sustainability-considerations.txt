@@ -80,27 +80,27 @@ Table of Contents
    6.  Sustainability Considerations - How Will the Natural
            Environment be Impacted?  . . . . . . . . . . . . . . . .  18
      6.1.  Design Tradeoffs  . . . . . . . . . . . . . . . . . . . .  18
-     6.2.  Multi-Objective Optimization  . . . . . . . . . . . . . .  18
+     6.2.  Multi-Objective Optimization  . . . . . . . . . . . . . .  19
      6.3.  How Much Resiliency is Really Needed? . . . . . . . . . .  20
        6.3.1.  Redundancy and Sustainability . . . . . . . . . . . .  20
      6.4.  How Much are Performance and Quality of Experience
            Compromised?  . . . . . . . . . . . . . . . . . . . . . .  21
      6.5.  End-to-End Sustainability . . . . . . . . . . . . . . . .  21
      6.6.  The Role of Network Management and Orchestration  . . . .  22
-       6.6.1.  Metrics for Sustainability  . . . . . . . . . . . . .  22
+       6.6.1.  Metrics for Sustainability  . . . . . . . . . . . . .  23
    7.  Sustainability Requirements and Phases  . . . . . . . . . . .  23
      7.1.  Phase 1: Visibility . . . . . . . . . . . . . . . . . . .  23
-     7.2.  Phase 2: Insights and Recommendations . . . . . . . . . .  23
+     7.2.  Phase 2: Insights and Recommendations . . . . . . . . . .  24
      7.3.  Phase 3: Self-optimization and Automation . . . . . . . .  24
        7.3.1.  Cycle of Phases . . . . . . . . . . . . . . . . . . .  24
    8.  Sustainability Guidelines for Protocol and Network Designers
-           and Implementers  . . . . . . . . . . . . . . . . . . . .  24
+           and Implementers  . . . . . . . . . . . . . . . . . . . .  25
    9.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .  26
      9.1.  Call to Action  . . . . . . . . . . . . . . . . . . . . .  27
    10. Security Considerations . . . . . . . . . . . . . . . . . . .  27
    11. Acknowledgements and Contributions  . . . . . . . . . . . . .  27
    12. Informative References  . . . . . . . . . . . . . . . . . . .  27
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  29
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  30
 
 
 
@@ -807,33 +807,33 @@ Internet-Draft        Sustainability Considerations        December 2023
    usually involves special requirements, which are listed along with
    the examples.
 
-   *  Smart Grid: The Smart Grid [RFC6272] generally refers to
-      enhancements to traditional electrical grids that offer additional
-      features such as two-way flows of electricity (e.g., accommodating
-      solar panels, electrical batteries) and granular control of the
-      grid (e.g., allowing to selectively turn off certain consumers
-      such as Heating, Ventilation, and Air Conditioning (HVAC) units
-      during certain times.)  The Smart Grid aims to improve
-      sustainability by facilitating concepts such as peak shaving
-      (i.e., lowering peak usage to reduce the amount of excess
-      generation of electricity that is not needed during non-peak
-      periods), and encouraging residential homes and business to invest
-      in renewable energy sources such as solar, for example offering
-      credit for feeding surplus energy being generated back into the
-      grid.  For this to work, the Smart Grid requires support by
-      networking technology that enables the required control loops as
-      well as visibility into grid telemetry.  This, in turn, requires
-      the support of new requirements, including aspects of security
-      (since a critical infrastructure is at stake), adherence to high
-      precision service levels and ultra-low latency communication
-      (e.g., to mitigate sudden spikes in voltage), and special
-      provisions to ensure data privacy (given that data from private
-      households, electrical vehicles, and personal devices is
-      involved.)
+   Smart Grid:
+      The Smart Grid [RFC6272] generally refers to enhancements to
+      traditional electrical grids that offer additional features such
+      as two-way flows of electricity (e.g., accommodating solar panels,
+      electrical batteries) and granular control of the grid (e.g.,
+      allowing to selectively turn off certain consumers such as
+      Heating, Ventilation, and Air Conditioning (HVAC) units during
+      certain times.)  The Smart Grid aims to improve sustainability by
+      facilitating concepts such as peak shaving (i.e., lowering peak
+      usage to reduce the amount of excess generation of electricity
+      that is not needed during non-peak periods), and encouraging
+      residential homes and business to invest in renewable energy
+      sources such as solar, for example offering credit for feeding
+      surplus energy being generated back into the grid.  For this to
+      work, the Smart Grid requires support by networking technology
+      that enables the required control loops as well as visibility into
+      grid telemetry.  This, in turn, requires the support of new
+      requirements, including aspects of security (since a critical
+      infrastructure is at stake), adherence to high precision service
+      levels and ultra-low latency communication (e.g., to mitigate
+      sudden spikes in voltage), and special provisions to ensure data
+      privacy (given that data from private households, electrical
+      vehicles, and personal devices is involved.)
 
-   *  Smart Cities: Many applications for smart cities involve
-      optimizations to make cities more sustainable.  Examples include
-      smart garbage disposals that reduce the number of truck rolls (and
+   Smart Cities:
+
+
 
 
 
@@ -842,24 +842,27 @@ Pignataro, et al.         Expires 28 June 2024                 [Page 15]
 Internet-Draft        Sustainability Considerations        December 2023
 
 
-      associated emissions) to collect garbage only when needed, and
-      guidance systems for smart parking that reduce the amount of
-      vehicle traffic used to find parking spots.  These applications
-      are enabled by networking.  Again, special requirements need to be
-      supported for networks to support those applications, such as the
-      ability to deploy equipment in harsh urban environments, or
-      monitoring for vandalism.
+      Many applications for smart cities involve optimizations to make
+      cities more sustainable.  Examples include smart garbage disposals
+      that reduce the number of truck rolls (and associated emissions)
+      to collect garbage only when needed, and guidance systems for
+      smart parking that reduce the amount of vehicle traffic used to
+      find parking spots.  These applications are enabled by networking.
+      Again, special requirements need to be supported for networks to
+      support those applications, such as the ability to deploy
+      equipment in harsh urban environments, or monitoring for
+      vandalism.
 
-   *  Smart Agriculture: Smart agriculture involves minimizing usage of
-      resources such as fertilizer and water in the production of
-      agricultural output.  This also helps minimize the area set aside
-      for farming and reclaim land for other purposes including
-      biodiversity.  Similarly, networking is an enabler for
-      environmental sustainability.  Special requirements for
-      applications in this space include aspects such as the ability to
-      support networking equipment without the need to run power lines
-      (e.g., using battery or solar), and support for intermittent
-      communications.
+   Smart Agriculture:
+      Smart agriculture involves minimizing usage of resources such as
+      fertilizer and water in the production of agricultural output.
+      This also helps minimize the area set aside for farming and
+      reclaim land for other purposes including biodiversity.
+      Similarly, networking is an enabler for environmental
+      sustainability.  Special requirements for applications in this
+      space include aspects such as the ability to support networking
+      equipment without the need to run power lines (e.g., using battery
+      or solar), and support for intermittent communications.
 
 4.  Key Values and Key Value Indicators
 
@@ -887,9 +890,6 @@ Internet-Draft        Sustainability Considerations        December 2023
    travel out of town, or the successful medical interventions that
    could be carried out remotely.  Then the next step is to identify
    which parts of our technology could help enable this and design our
-   technology to create impact for the KVs as per KVIs.  In this case,
-   universal network coverage, capacity and features to integrate
-   multitude of sensors, low-latency and jitter communication services
 
 
 
@@ -898,6 +898,9 @@ Pignataro, et al.         Expires 28 June 2024                 [Page 16]
 Internet-Draft        Sustainability Considerations        December 2023
 
 
+   technology to create impact for the KVs as per KVIs.  In this case,
+   universal network coverage, capacity and features to integrate
+   multitude of sensors, low-latency and jitter communication services
    could all be enablers with their own design targets and KPIs defined.
    Subsequently, we would track the KVIs and the KPIs together for
    successful outcomes.
@@ -941,9 +944,6 @@ Internet-Draft        Sustainability Considerations        December 2023
    depending on the actions of other stakeholders and the existing
    environment.
 
-   An important corollary is that KV enablers can be used to derive
-   technological requirements, KPIs and advancements to maximize key
-   value.
 
 
 
@@ -953,6 +953,10 @@ Pignataro, et al.         Expires 28 June 2024                 [Page 17]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
+
+   An important corollary is that KV enablers can be used to derive
+   technological requirements, KPIs and advancements to maximize key
+   value.
 
 5.  Implications to the IETF
 
@@ -998,10 +1002,6 @@ Internet-Draft        Sustainability Considerations        December 2023
    the doughnut economics model concept introduced in the "Definition of
    Terms" section.
 
-6.2.  Multi-Objective Optimization
-
-   To understand this new model, we can analyze a simplified example.
-   Assume the following topology, passing traffic from A to B:
 
 
 
@@ -1009,6 +1009,11 @@ Pignataro, et al.         Expires 28 June 2024                 [Page 18]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
+
+6.2.  Multi-Objective Optimization
+
+   To understand this new model, we can analyze a simplified example.
+   Assume the following topology, passing traffic from A to B:
 
                            A
                            |
@@ -1049,11 +1054,6 @@ Internet-Draft        Sustainability Considerations        December 2023
    the aggregate sustainability metrics of network elements in each of
    the two topologies.
 
-   Another option is to use flexible Ethernet, where the five links
-   combined are aggregated into one active virtual link which has 15
-   Gbps, and another inactive link of 35 Gbps of capacity -- although a
-   physical link cannot be half-active and half-inactive as far as PHY
-   and optics are concerned.
 
 
 
@@ -1065,6 +1065,12 @@ Pignataro, et al.         Expires 28 June 2024                 [Page 19]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
+
+   Another option is to use flexible Ethernet, where the five links
+   combined are aggregated into one active virtual link which has 15
+   Gbps, and another inactive link of 35 Gbps of capacity -- although a
+   physical link cannot be half-active and half-inactive as far as PHY
+   and optics are concerned.
 
 6.3.  How Much Resiliency is Really Needed?
 
@@ -1102,16 +1108,10 @@ Internet-Draft        Sustainability Considerations        December 2023
    objective function.
 
    Adequate Redundancy:
-      In order to determine how much redundancy needs to be build into
-      the overall network capacity, which can be referred to as
-      "adequate redundancy to avoid network outings", it will be
-      important to (1) measure the bandwidth of attacks against the
-      overall network capacity; and (2) understand how quickly "high
-      bandwidth" attacks can be detected and diverted.  Measuring these
-      results over time may lead the "adequate redundancy" to become
-      higher over time.
 
-   Justified Redundancy:
+
+
+
 
 
 
@@ -1122,6 +1122,16 @@ Pignataro, et al.         Expires 28 June 2024                 [Page 20]
 Internet-Draft        Sustainability Considerations        December 2023
 
 
+      In order to determine how much redundancy needs to be build into
+      the overall network capacity, which can be referred to as
+      "adequate redundancy to avoid network outings", it will be
+      important to (1) measure the bandwidth of attacks against the
+      overall network capacity; and (2) understand how quickly "high
+      bandwidth" attacks can be detected and diverted.  Measuring these
+      results over time may lead the "adequate redundancy" to become
+      higher over time.
+
+   Justified Redundancy:
       Traditionally, network operators would be much less worried about
       energy use than about the possibility that the network would have
       brownout or blacout outages - thus the measuring will help better
@@ -1160,6 +1170,14 @@ Internet-Draft        Sustainability Considerations        December 2023
    that spans the complete product lifecycle for hardware and software,
    as well as how some of these features work in unison.
 
+
+
+
+Pignataro, et al.         Expires 28 June 2024                 [Page 21]
+
+Internet-Draft        Sustainability Considerations        December 2023
+
+
    For example, features that provide energy saving modes for devices
    can be dynamically utilized when the network utilization is such that
    performance would not significantly suffer.  Or consider a core
@@ -1168,15 +1186,6 @@ Internet-Draft        Sustainability Considerations        December 2023
    section explores the benefits of macro-optimizations by clustering in
    specific phases, versus micro-optimizing locally without awareness of
    the network context.
-
-
-
-
-
-Pignataro, et al.         Expires 28 June 2024                 [Page 21]
-
-Internet-Draft        Sustainability Considerations        December 2023
-
 
 6.6.  The Role of Network Management and Orchestration
 
@@ -1187,45 +1196,36 @@ Internet-Draft        Sustainability Considerations        December 2023
    which network management can help make networks more sustainable; for
    a more extensive treatment, please refer to that document.
 
-   *  Dimensioning: Networks should be deployed and configured with
-      sufficient capacity to serve their intended purpose.  At the same
-      time, overprovisioning and providing too many resources should be
+   Dimensioning:
+      Networks should be deployed and configured with sufficient
+      capacity to serve their intended purpose.  At the same time,
+      overprovisioning and providing too many resources should be
       avoided, as this results in waste and unnecessary environmental
       impact.  Network management can faciliate proper dimensioning of
       networks by providing the methods and tools that allow to assess
       network usage, determine required capacities, identify trends to
       allow to proactively accommodate traffic growth and new services.
 
-   *  Network optimization: Network management applications can help
-      solve difficult network optimization problems involving multiple
-      parameters, multiple and sometimes conflicting objectives, and
-      mitigation of tradeoffs.  Network optimization examples include
-      maximization of utilization or of aggregate QoE scores,
-      minimization of the possibility of SLA violations with a given
-      amount of network resources, or optimization of the cost of
-      configured paths.  Network metrics related to sustainability are
-      another set of parameters that can be optimized.
+   Network Optimization:
+      Network management applications can help solve difficult network
+      optimization problems involving multiple parameters, multiple and
+      sometimes conflicting objectives, and mitigation of tradeoffs.
+      Network optimization examples include maximization of utilization
+      or of aggregate QoE scores, minimization of the possibility of SLA
+      violations with a given amount of network resources, or
+      optimization of the cost of configured paths.  Network metrics
+      related to sustainability are another set of parameters that can
+      be optimized.
 
-   *  Rapid Discovery and Provisioning Schemes: One of the biggest
-      potential opportunities in reducing environmental impact of
-      networks concerns the ability to power resources such as equipment
-      or line cards down when they are momentarily not needed due to
-      swings in traffic demands.  In general, this involves fully
-      automated management control loops with very short time scales.
-      Network management can enable such schemes, involving algorithms
-      that determine and control the rapid de- and re-commissioning of
-      networking resources, as well as the necessary control protocols
-      that facilitate aspects such as rapid resource discovery,
-      reprovisioning, or reconvergence of management state.
-
-6.6.1.  Metrics for Sustainability
-
-   A sustainability quantification framework is paramount for
-   understanding the sustainability posture of a system, as well as its
-   potential for aid in sustainability outcomes.
-
-
-
+   Rapid Discovery and Provisioning Schemes:
+      One of the biggest potential opportunities in reducing
+      environmental impact of networks concerns the ability to power
+      resources such as equipment or line cards down when they are
+      momentarily not needed due to swings in traffic demands.  In
+      general, this involves fully automated management control loops
+      with very short time scales.  Network management can enable such
+      schemes, involving algorithms that determine and control the rapid
+      de- and re-commissioning of networking resources, as well as the
 
 
 
@@ -1233,6 +1233,16 @@ Pignataro, et al.         Expires 28 June 2024                 [Page 22]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
+
+      necessary control protocols that facilitate aspects such as rapid
+      resource discovery, reprovisioning, or reconvergence of management
+      state.
+
+6.6.1.  Metrics for Sustainability
+
+   A sustainability quantification framework is paramount for
+   understanding the sustainability posture of a system, as well as its
+   potential for aid in sustainability outcomes.
 
 7.  Sustainability Requirements and Phases
 
@@ -1271,6 +1281,15 @@ Internet-Draft        Sustainability Considerations        December 2023
    to work on standard telemetry for collecting these metrics so that
    interoperability can be achieved in multi-vendor networks.
 
+
+
+
+
+Pignataro, et al.         Expires 28 June 2024                 [Page 23]
+
+Internet-Draft        Sustainability Considerations        December 2023
+
+
 7.2.  Phase 2: Insights and Recommendations
 
    Once the metrics have been collected, categorized, and aggregated in
@@ -1282,14 +1301,6 @@ Internet-Draft        Sustainability Considerations        December 2023
    reference implementations of the standards developed in "Phase 1:
    Visibility".  We do expect vendors and other open projects to
    customize this and incorporate specific features.  This will allow
-
-
-
-Pignataro, et al.         Expires 28 June 2024                 [Page 23]
-
-Internet-Draft        Sustainability Considerations        December 2023
-
-
    identifying sources of environmental impact and address any potential
    issues through operational changes, creation of best-practices, and
    changes towards a greener, more environmentally friendly equipment,
@@ -1327,6 +1338,14 @@ Internet-Draft        Sustainability Considerations        December 2023
    1, 2, and 3 are completed for an interation, there will be an added
    awareness of what (else) to collect back to phase 1.
 
+
+
+
+Pignataro, et al.         Expires 28 June 2024                 [Page 24]
+
+Internet-Draft        Sustainability Considerations        December 2023
+
+
    Further, sustainability-aware self-optimization is something to
    explore in Autonomic Networking.
 
@@ -1336,15 +1355,6 @@ Internet-Draft        Sustainability Considerations        December 2023
    This section renders the Sustainability Considerations into specific
    guidelines and advice for the design and development of networking
    technologies.
-
-
-
-
-
-Pignataro, et al.         Expires 28 June 2024                 [Page 24]
-
-Internet-Draft        Sustainability Considerations        December 2023
-
 
    These specific items are numbered so as to follow and reference as a
    check-list.
@@ -1385,6 +1395,13 @@ Internet-Draft        Sustainability Considerations        December 2023
            of sustainability than can be gained by visiblity into power
            consumption alone.
 
+
+
+Pignataro, et al.         Expires 28 June 2024                 [Page 25]
+
+Internet-Draft        Sustainability Considerations        December 2023
+
+
    3.  Energy Management:
        Minimizing energy consumption is a critical consideration in
        making networks more sustainable.  Minimizing energy consumption
@@ -1394,13 +1411,6 @@ Internet-Draft        Sustainability Considerations        December 2023
 
        Specifically examine the applicability of the following
        considerations:
-
-
-
-Pignataro, et al.         Expires 28 June 2024                 [Page 25]
-
-Internet-Draft        Sustainability Considerations        December 2023
-
 
        a.  Energy linearity.
 
@@ -1441,6 +1451,13 @@ Internet-Draft        Sustainability Considerations        December 2023
    performance parameters but also sustainability ones, through
    respective trade-offs in our protocols and systems.
 
+
+
+Pignataro, et al.         Expires 28 June 2024                 [Page 26]
+
+Internet-Draft        Sustainability Considerations        December 2023
+
+
    We also envision that on top of minimizing the environmental impact
    of our technologies and helping consumers identify and reduce the
    environmental impact of their use, we can also make a positive impact
@@ -1449,14 +1466,6 @@ Internet-Draft        Sustainability Considerations        December 2023
    more efficient sources of power, control HVAC systems efficiently,
    etc.  We are looking forward to our efforts that will positively
    impact the environment using Internet technologies and protocols.
-
-
-
-
-Pignataro, et al.         Expires 28 June 2024                 [Page 26]
-
-Internet-Draft        Sustainability Considerations        December 2023
-
 
 9.1.  Call to Action
 
@@ -1495,15 +1504,6 @@ Internet-Draft        Sustainability Considerations        December 2023
 
 12.  Informative References
 
-   [CUE]      Belady, C., Azevedo, D., Patterson, M., Pouchet, J., and
-              R. Tipley, "Carbon Usage Effectiveness (CUE): A Green Grid
-              Data Center Sustainability Metric", 2 December 2010,
-              <https://www.thegreengrid.org/en/resources/library-and-
-              tools/241-Carbon-Usage-Effectiveness-%28CUE%29%3A-A-Green-
-              Grid-Data-Center-Sustainability-Metric>.
-
-   [Doughnut] Wikipedia, "Doughnut (economic model)", 13 October 2023,
-              <https://en.wikipedia.org/wiki/Doughnut_(economic_model)>.
 
 
 
@@ -1513,6 +1513,16 @@ Pignataro, et al.         Expires 28 June 2024                 [Page 27]
 
 Internet-Draft        Sustainability Considerations        December 2023
 
+
+   [CUE]      Belady, C., Azevedo, D., Patterson, M., Pouchet, J., and
+              R. Tipley, "Carbon Usage Effectiveness (CUE): A Green Grid
+              Data Center Sustainability Metric", 2 December 2010,
+              <https://www.thegreengrid.org/en/resources/library-and-
+              tools/241-Carbon-Usage-Effectiveness-%28CUE%29%3A-A-Green-
+              Grid-Data-Center-Sustainability-Metric>.
+
+   [Doughnut] Wikipedia, "Doughnut (economic model)", 13 October 2023,
+              <https://en.wikipedia.org/wiki/Doughnut_(economic_model)>.
 
    [Frontiers]
               Frontiers, "The Rebound Effect and the Jevons' Paradox:
@@ -1553,6 +1563,13 @@ Internet-Draft        Sustainability Considerations        December 2023
               doi 10.1017/9781009157940.008, 2022,
               <https://www.ipcc.ch/sr15/chapter/glossary/>.
 
+
+
+Pignataro, et al.         Expires 28 June 2024                 [Page 28]
+
+Internet-Draft        Sustainability Considerations        December 2023
+
+
    [ITU-ICT-SDG]
               ITU, "Digital technologies to achieve the UN SDGs", 2023,
               <https://www.itu.int/en/mediacentre/backgrounders/Pages/
@@ -1562,14 +1579,6 @@ Internet-Draft        Sustainability Considerations        December 2023
    [M6G-SOCIETAL-KV-KVI]
               Wikström, G., Schuler Scott, A., Mesogiti, I., Stoica, R.,
               Georgiev, G., Barmpounakis, S., Gavras, A., Demestichas,
-
-
-
-Pignataro, et al.         Expires 28 June 2024                 [Page 28]
-
-Internet-Draft        Sustainability Considerations        December 2023
-
-
               P., Hamon, M., Hallingby, H., and D. Lund, "What societal
               values will 6G address?", 17 May 2022,
               <https://doi.org/10.5281/zenodo.6557534>.
@@ -1608,15 +1617,6 @@ Internet-Draft        Sustainability Considerations        December 2023
               Development : "Our common future"", 4 August 1987,
               <http://digitallibrary.un.org/record/139811>.
 
-Authors' Addresses
-
-   Carlos Pignataro (editor)
-   North Carolina State University
-   United States of America
-   Email: cpignata@gmail.com, cmpignat@ncsu.edu
-
-
-
 
 
 
@@ -1624,6 +1624,14 @@ Authors' Addresses
 Pignataro, et al.         Expires 28 June 2024                 [Page 29]
 
 Internet-Draft        Sustainability Considerations        December 2023
+
+
+Authors' Addresses
+
+   Carlos Pignataro (editor)
+   North Carolina State University
+   United States of America
+   Email: cpignata@gmail.com, cmpignat@ncsu.edu
 
 
    Ali Rezaki
@@ -1650,14 +1658,6 @@ Internet-Draft        Sustainability Considerations        December 2023
    Santa Clara,  CA 95050
    United States of America
    Email: ludwig@clemm.org
-
-
-
-
-
-
-
-
 
 
 
