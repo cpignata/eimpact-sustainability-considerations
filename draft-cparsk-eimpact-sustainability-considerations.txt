@@ -16,7 +16,7 @@ Expires: 28 June 2024                                              Nokia
 
 
            Sustainability Considerations for Internetworking
-         draft-cparsk-eimpact-sustainability-considerations-03
+         draft-cparsk-eimpact-sustainability-considerations-04
 
 Abstract
 
@@ -320,7 +320,7 @@ Internet-Draft        Sustainability Considerations        December 2023
       also referred to as embodied carbon and embedded carbon, refers to
       the amount of GHG emissions associated with upstream phases - raw
       material extraction, production, transportation (of materials and
-      of product), and manufacturing—stages of a product's lifecycle.
+      of product), and manufacturing-stages of a product's lifecycle.
       Some initiatives also consider disposal.
 
    Energy, power, and their measurement:
