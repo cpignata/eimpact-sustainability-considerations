@@ -96,8 +96,19 @@
   <middle>
     <section title="Introduction">
       <t>
-      Over the past decade, there has been increased awareness of the environmental impact produced by the widespread adoption of the Internet and internetworking technologies. The impact of Internet technologies has been overwhelmingly positive over the past years (e.g., providing alternatives to travel, enabling remote and hybrid work, enabling technology-based endangered species conservation, etc.), and there is still room for improvement. This document describes some of the tradeoffs that could be involved while optimizing for sustainability in addition to or in lieu of traditional metrics such as performance or availability. It also proposes some common terminology for discussing environmental impacts of Internet technologies, and gives network and protocol designers and implementors sustainability-related advice and guideance. Finally, it discusses how Internet technologies can be used to help other fields become more sustainable.
+      Over the past decade, there has been increased awareness of the environmental impact produced by the widespread adoption of the Internet and internetworking technologies. The impact of Internet technologies has been overwhelmingly positive over the past years (e.g., providing alternatives to travel, enabling remote and hybrid work, enabling technology-based endangered species conservation, etc.), and there is still room for improvement. 
+      </t><t>
+      This document describes some of the tradeoffs that could be involved while optimizing for sustainability in addition to or in lieu of traditional metrics such as performance or availability. It also proposes some common terminology for discussing environmental impacts of Internet technologies, and gives network and protocol designers and implementors sustainability-related advice and guideance. Further, it discusses how Internet technologies can be used to help other fields become more sustainable.
       </t>
+      <t>Specifically, this document is organized with the following outline:</t>
+      <list style="symbols">
+        <t><xref target="terms" /> includes a "<xref target="terms" format="title" />"</t>
+        <t>Sections <xref target="sustainx" format="counter" /> through <xref target="phases" format="counter" /> detail sustainability and environmental impact considerations, and their implications to Internet protocols, architectures, and technologies.</t>
+        <t><xref target="advice" /> lists "<xref target="advice" format="title" />"</t>
+
+      </list>
+                
+
     </section>
 
       <section anchor="terms" title="Definition of Terms">
@@ -121,7 +132,7 @@ Notwithstanding the most comprehensive set of definition of relevant terms reade
 <t hangText="Biodiversity loss:"><br /> Biological diversity is a measure of the abundance and variety of life on earth. Biodiversity loss is the depletion of this diversity due to human activity, notably through the destruction of natural ecosystems and through the cascading effects of climate change, materials extraction, waste disposal and pollution, among other impacts, on the living world and species.</t>
 <t hangText="CO2e / CO2eq / CO2-eq:"><br /> Carbon dioxide equivalent, is the unit for measuring the climate change impact of non-CO2 gases as compared to CO2, which is selected as a benchmark.</t>
 <t hangText="Carbon awareness:"><br /> is being mindful of the carbon intensity of the electricity being used and prioritizing the use of low carbon intensity electricity in network set-up and operations. As carbon intensity is location and time dependent, carbon awareness requires dynamic monitoring and response, such as carbon aware routing and networking. This is a form of "demand shaping" which aims to match the use of energy with the supply of clean energy.</t>
-<t hangText="Carbon intensity (CI):"><br /> is a measure of the carbon-equivalent emission of consumed electricity, i.e., grams of carbon-equivalent per kilowatt hour (gCO2e/KWh). When the supplied energy mix is purely from renewable sources such as sun and wind, carbon intensity is practically 0, when coal and gas-powered electricity generation gets in the mix, carbon intensity increases. Carbon intensity could change instantaneously or predictably based on the time and location of electricity use. Prioritizing electricity use when carbon intensity is low is a target.</t>
+<t hangText="Carbon intensity (CI):"><br /> also referred to as emission intensity and emission factor, is a measure of the carbon-equivalent emission of consumed electricity, i.e., grams of carbon-equivalent per kilowatt hour (gCO2e/KWh). When the supplied energy mix is purely from renewable sources such as sun and wind, carbon intensity is practically 0, when coal and gas-powered electricity generation gets in the mix, carbon intensity increases. Carbon intensity could change instantaneously or predictably based on the time and location of electricity use. Prioritizing electricity use when carbon intensity is low is a target.</t>
 <t hangText="Carbon offset and credit:"><br /> is a reduction of GHGs from the atmosphere as compensation for GHGs produced elsewhere and the credit generated and used respectively. 
 This reduction in GHG emissions can be an increase in carbon storage through land restauration, or an actual removal of GHG.
 
@@ -141,6 +152,10 @@ See also "PUE".
 
 
 <t hangText="Doughnut economics:"><br /> is a visual framework for sustainable development. It attempts to find a safe operational space within planetary boundaries and complementary (yet seemingly opposing) social boundaries, thereby meeting the needs of human societies without pushing earth environmental boundaries to their tipping points <xref target="Doughnut"/>. The significance of this model for interworking is that it demonstrates how to conceptualize and position boundaries in our designs that are seemingly opposing, to create a balanced approach, for example between energy efficiency and performance or resiliency and materials efficiency. It is not one or the other, but to find a space where both can be achieved without crossing boundaries in respective domains.</t>
+
+
+<t hangText="Embodied emissions:"><br /> also referred to as embodied carbon and embedded carbon, refers to the amount of GHG emissions associated with upstream phases - raw material extraction, production, transportation (of materials and of product), and manufacturing—stages of a product's lifecycle. Some initiatives also consider disposal.</t>
+
 
 <t hangText="Energy, power, and their measurement:"><br /> In physics, energy is defined as the capacity or ability to do work. For a system to provide an output, the quantitative property of energy is transferred to it. The energy measurement unit in the International System of Units (SI) is the joule (J). Power is energy used per second, measured in the International System of Units in watts (W), equivalent to the rate of one joule per second (J/s). In other words, energy is the integration of power over kime. As such, 
 Kilowatt-hour (kWh) is also a measure of energy, equivalent to 1 kW of power maintained for 1 hour, which is equal to 3.6 MJ (million joules). </t>
@@ -398,8 +413,83 @@ In this phase we build awareness into the systems to automatically recognize opp
 
 
     <section anchor="advice" title="Sustainability Guidelines for Protocol and Network Designers and Implementers">
-            <t>This section renders the sustainability considerations into specific guidelines and advice for the design and development of networking technologies.</t>
-            <t>WIP</t>
+            <t>This section renders the Sustainability Considerations into specific guidelines and advice for the design and development of networking technologies.</t>
+            <t>These specific items are numbered so as to follow and reference as a check-list.</t>
+
+        <list style="numbers">
+
+          <t>
+            General:<br />The section title "Sustainability Considerations" should be used to detail the environmental-impact implications of protocols, architectures, and Internet technologies.
+
+            <list style="letters">
+              <t>
+                For each of the items covered, explicitly state the "boundary of analysis" considered. For example, this can include a scope, time boudnary, or lifecycle phases.
+              </t>
+              <t>
+                Consider attributional versus consequential analysis methods, explaining environmental impact benefits.
+              </t>
+              <t>
+                Clearly state the units used for each magnitude in every analysis (e.g., gCO2e/KWh.)
+              </t>
+            </list>
+          </t>
+
+
+          <t>
+            Network Management:<br />Several areas of network management have direct relationship into improving sustainability.
+
+            <list style="letters">
+              <t>
+                Metrics:<br />Instrument equipment, network elements, and networks with a set of relevant and meaningful metrics that provide visibility into sustainability and environmental-impact attributes (e.g., power and energy consumption.)  This is the foundation for any mechanisms to improve and optimize sustainability.
+              </t>
+              <t>
+                Managed Elements:<br />Facilitate, extend, and enrich the manageability of network elements and sub-elements which have environmental impact, such as Power Supplies. For example, provide visibility into sourced power, e.g. energy mix, and allow to account for the "dirtiness" of power being consumed to obtain a truer picture of sustainability than can be gained by visiblity into power consumption alone.
+              </t>
+            </list>
+          </t>
+
+          <t>
+            Energy Management:<br />Minimizing energy consumption is a critical consideration in making networks more sustainable. Minimizing energy consumption typically comes also with important economic side benefits associated with reducing operational expenses and making network providers more competitive.
+            <br /><br />Specifically examine the applicability of the following considerations:
+
+            <list style="letters">
+              <t>
+                Energy linearity.
+              </t>
+              <t>
+                Power saving modes.
+              </t>
+              <t>
+                Chattiness of protocols.
+              </t>
+              <t>
+                Exploiting burstiness versus smoothening of traffic.
+              </t>
+              <t>
+                Rapid discovery and convergence.
+              </t>
+            </list>
+          </t>
+
+          <t>
+            Carbon Awareness:<br />See definition in <xref target="terms" />.
+
+            <list style="letters">
+              <t>
+                Consider "Carbon Intensity (CI)" / Emission Factor (EF) as an attribute. For example, CI is used to optimize for lower-carbon sources of electrical energy (e.g., using renewables.) Prioritizing electricity use when carbon intensity is low is a target, and, for that, this attribute needs to be accessed or advertised.
+              </t>
+              <t>
+                Consider embodied emissions (i.e., embedded carbon) with any new product. For example, a new generation of networking device might significantly improve energy efficiency, and a replacement migration would include the embedded emissions (of producing and transporting the new product as well as disposing of the old one), and hence there's a break-even point (BEP).
+              </t>
+            </list>
+          </t>
+
+
+
+
+        </list>
+
+
     </section>
 
 
@@ -606,45 +696,6 @@ Sustainability Metric</title>
 <!--
   TODO moved to GitHub Issues
 -->
-
-
-<!--
-    <section title="Sustainability Considerations for the Development of Networking Technology">
-        <t>The following subsections provide an overview of some of the guiding principles that should be taken into consideration for the development of networking technology that is more sustainable. </t>
-        
-    <section title="Minimize energy consumption">
-    <t>Minimizing energy consumption is perhaps the most obvious and the most critical consideration in making networks more sustainable. Minimizing energy consumption typically comes also with important economic side benefits associated with reducing operational expenses and making network providers more competitive.  
-    </t>
-    <t>The following are some of the considerations to take into account.
-    <list style="symbols">
-    <t>Energy linearity. </t>
-    <t>Power saving modes. </t>
-    <t>Chattiness of protocols. </t>
-    <t>Exploiting burstiness versus smoothening of traffic. </t>
-    <t>Rapid discovery and convergence. </t>
-    </list>
-    </t>
-    </section>
-    
-    <section title="Provide visibility">
-    <t>TBD. Instrument equipment, and networks, with a set of meaningful metrics that provide visibility into power consumption.  This is the foundation for any mechanisms to help improve and optimize sustainability.  As the adage goes, you cannot manage nor optimize what you cannot measure, and this applies to sustainability as well. </t>
-    </section>
-    
-    <section title="Facilitate power supply side management">
-    <t>TBD. Provide visibility into sourced power, e.g. energy mix. Allow to account for the "dirtiness" of power being consumed to obtain a truer picture of sustainability than can be gained by visiblity into power consumption alone. </t>
-    </section>
-    
-    <section title="Extend equipment lifecycles">
-    <t>TBD.  Facilitate the possibility of software upgrades, avoid the need for forklift upgrades to the greatest extent possible.</t>
-    </section>
-    
-    <section title="Enable sustainable manufacturing">
-    <t>TBD.  Design hardware that faciliates recycling, involves fairly sourced materials, possibly materials that are bio-degradable.</t>
-    </section>
-    
-    </section>
--->
-
 
   </back>
 </rfc>
