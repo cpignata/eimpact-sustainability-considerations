@@ -419,14 +419,14 @@ In this phase we build awareness into the systems to automatically recognize opp
 
     <section anchor="advice" title="Sustainability Guidelines for Protocol and Network Designers and Implementers">
             <t>This section renders the Sustainability Considerations into specific guidelines and advice for the design and development of networking technologies.</t>
-            <t>These specific items are numbered so as to follow and reference as a check-list.</t>
+            <t>These specific items are labeled so as to follow and reference as a check-list.</t>
 
-        <list style="numbers">
+        <list style="format %c.">
 
           <t>
             General:<br />The section title "Sustainability Considerations" should be used to detail the environmental-impact implications of protocols, architectures, and Internet technologies.
 
-            <list style="letters">
+            <list style="format %p%d.">
               <t>
                 For each of the items covered, explicitly state the "boundary of analysis" considered. For example, this can include a scope, time boudnary, or lifecycle phases.
               </t>
@@ -443,7 +443,7 @@ In this phase we build awareness into the systems to automatically recognize opp
           <t>
             Network Management:<br />Several areas of network management have direct relationship into improving sustainability.
 
-            <list style="letters">
+            <list style="format %p%d.">
               <t>
                 Metrics:<br />Instrument equipment, network elements, and networks with a set of relevant and meaningful metrics that provide visibility into sustainability and environmental-impact attributes (e.g., power and energy consumption.)  This is the foundation for any mechanisms to improve and optimize sustainability.
               </t>
@@ -457,7 +457,7 @@ In this phase we build awareness into the systems to automatically recognize opp
             Energy Management:<br />Minimizing energy consumption is a critical consideration in making networks more sustainable. Minimizing energy consumption typically comes also with important economic side benefits associated with reducing operational expenses and making network providers more competitive.
             <br /><br />Specifically examine the applicability of the following considerations:
 
-            <list style="letters">
+            <list style="format %p%d.">
               <t>
                 Energy linearity.
               </t>
@@ -479,7 +479,7 @@ In this phase we build awareness into the systems to automatically recognize opp
           <t>
             Carbon Awareness:<br />See definition in <xref target="terms" />.
 
-            <list style="letters">
+            <list style="format %p%d.">
               <t>
                 Consider "Carbon Intensity (CI)" / Emission Factor (EF) as an attribute. For example, CI is used to optimize for lower-carbon sources of electrical energy (e.g., using renewables.) Prioritizing electricity use when carbon intensity is low is a target, and, for that, this attribute needs to be accessed or advertised.
               </t>
@@ -489,6 +489,18 @@ In this phase we build awareness into the systems to automatically recognize opp
             </list>
           </t>
 
+          <t>
+            Beyond Carbon:<br />Characterize and note full-spectrum environmental impacts, beyond GHG emissions, and into water usage, raw materials usage, circularity in supply chain, repurpose, reuse, and recycle, etc.
+
+            <list style="format %p%d.">
+              <t>
+                WIP
+              </t>
+              <t>
+                WIP
+              </t>
+            </list>
+          </t>
 
 
 
@@ -519,7 +531,23 @@ In this phase we build awareness into the systems to automatically recognize opp
 
 
     <section title="Security Considerations">
-      <t>TBC.</t>
+      <t>
+        Sustainable practices offer many environmental, economic, and social benefits, and  security is a route to sustainability rather than a hurdle to clear.
+
+        <list style="empty">
+        <t>The creation of sustainability features for an element or a system should not weaken or compromise their security posture, nor should it increase the surface of attack or create attack vectors. 
+          <list style="symbols">
+            <t>Sustainability metrics and data models ought to describe how to secure the sustainability data exposed and surfaced through telemetry.</t>
+            <t>Sustainability control capabilities, as for example for power management, should consider potential attacks leveraging those controls. Setting a device on low-power or power-save modes during peak traffic be a denial-of-service attack, negatively impact end-to-end services.</t>
+          </list>
+        </t>
+        <t>The development of security features should, in turn, balance the environmental impact and sustainability considerations detailed in this document. 
+          <list style="symbols">
+            <t>Computational increase on cryptographic operations results in lowering power efficiency. Since generally the increase of energy required is not linear with the increase of computational complexity, a point that satisfies security requirements while minimizing environmental impact is desired.</t>
+            <t>Proof-of-Work schemes' and AI models' energy consumption also grows non-linearly as a function of the precision achieved. In these, perfect is the enemy of good, and bounding precision through specifications supports sustainable compute considerations.</t>
+          </list>
+        </t>
+      </list></t>
     </section>
 
     <section title="Acknowledgements and Contributions">
