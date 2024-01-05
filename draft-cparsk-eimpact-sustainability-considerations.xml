@@ -192,7 +192,7 @@ In telecommunications networks, Scope 3 emissions include the use phase of the s
 <t hangText="GWP:"><br /> Global warming potential, is the potential impact of GHGs on climate change, measured in CO2e.</t>
 <t hangText="Geodiversity:"><br /> is the variety of the nonliving parts of nature, that is, the materials constituting Earth, including soils, water (rivers, lakes, oceans), minerals, landforms and the associated processes that form and change them. The materials used in the production of internetworking equipment as well as their manufacturing and operational processes themselves, have impact (footprint) on geodiversity. Materials efficiency as well as circularity improvements help mitigate this impact.</t>
 <t hangText="Handprint (environmental/ecological):"><br /> is a concept developed in contrast to footprint, to quantify and demonstrate the positive environmental/ecological impact of technologies, products or organizations. Through a LCA (life cycle assessment) approach, the use of a technology or the products and services of an organization would have both a footprint and handprint usually denoted by the terms "X for sustainability" (handprint) and "Sustainable X" (footprint). What is important is that handprint impact does not compensate for footprint impact. They are to be calculated and reported independently; footprint to be minimized as much as possible, and handprint maximized as much as possible, which are by definition different activities anyway. Otherwise, this might be construed as "greenwashing". A popular seesaw figure in common sustainability literature depicting handprint and footprint sitting on opposite ends of a seesaw, one going up while the other is going down is a misguided representation.</t>
-<t hangText="LCA (Life Cycle Assessment):"><br /> is a comprehensive methodology to measure the environmental impact of a product, service, or process over its complete lifecycle, from the extraction and procurement of materials, through design, manufacturing, distribution, deployment, operations (use), maintenance/repair, decommissioning, refurbishment/reuse, recycling and disposal (waste), considering the full upstream and downstream supply chains as well. It is an extremely complicated process and there are multiple methods used worldwide, which might not produce same/similar results. LCA covers full footprint aspects, not only covering carbon, but also materials and biodiversity.</t>
+<t hangText="LCA (Life Cycle Assessment):"><br /> is a comprehensive methodology to measure the environmental impact of a product, service, or process over its complete lifecycle, from the extraction and procurement of materials, through design, manufacturing, distribution, deployment, operations (use), maintenance/repair, decommissioning, refurbishment/reuse, recycling and disposal (waste), considering the full upstream and downstream supply chains as well. It is an extremely complicated process and there are multiple methods used worldwide, which might not produce same/similar results. LCA covers full footprint aspects, not only covering carbon, but also materials and biodiversity. Please refer to <xref target="attriconse" format="default" /> for additional details on "<xref target="attriconse" format="title" />".</t>
 <t hangText="Materials efficiency and reuse:"><br /> is the concept of using less primary and (more) recycled materials to provide the same output. A networking equipment that provides the same function with less aluminium used is more materials efficient. Reuse of materials in manufacturing, thereby reducing primary materials extraction is a cornerstone of circularity, reducing environmental footprint and promoting geodiversity.</t>
 <t hangText="Net-zero:"><br /> in general, is to bring down GHGs as close to zero as possible. It is generally recognized that it may not be possible to get GHGs to 0 in many contexts and the balance is said to be covered by carbon offset. For example, many organizations and countries have net-zero targets by certain dates and typically what they mean is that they will reduce their GHGs by more than 90% and the remaining up to 10% will be offset.</t>
 <t hangText="PUE:"><br /> Power usage effectiveness, is a data centre energy efficiency metric.
@@ -356,8 +356,45 @@ The 17 SDGs are:
 
 
     <section title="End-to-End Sustainability">
-            <t>The networking industry is in the starting phases of addressing this objective. We are seeing a sprinkling of sustainability features across the networking stack and components of devices, whether it is on forwarding chips, power supplies, optics, or compute. Many of those optimizations and features are typically local in nature, and widely scattered across different elements of a network architecture. An opportunity for maximizing the positive environmental impact of these technologies calls for a more cohesive and complementary view that spans the complete product lifecycle for hardware and software, as well as how some of these features work in unison.</t>
-            <t>For example, features that provide energy saving modes for devices can be dynamically utilized when the network utilization is such that performance would not significantly suffer. Or consider  a core router of today that becomes more usable as an edge/access router of the future due to the need for higher throughput in the core. This section explores the benefits of macro-optimizations by clustering in specific phases, versus micro-optimizing locally without awareness of the network context.</t>
+            <t>The networking industry is in the starting phases of addressing this objective. We are seeing a sprinkling of sustainability features across the networking stack and components of devices, whether it is on forwarding chips, power supplies, optics, and compute. Many of those optimizations and features are typically local in nature, and widely scattered across different elements of a network architecture. An opportunity for maximizing the positive environmental impact of these technologies calls for a more cohesive and complementary view that spans the complete product lifecycle for hardware and software, as well as how some of these features work in unison.</t>
+            <t>For example, features that provide energy saving modes for devices can be dynamically managed when the network utilization is such that performance would not significantly suffer. Or consider a core router of today that, insteaf of becoming obsolete due to the need for higher throughput in the core, it becomes an edge/access router of the tomorrow. That is an example of reuse and repurpose, before recycling. There are benefits of macro-optimizations by clustering in specific features, versus micro-optimizing locally without awareness of the network context.</t>
+    </section>
+
+
+    <section anchor="attriconse" title="Attributional and Consequential Models">
+      <t>
+        Many of the subtleties and nuances of the measurement of GHG and environmental impacts stem from the very important distinction between attributional and consequential models. Detailed definitions can be found at <xref target="UNEP-LCA" />.
+
+            <list style="hanging">
+            <t hangText="Attributional:"><br />Also referred to as Allocational models, start by allocating or attributing quantities (e.g., GHG emissions) to entities (e.g., a router, a building, a town), and perform comparisons between the measurements (or estimates) of the quantity by the entities.</t>
+            <t hangText="Consequential:"><br />Perform the measurement of the quantity by establishing a baseline scenario (e.g., before feature introduction) and a modified scenario (e.g., after the feature introduction).</t>
+          </list>
+
+
+      </t>
+      <t>
+        While both models are quite different, they do use the same terms and frames of references, measures, and language. As such, they without explicit clarifications, are prone to confusion.
+      </t>
+      <t>
+        For example, measuring the carbon footprint attributed to a batch process or a workload based on its energy efficiency would not consider that the hardware is still there running. Or, when is most effective to charge battery-powered devices, during the night when there's less load, or during the day when there's solar energy? In other words, if a person who commutes by train to their office five days a week starts working from home two days a week, there could be an attributional reduction of GHG emissions, yet the train still continues running equally. However, if that person commutes by combustion-engine car alone, the consequences are different. 
+        
+      </t>
+      <t>
+        Considering the attributional versus consequential distinction, there are some implications and a potential corollaries:
+        <list style="symbols">
+          <t>
+            For an environmental-impact analysis, it is critical to explicitly cite the model used, as well as clearly define the boundary.
+          </t>
+
+          <t>
+            The activities that we embark upon as internetworking and protocol designers - including the ones targeting reduction of negative environmental impacts - have an energy footprint of themselves.
+          </t>
+          <t>
+            "Do no harm" in the context of improving sustainability of networks is to look beyond bounded attributions and consider (both intended and unintended) consequences.
+          </t>
+        </list>
+      </t>
+
     </section>
 
 
@@ -553,7 +590,12 @@ In this phase we build awareness into the systems to automatically recognize opp
     <section title="Acknowledgements and Contributions">
       <t>The subject of sustainability considerations for internetworking sits in the intersection of several disciplines, benefiting from the collaboration of diverse educational, experiential, and exposure backgrounds. The authors are not only grateful but also inspired by the open collaboration and expertise of many individuals, including:</t>
       <t><list style="bullets">
-        <t>Maarten Botterman provided text on network redundancy, and definitions for justified redundancy balancing adequate redundancy.</t>
+        <t>
+          Maarten Botterman provided text on network redundancy, and definitions for justified redundancy balancing adequate redundancy.
+        </t>
+        <t>
+          Dom Robinson provided ideas and text on attributional and consequential methods, in turn inspired by a post from Chris Adams.
+        </t>
       </list></t>
     </section>
   </middle>
@@ -721,6 +763,16 @@ Sustainability Metric</title>
         </front>
         <refcontent>Deliverable D1.2</refcontent>
     </reference>
+
+    <reference anchor="UNEP-LCA" target="https://www.lifecycleinitiative.org/library/global-guidance-principles-for-lca-databases-a-basis-for-greener-processes-and-products/">
+        <front>
+            <title>Global guidance principles for life cycle assessment  databases : a basis for greener processes and products</title>
+            <author initials="" surname="" fullname="UNEP">
+            </author>
+            <date month="" day="" year="2011"/>
+        </front>
+    </reference>
+
 
 
 
