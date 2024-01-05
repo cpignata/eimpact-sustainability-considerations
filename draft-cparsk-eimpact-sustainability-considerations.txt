@@ -16,7 +16,7 @@ Expires: 8 July 2024                                               Nokia
 
 
            Sustainability Considerations for Internetworking
-         draft-cparsk-eimpact-sustainability-considerations-05
+         draft-cparsk-eimpact-sustainability-considerations-06
 
 Abstract
 
@@ -96,12 +96,12 @@ Table of Contents
        7.3.1.  Cycle of Phases . . . . . . . . . . . . . . . . . . .  26
    8.  Sustainability Guidelines for Protocol and Network Designers
            and Implementers  . . . . . . . . . . . . . . . . . . . .  26
-   9.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .  28
-     9.1.  Call to Action  . . . . . . . . . . . . . . . . . . . . .  28
+   9.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .  29
+     9.1.  Call to Action  . . . . . . . . . . . . . . . . . . . . .  29
    10. Security Considerations . . . . . . . . . . . . . . . . . . .  29
-   11. Acknowledgements and Contributions  . . . . . . . . . . . . .  29
+   11. Acknowledgements and Contributions  . . . . . . . . . . . . .  30
    12. Informative References  . . . . . . . . . . . . . . . . . . .  30
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  32
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  33
 
 
 
@@ -1474,18 +1474,70 @@ Internet-Draft        Sustainability Considerations         January 2024
        associated with reducing operational expenses and making network
        providers more competitive.
 
-       Specifically examine the applicability of the following
+       To facilitate energy efficiency schemes, designers of networking
+       devices and protocols should examine and consider the following
        considerations:
 
-       c.1.  Energy linearity.
+       c.1.  Energy linearity.  In many cases, the amount of power drawn
+             by a device is not in linear proportion to the volume of
+             traffic that is passed.  Instead, energy consumption when
+             idle generally accounts for a very significant percentage
+             of the energy consumption when under full load.  The
+             implication of this is that the volume of traffic by itself
+             is of relative consequence to energy consumption, as long
+             as the volume does not get to the point where additional
+             equipment needs to be added to the network to handle peak
+             loads.
 
-       c.2.  Power saving modes.
+       c.2.  Power saving modes.  At the same time, many devices and
+             resources support power saving modes that can be entered
+             when idled.  Similarly, during periods of exceedingly low
+             traffic, some links may support downspeeding associated
+             with energy savings.  As a result, a big opportunity for
+             energy savings involves schemes in which resources are
+             temporarily put into power saving modes, including almost
+             shhut-down, at times when they are not needed.
 
-       c.3.  Chattiness of protocols.
+       c.3.  Chattiness of protocols.  For a given protocol, what are
+             the message exchange patterns? does the protocol rely on
+             periodic updates or heartbeat messages?  Could such message
+             patterns result in preventing links or nodes from going
+             sleep (absent other communications), and in such a case,
+             would an alternative pattern be feasible?
 
-       c.4.  Exploiting burstiness versus smoothening of traffic.
 
-       c.5.  Rapid discovery and convergence.
+
+
+
+Pignataro, et al.          Expires 8 July 2024                 [Page 27]
+
+Internet-Draft        Sustainability Considerations         January 2024
+
+
+       c.4.  Exploiting burstiness versus smoothening of traffic.  Is it
+             feasible to design the protocol in such a way that traffic
+             is sent in a more smoothened traffic patterns with lower
+             traffic volumes that are sent continuously, as opposed to a
+             way that traffic is bulked up and then sent in one fell
+             swoop?
+
+       c.5.  Rapid discovery and convergence.  Does the protocol involve
+             the exchange of state and information about other systems?
+             In that case, how can the protocol be designed such that
+             any such information can be discovered or reconverged
+             quickly?  Does the protocol design support stateful schemes
+             that might accelerate this?  In cases where there is a
+             possibility of nodes going to sleep, the associated
+             overhead of going offline and coming back online should be
+             minimized.  By shortening the time interval needed to go
+             offline and come back online, it might be possible to have
+             enter sleep mode in situtations where it would otherwise
+             not be feasible.
+
+       c.6.  Encoding schemes.  How much computational effort goes into
+             encoding and decoding?  Assess the tradeoff between
+             encoding efficiency and computational effort, which directs
+             into carbon for cycles to perform coding operations.
 
    d.  Carbon Awareness:
        See definition in Section 2.
@@ -1505,19 +1557,18 @@ Internet-Draft        Sustainability Considerations         January 2024
              product as well as disposing of the old one), and hence
              there's a break-even point (BEP).
 
-
-
-
-
-Pignataro, et al.          Expires 8 July 2024                 [Page 27]
-
-Internet-Draft        Sustainability Considerations         January 2024
-
-
    e.  Beyond Carbon:
        Characterize and note full-spectrum environmental impacts, beyond
        GHG emissions, and into water usage, raw materials usage,
        circularity in supply chain, repurpose, reuse, and recycle, etc.
+
+
+
+
+Pignataro, et al.          Expires 8 July 2024                 [Page 28]
+
+Internet-Draft        Sustainability Considerations         January 2024
+
 
        e.1.  WIP
 
@@ -1562,19 +1613,18 @@ Internet-Draft        Sustainability Considerations         January 2024
        in Section 8 as you develop protocols, extensions, and
        architectures.
 
-
-
-
-Pignataro, et al.          Expires 8 July 2024                 [Page 28]
-
-Internet-Draft        Sustainability Considerations         January 2024
-
-
 10.  Security Considerations
 
    Sustainable practices offer many environmental, economic, and social
    benefits, and security is a route to sustainability rather than a
    hurdle to clear.
+
+
+
+Pignataro, et al.          Expires 8 July 2024                 [Page 29]
+
+Internet-Draft        Sustainability Considerations         January 2024
+
 
       The creation of sustainability features for an element or a system
       should not weaken or compromise their security posture, nor should
@@ -1618,19 +1668,19 @@ Internet-Draft        Sustainability Considerations         January 2024
       definitions for justified redundancy balancing adequate
       redundancy.
 
-
-
-
-Pignataro, et al.          Expires 8 July 2024                 [Page 29]
-
-Internet-Draft        Sustainability Considerations         January 2024
-
-
    *  Dom Robinson provided ideas and text on attributional and
       consequential methods, in turn inspired by a post from Chris
       Adams.
 
 12.  Informative References
+
+
+
+
+Pignataro, et al.          Expires 8 July 2024                 [Page 30]
+
+Internet-Draft        Sustainability Considerations         January 2024
+
 
    [CUE]      Belady, C., Azevedo, D., Patterson, M., Pouchet, J., and
               R. Tipley, "Carbon Usage Effectiveness (CUE): A Green Grid
@@ -1674,20 +1724,19 @@ Internet-Draft        Sustainability Considerations         January 2024
    [IPCC]     "Intergovernmental Panel on Climate Change (IPCC). (2022).
               Annex I: Glossary. In Global Warming of 1.5 degrees
               Celsius: IPCC Special Report on Impacts of Global Warming
-
-
-
-Pignataro, et al.          Expires 8 July 2024                 [Page 30]
-
-Internet-Draft        Sustainability Considerations         January 2024
-
-
               of 1.5 degrees Celsius above Pre-industrial Levels in
               Context of Strengthening Response to Climate Change,
               Sustainable Development, and Efforts to Eradicate Poverty
               (pp. 541-562)", Cambridge University Press,
               doi 10.1017/9781009157940.008, 2022,
               <https://www.ipcc.ch/sr15/chapter/glossary/>.
+
+
+
+Pignataro, et al.          Expires 8 July 2024                 [Page 31]
+
+Internet-Draft        Sustainability Considerations         January 2024
+
 
    [ITU-ICT-SDG]
               ITU, "Digital technologies to achieve the UN SDGs", 2023,
@@ -1729,15 +1778,6 @@ Internet-Draft        Sustainability Considerations         January 2024
               Consolidated-Annual-
               Report/#i7111116644124bd299d124820baf28f7_394>.
 
-
-
-
-
-Pignataro, et al.          Expires 8 July 2024                 [Page 31]
-
-Internet-Draft        Sustainability Considerations         January 2024
-
-
    [UN-SDG]   "Sustainable Development, the 17 Goals", 2023,
               <https://sdgs.un.org/goals>.
 
@@ -1746,6 +1786,13 @@ Internet-Draft        Sustainability Considerations         January 2024
               2011, <https://www.lifecycleinitiative.org/library/global-
               guidance-principles-for-lca-databases-a-basis-for-greener-
               processes-and-products/>.
+
+
+
+Pignataro, et al.          Expires 8 July 2024                 [Page 32]
+
+Internet-Draft        Sustainability Considerations         January 2024
+
 
    [UNGA42]   UN, "Report of the World Commission on Environment and
               Development : "Our common future"", 4 August 1987,
@@ -1789,4 +1836,13 @@ Authors' Addresses
 
 
 
-Pignataro, et al.          Expires 8 July 2024                 [Page 32]
+
+
+
+
+
+
+
+
+
+Pignataro, et al.          Expires 8 July 2024                 [Page 33]

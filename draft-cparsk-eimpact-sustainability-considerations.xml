@@ -11,7 +11,7 @@
 <?rfc rfcedstyle="yes"?>
 <?rfc subcompact="no" ?>
 <?rfc symrefs="yes"?>
-<rfc category="info" docName="draft-cparsk-eimpact-sustainability-considerations-05" ipr="trust200902" submissionType="IETF">
+<rfc category="info" docName="draft-cparsk-eimpact-sustainability-considerations-06" ipr="trust200902" submissionType="IETF">
   <?xml-stylesheet type='text/xsl' href='rfc2629.xslt' ?>
   <?rfc toc="yes" ?>
   <?rfc compact="yes" ?>
@@ -479,6 +479,9 @@ In this phase we build awareness into the systems to automatically recognize opp
 
           <t>
             Network Management:<br />Several areas of network management have direct relationship into improving sustainability.
+            <!--
+            ALEX: NEED TO DISCUSS THIS.  I THINK THIS SECTION SHOULD BE ABOUT WHAT CONSIDERATIONS NETWORK TECHNOLOGY DESIGNERS SHOULD MAKE TO BE CONSCIOUS REGARDING THE ENVIRONMENTAL IMPACT THAT THEIR CHOICES AND DECISIONS MAY HAVE.  IT IS NOT ABOUT SPECIFIC CHALLENGES OR PROBLEMS THEY NEED TO SOLVE, WHICH SHOULD BE COVERED IN OTHER DRAFTS - THIS ONE IN PARTICULAR IN IRTF-NMRG-GREEN-PS. AS IT STANDS NOW, I FIND THIS SECTION MORE DISTRACTING THAN HELPFUL.
+            -->
 
             <list style="format %p%d.">
               <t>
@@ -492,23 +495,26 @@ In this phase we build awareness into the systems to automatically recognize opp
 
           <t>
             Energy Management:<br />Minimizing energy consumption is a critical consideration in making networks more sustainable. Minimizing energy consumption typically comes also with important economic side benefits associated with reducing operational expenses and making network providers more competitive.
-            <br /><br />Specifically examine the applicability of the following considerations:
-
+            <br /><br />To facilitate energy efficiency schemes, designers of networking devices and protocols should examine and consider the following considerations:
             <list style="format %p%d.">
               <t>
-                Energy linearity.
+                Energy linearity. In many cases, the amount of power drawn by a device is not in linear proportion to the volume of traffic that is passed.  Instead, energy consumption when idle generally accounts for a very significant percentage of the energy consumption when under full load.  The implication of this is that the volume of traffic by itself is of relative consequence to energy consumption, as long as the volume does not get to the point where additional equipment needs to be added to the network to handle peak loads.
               </t>
               <t>
-                Power saving modes.
+                Power saving modes. At the same time, many devices and resources support power saving modes that can be entered when idled.  Similarly, during periods of exceedingly low traffic, some links may support downspeeding  associated with energy savings.  As a result, a big opportunity for energy savings involves schemes in which resources are temporarily put into power saving modes, including almost shhut-down, at times when they are not needed.
+              </t>
+
+              <t>
+                Chattiness of protocols.  For a given protocol, what are the message exchange patterns? does the protocol rely on periodic updates or heartbeat messages?  Could such message patterns result in preventing links or nodes from going sleep (absent other communications), and in such a case, would an alternative pattern be feasible?
               </t>
               <t>
-                Chattiness of protocols.
+                Exploiting burstiness versus smoothening of traffic.  Is it feasible to design the protocol in such a way that traffic is sent in a more smoothened traffic patterns with lower traffic volumes that are sent continuously, as opposed to a way that traffic is bulked up and then sent in one fell swoop?
               </t>
               <t>
-                Exploiting burstiness versus smoothening of traffic.
+                Rapid discovery and convergence.  Does the protocol involve the exchange of state and information about other systems?  In that case, how can the protocol be designed such that any such information can be discovered or reconverged quickly?  Does the protocol design support stateful schemes that might accelerate this?  In cases where there is a possibility of nodes going to sleep, the associated overhead of going offline and coming back online should be minimized.  By shortening the time interval needed to go offline and come back online, it might be possible to have enter sleep mode in situtations where it would otherwise not be feasible. 
               </t>
               <t>
-                Rapid discovery and convergence.
+                Encoding schemes.  How much computational effort goes into encoding and decoding?  Assess the tradeoff between encoding efficiency and computational effort, which directs into carbon for cycles to perform coding operations.
               </t>
             </list>
           </t>
