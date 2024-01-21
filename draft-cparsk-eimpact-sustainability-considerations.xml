@@ -88,7 +88,10 @@
 
     <abstract>
       <t>
-        This document defines a set of sustainability-related terms to be used while describing and evaluating environmental impacts of Internet technologies. It also describes several of the design tradeoffs for trying to optimize for sustainability along with the other common networking metrics such as performance and availability, and gives network and protocol designers and implementors sustainability-related advice and guideance.
+        This document defines a set of sustainability-related terms to be used while describing and evaluating environmental impacts of Internet technologies. It also describes several of the design tradeoffs for trying to optimize for sustainability along with the other common networking metrics such as performance and availability.
+      </t>
+      <t>
+        Embedding sustainability considerations at the design of new protocols and extensions is more effective than attempting to do so after-the-fact. Consequently, this document also gives network and protocol designers and implementors sustainability-related advice and guideance, as well as documentation recommendations for authors and reviewers on including a Sustainability Considerations section.
       </t>
     </abstract>
   </front>
@@ -107,7 +110,9 @@
         <t><xref target="advice" /> lists "<xref target="advice" format="title" />"</t>
 
       </list>
-                
+      <t>
+        The ultimate objective of this document is to detail guidance regarding aspects of sustainability and environmental impact that authors and reviewers of Internet protocol and architecture documents should consider in a "Sustainability Considerations" section.
+      </t>
 
     </section>
 
