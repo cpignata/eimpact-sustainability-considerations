@@ -91,7 +91,9 @@
         This document defines a set of sustainability-related terms to be used while describing and evaluating environmental impacts of Internet technologies. It also describes several of the design tradeoffs for trying to optimize for sustainability along with the other common networking metrics such as performance and availability.
       </t>
       <t>
-        Embedding sustainability considerations at the design of new protocols and extensions is more effective than attempting to do so after-the-fact. Consequently, this document also gives network and protocol designers and implementors sustainability-related advice and guideance, as well as documentation recommendations for authors and reviewers on including a Sustainability Considerations section.
+        Embedding sustainability considerations at the design of new protocols and extensions is more effective than attempting to do so after-the-fact. Consequently, this document also gives network, protocol, and application designers and implementors sustainability-related advice and guideance.
+
+        This document recommends to authors and reviewers the inclusion of a Sustainability Considerations section in IETF Internet-Drafts and RFCs.
       </t>
     </abstract>
   </front>

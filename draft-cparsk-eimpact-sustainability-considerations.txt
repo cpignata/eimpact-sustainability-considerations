@@ -28,10 +28,11 @@ Abstract
 
    Embedding sustainability considerations at the design of new
    protocols and extensions is more effective than attempting to do so
-   after-the-fact.  Consequently, this document also gives network and
-   protocol designers and implementors sustainability-related advice and
-   guideance, as well as documentation recommendations for authors and
-   reviewers on including a Sustainability Considerations section.
+   after-the-fact.  Consequently, this document also gives network,
+   protocol, and application designers and implementors sustainability-
+   related advice and guideance.  This document recommends to authors
+   and reviewers the inclusion of a Sustainability Considerations
+   section in IETF Internet-Drafts and RFCs.
 
 Status of This Memo
 
@@ -49,7 +50,6 @@ Status of This Memo
    material or to cite them other than as "work in progress."
 
    This Internet-Draft will expire on 23 July 2024.
-
 
 
 
