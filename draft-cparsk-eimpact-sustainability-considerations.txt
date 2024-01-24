@@ -5,14 +5,22 @@
 Network Working Group                                  C. Pignataro, Ed.
 Internet-Draft                                       NC State University
 Intended status: Informational                                 A. Rezaki
+ mailing-list-reviews
 Expires: 27 July 2024                                              Nokia
+=======
+Expires: 23 July 2024                                              Nokia
+ main
                                                              S. Krishnan
                                                                    Cisco
                                                             H. ElBakoury
                                                   Independent Consultant
                                                                 A. Clemm
                                                                Futurewei
+ mailing-list-reviews
                                                          24 January 2024
+=======
+                                                         20 January 2024
+ main
 
 
            Sustainability Considerations for Internetworking
@@ -24,9 +32,15 @@ Abstract
    used while describing and evaluating environmental impacts of
    Internet technologies.  It also describes several of the design
    tradeoffs for trying to optimize for sustainability along with the
-   other common networking metrics such as performance and availability,
-   and gives network and protocol designers and implementors
-   sustainability-related advice and guideance.
+   other common networking metrics such as performance and availability.
+
+   Embedding sustainability considerations at the design of new
+   protocols and extensions is more effective than attempting to do so
+   after-the-fact.  Consequently, this document also gives network,
+   protocol, and application designers and implementors sustainability-
+   related advice and guideance.  This document recommends to authors
+   and reviewers the inclusion of a Sustainability Considerations
+   section in IETF Internet-Drafts and RFCs.
 
 Status of This Memo
 
@@ -43,6 +57,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
+ mailing-list-reviews
    This Internet-Draft will expire on 27 July 2024.
 
 Copyright Notice
@@ -54,9 +69,21 @@ Copyright Notice
 
 
 Pignataro, et al.         Expires 27 July 2024                  [Page 1]
+=======
+   This Internet-Draft will expire on 23 July 2024.
+
+
+
+Pignataro, et al.         Expires 23 July 2024                  [Page 1]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
+
+Copyright Notice
+
+   Copyright (c) 2024 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
    Provisions Relating to IETF Documents (https://trustee.ietf.org/
@@ -101,18 +128,21 @@ Table of Contents
    10. Security Considerations . . . . . . . . . . . . . . . . . . .  29
    11. Acknowledgements and Contributions  . . . . . . . . . . . . .  30
    12. Informative References  . . . . . . . . . . . . . . . . . . .  30
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  33
 
 
 
-
-
+ mailing-list-reviews
 
 
 Pignataro, et al.         Expires 27 July 2024                  [Page 2]
+=======
+Pignataro, et al.         Expires 23 July 2024                  [Page 2]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
+
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  33
 
 1.  Introduction
 
@@ -144,6 +174,11 @@ Internet-Draft        Sustainability Considerations         January 2024
    *  Section 8 lists "Sustainability Guidelines for Protocol and
       Network Designers and Implementers"
 
+   The ultimate objective of this document is to detail guidance
+   regarding aspects of sustainability and environmental impact that
+   authors and reviewers of Internet protocol and architecture documents
+   should consider in a "Sustainability Considerations" section.
+
 2.  Definition of Terms
 
    Given that the term 'considerations' is well known within the IETF
@@ -155,22 +190,28 @@ Internet-Draft        Sustainability Considerations         January 2024
    meet their own needs".  This in turn involves balancing economic,
    social, and environmental factors.
 
+
+
+
+ mailing-list-reviews
+Pignataro, et al.         Expires 27 July 2024                  [Page 3]
+=======
+Pignataro, et al.         Expires 23 July 2024                  [Page 3]
+ main
+
+Internet-Draft        Sustainability Considerations         January 2024
+
+
+ mailing-list-reviews
+   Notwithstanding the most comprehensive set of definitions of relevant
+=======
    This section defines sustainability-specific terms as they are used
    in the document, and as they pertain to environmental impacts.  The
    goal is to provide a common sustainability considerations lexicon for
    network equipment vendors, operators, designers, and architects.
 
-
-
-
-
-
-Pignataro, et al.         Expires 27 July 2024                  [Page 3]
-
-Internet-Draft        Sustainability Considerations         January 2024
-
-
-   Notwithstanding the most comprehensive set of definitions of relevant
+   Notwithstanding the most comprehensive set of definition of relevant
+ main
    terms readers can find at [IPCC], this section contributes the
    application and exemplification of the terminology to the
    internetworking domain and field.  The terms are alphabetically
@@ -214,18 +255,21 @@ Internet-Draft        Sustainability Considerations         January 2024
       is a form of "demand shaping" which aims to match the use of
       energy with the supply of clean energy.
 
-   Carbon intensity (CI):
-      also referred to as emission intensity and emission factor, is a
-      measure of the carbon-equivalent emission of consumed electricity,
-      i.e., grams of carbon-equivalent per kilowatt hour (gCO2e/KWh).
 
 
-
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                  [Page 4]
+=======
+Pignataro, et al.         Expires 23 July 2024                  [Page 4]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
 
+   Carbon intensity (CI):
+      also referred to as emission intensity and emission factor, is a
+      measure of the carbon-equivalent emission of consumed electricity,
+      i.e., grams of carbon-equivalent per kilowatt hour (gCO2e/KWh).
       When the supplied energy mix is purely from renewable sources such
       as sun and wind, carbon intensity is practically 0, when coal and
       gas-powered electricity generation gets in the mix, carbon
@@ -274,10 +318,16 @@ Internet-Draft        Sustainability Considerations         January 2024
       climate change, as well as the use of internetworking technology
       to increase the resilience of societies and nature itself.
 
+ mailing-list-reviews
 
 
 
 Pignataro, et al.         Expires 27 July 2024                  [Page 5]
+=======
+
+
+Pignataro, et al.         Expires 23 July 2024                  [Page 5]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -333,7 +383,11 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                  [Page 6]
+=======
+Pignataro, et al.         Expires 23 July 2024                  [Page 6]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -386,15 +440,28 @@ Internet-Draft        Sustainability Considerations         January 2024
       when possible.  Shutting down unused ports on a networking
       equipment is energy savings/conservation.
 
+ mailing-list-reviews
 
 
 
 Pignataro, et al.         Expires 27 July 2024                  [Page 7]
+=======
+   Footprint (environmental/ecological):
+
+
+
+
+
+Pignataro, et al.         Expires 23 July 2024                  [Page 7]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
 
+ mailing-list-reviews
    Footprint (environmental/ecological):
+=======
+ main
       in general terms is the impact we have on the planet.  It can be
       divided into subcategories as carbon footprint, water footprint,
       land footprint, biodiversity footprint, etc.  Related to the
@@ -445,7 +512,11 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                  [Page 8]
+=======
+Pignataro, et al.         Expires 23 July 2024                  [Page 8]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -501,7 +572,11 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                  [Page 9]
+=======
+Pignataro, et al.         Expires 23 July 2024                  [Page 9]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -557,7 +632,11 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                 [Page 10]
+=======
+Pignataro, et al.         Expires 23 July 2024                 [Page 10]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -613,7 +692,11 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                 [Page 11]
+=======
+Pignataro, et al.         Expires 23 July 2024                 [Page 11]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -669,7 +752,11 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                 [Page 12]
+=======
+Pignataro, et al.         Expires 23 July 2024                 [Page 12]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -725,7 +812,11 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                 [Page 13]
+=======
+Pignataro, et al.         Expires 23 July 2024                 [Page 13]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -781,7 +872,12 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                 [Page 14]
+=======
+
+Pignataro, et al.         Expires 23 July 2024                 [Page 14]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -837,7 +933,12 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                 [Page 15]
+=======
+
+Pignataro, et al.         Expires 23 July 2024                 [Page 15]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -893,7 +994,11 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                 [Page 16]
+=======
+Pignataro, et al.         Expires 23 July 2024                 [Page 16]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -949,7 +1054,11 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                 [Page 17]
+=======
+Pignataro, et al.         Expires 23 July 2024                 [Page 17]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1004,8 +1113,12 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 
 Pignataro, et al.         Expires 27 July 2024                 [Page 18]
+=======
+Pignataro, et al.         Expires 23 July 2024                 [Page 18]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1061,7 +1174,11 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                 [Page 19]
+=======
+Pignataro, et al.         Expires 23 July 2024                 [Page 19]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1103,7 +1220,25 @@ Internet-Draft        Sustainability Considerations         January 2024
    objective function.
 
    Adequate Redundancy:
+ mailing-list-reviews
       In order to determine how much redundancy needs to be built into
+=======
+
+
+
+
+
+
+
+
+
+Pignataro, et al.         Expires 23 July 2024                 [Page 20]
+
+Internet-Draft        Sustainability Considerations         January 2024
+
+
+      In order to determine how much redundancy needs to be build into
+ main
       the overall network capacity, which can be referred to as
       "adequate redundancy to avoid network outings", it will be
       important to (1) measure the bandwidth of attacks against the
@@ -1171,9 +1306,13 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 
 
 Pignataro, et al.         Expires 27 July 2024                 [Page 21]
+=======
+Pignataro, et al.         Expires 23 July 2024                 [Page 21]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1217,6 +1356,16 @@ Internet-Draft        Sustainability Considerations         January 2024
    *  For an environmental-impact analysis, it is critical to explicitly
       cite the model used, as well as clearly define the boundary.
 
+ mailing-list-reviews
+=======
+
+
+Pignataro, et al.         Expires 23 July 2024                 [Page 22]
+
+Internet-Draft        Sustainability Considerations         January 2024
+
+
+ main
    *  The activities that we embark upon as internetworking and protocol
       designers - including the ones targeting reduction of negative
       environmental impacts - have an energy footprint of themselves.
@@ -1265,6 +1414,26 @@ Internet-Draft        Sustainability Considerations         January 2024
       be optimized.
 
    Rapid Discovery and Provisioning Schemes:
+ mailing-list-reviews
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+Pignataro, et al.         Expires 23 July 2024                 [Page 23]
+
+Internet-Draft        Sustainability Considerations         January 2024
+
+
+ main
       One of the biggest potential opportunities in reducing
       environmental impact of networks concerns the ability to power
       resources such as equipment or line cards down when they are
@@ -1320,6 +1489,17 @@ Internet-Draft        Sustainability Considerations         January 2024
    instrumentation of network equipment in collecting metrics for
    network management, performance, and troubleshooting.  On the
    environmental-impact side though, there has been a proliferation of a
+ mailing-list-reviews
+=======
+
+
+
+Pignataro, et al.         Expires 23 July 2024                 [Page 24]
+
+Internet-Draft        Sustainability Considerations         January 2024
+
+
+ main
    wide variety of vendor extensions based on these standards.  Without
    a common definition of metrics across the industry and widespread
    adoption we will be left with ill-defined, potentially redundant,
@@ -1378,6 +1558,16 @@ Internet-Draft        Sustainability Considerations         January 2024
    *  protocols that can instruct equipment to move under-utilized links
       and devices into low-energy modes.
 
+ mailing-list-reviews
+=======
+
+
+Pignataro, et al.         Expires 23 July 2024                 [Page 25]
+
+Internet-Draft        Sustainability Considerations         January 2024
+
+
+ main
 7.3.1.  Cycle of Phases
 
    The three phases run in an iterative fashion, such that after phases
@@ -1449,11 +1639,15 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 
 
 
 
 Pignataro, et al.         Expires 27 July 2024                 [Page 26]
+=======
+Pignataro, et al.         Expires 23 July 2024                 [Page 26]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1509,7 +1703,11 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                 [Page 27]
+=======
+Pignataro, et al.         Expires 23 July 2024                 [Page 27]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1561,6 +1759,12 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
+=======
+Pignataro, et al.         Expires 23 July 2024                 [Page 28]
+
+Internet-Draft        Sustainability Considerations         January 2024
+ main
 
 
 
@@ -1621,7 +1825,11 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                 [Page 29]
+=======
+Pignataro, et al.         Expires 23 July 2024                 [Page 29]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1677,7 +1885,11 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                 [Page 30]
+=======
+Pignataro, et al.         Expires 23 July 2024                 [Page 30]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1733,7 +1945,11 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                 [Page 31]
+=======
+Pignataro, et al.         Expires 23 July 2024                 [Page 31]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1789,7 +2005,11 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                 [Page 32]
+=======
+Pignataro, et al.         Expires 23 July 2024                 [Page 32]
+ main
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1845,4 +2065,8 @@ Authors' Addresses
 
 
 
+ mailing-list-reviews
 Pignataro, et al.         Expires 27 July 2024                 [Page 33]
+=======
+Pignataro, et al.         Expires 23 July 2024                 [Page 33]
+ main
