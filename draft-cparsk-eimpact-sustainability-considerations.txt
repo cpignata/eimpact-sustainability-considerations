@@ -5,14 +5,14 @@
 Network Working Group                                  C. Pignataro, Ed.
 Internet-Draft                                       NC State University
 Intended status: Informational                                 A. Rezaki
-Expires: 23 July 2024                                              Nokia
+Expires: 27 July 2024                                              Nokia
                                                              S. Krishnan
                                                                    Cisco
                                                             H. ElBakoury
                                                   Independent Consultant
                                                                 A. Clemm
                                                                Futurewei
-                                                         20 January 2024
+                                                         24 January 2024
 
 
            Sustainability Considerations for Internetworking
@@ -43,7 +43,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 23 July 2024.
+   This Internet-Draft will expire on 27 July 2024.
 
 Copyright Notice
 
@@ -53,7 +53,7 @@ Copyright Notice
 
 
 
-Pignataro, et al.         Expires 23 July 2024                  [Page 1]
+Pignataro, et al.         Expires 27 July 2024                  [Page 1]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Pignataro, et al.         Expires 23 July 2024                  [Page 2]
+Pignataro, et al.         Expires 27 July 2024                  [Page 2]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -165,7 +165,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                  [Page 3]
+Pignataro, et al.         Expires 27 July 2024                  [Page 3]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -221,7 +221,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                  [Page 4]
+Pignataro, et al.         Expires 27 July 2024                  [Page 4]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -277,7 +277,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                  [Page 5]
+Pignataro, et al.         Expires 27 July 2024                  [Page 5]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -333,7 +333,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                  [Page 6]
+Pignataro, et al.         Expires 27 July 2024                  [Page 6]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -389,7 +389,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                  [Page 7]
+Pignataro, et al.         Expires 27 July 2024                  [Page 7]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -445,7 +445,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                  [Page 8]
+Pignataro, et al.         Expires 27 July 2024                  [Page 8]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -501,7 +501,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                  [Page 9]
+Pignataro, et al.         Expires 27 July 2024                  [Page 9]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -557,7 +557,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 10]
+Pignataro, et al.         Expires 27 July 2024                 [Page 10]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -613,7 +613,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 11]
+Pignataro, et al.         Expires 27 July 2024                 [Page 11]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -669,7 +669,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 12]
+Pignataro, et al.         Expires 27 July 2024                 [Page 12]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -725,7 +725,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 13]
+Pignataro, et al.         Expires 27 July 2024                 [Page 13]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -781,7 +781,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 14]
+Pignataro, et al.         Expires 27 July 2024                 [Page 14]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -837,7 +837,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 15]
+Pignataro, et al.         Expires 27 July 2024                 [Page 15]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -893,7 +893,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 16]
+Pignataro, et al.         Expires 27 July 2024                 [Page 16]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -949,7 +949,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 17]
+Pignataro, et al.         Expires 27 July 2024                 [Page 17]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1005,7 +1005,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 18]
+Pignataro, et al.         Expires 27 July 2024                 [Page 18]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1061,7 +1061,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 19]
+Pignataro, et al.         Expires 27 July 2024                 [Page 19]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1117,7 +1117,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 20]
+Pignataro, et al.         Expires 27 July 2024                 [Page 20]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1173,7 +1173,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 21]
+Pignataro, et al.         Expires 27 July 2024                 [Page 21]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1229,7 +1229,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 22]
+Pignataro, et al.         Expires 27 July 2024                 [Page 22]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1285,7 +1285,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 23]
+Pignataro, et al.         Expires 27 July 2024                 [Page 23]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1341,7 +1341,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 24]
+Pignataro, et al.         Expires 27 July 2024                 [Page 24]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1397,7 +1397,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 25]
+Pignataro, et al.         Expires 27 July 2024                 [Page 25]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1453,7 +1453,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 26]
+Pignataro, et al.         Expires 27 July 2024                 [Page 26]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1509,7 +1509,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 27]
+Pignataro, et al.         Expires 27 July 2024                 [Page 27]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1565,7 +1565,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 28]
+Pignataro, et al.         Expires 27 July 2024                 [Page 28]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1621,7 +1621,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 29]
+Pignataro, et al.         Expires 27 July 2024                 [Page 29]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1677,7 +1677,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 30]
+Pignataro, et al.         Expires 27 July 2024                 [Page 30]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1733,7 +1733,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 31]
+Pignataro, et al.         Expires 27 July 2024                 [Page 31]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1789,7 +1789,7 @@ Internet-Draft        Sustainability Considerations         January 2024
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 32]
+Pignataro, et al.         Expires 27 July 2024                 [Page 32]
 
 Internet-Draft        Sustainability Considerations         January 2024
 
@@ -1845,4 +1845,4 @@ Authors' Addresses
 
 
 
-Pignataro, et al.         Expires 23 July 2024                 [Page 33]
+Pignataro, et al.         Expires 27 July 2024                 [Page 33]
