@@ -68,16 +68,6 @@
       </address>
     </author>
 
-    <author fullname="Hesham ElBakoury" initials="H." surname="ElBakoury">
-      <organization>Independent Consultant</organization>
-
-      <address>
-        <postal>
-          <country>US</country>
-        </postal>
-        <email>helbakoury@gmail.com</email>
-      </address>
-    </author>
 -->
 
     <author fullname="Alexander Clemm" initials="A." surname="Clemm">
@@ -91,6 +81,17 @@
         </postal>
         <phone/>
         <email>ludwig@clemm.org</email>
+      </address>
+    </author>
+
+    <author fullname="Hesham ElBakoury" initials="H." surname="ElBakoury">
+      <organization>Independent Consultant</organization>
+
+      <address>
+        <postal>
+          <country>US</country>
+        </postal>
+        <email>helbakoury@gmail.com</email>
       </address>
     </author>
 

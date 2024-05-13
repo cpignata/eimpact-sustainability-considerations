@@ -5,8 +5,10 @@
 Network Working Group                                  C. Pignataro, Ed.
 Internet-Draft                                       NC State University
 Intended status: Informational                                 A. Rezaki
-Expires: 9 November 2024                                           Nokia
-                                                              8 May 2024
+Expires: 14 November 2024                                          Nokia
+                                                            H. ElBakoury
+                                                  Independent Consultant
+                                                             13 May 2024
 
 
          Environmental Sustainability Terminology and Concepts
@@ -33,7 +35,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 9 November 2024.
+   This Internet-Draft will expire on 14 November 2024.
 
 Copyright Notice
 
@@ -51,9 +53,7 @@ Copyright Notice
 
 
 
-
-
-Pignataro & Rezaki       Expires 9 November 2024                [Page 1]
+Pignataro, et al.       Expires 14 November 2024                [Page 1]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024                [Page 2]
+Pignataro, et al.       Expires 14 November 2024                [Page 2]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -165,7 +165,7 @@ Internet-Draft     Environmental Sustainability Terms           May 2024
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024                [Page 3]
+Pignataro, et al.       Expires 14 November 2024                [Page 3]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -221,7 +221,7 @@ Internet-Draft     Environmental Sustainability Terms           May 2024
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024                [Page 4]
+Pignataro, et al.       Expires 14 November 2024                [Page 4]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -277,7 +277,7 @@ Internet-Draft     Environmental Sustainability Terms           May 2024
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024                [Page 5]
+Pignataro, et al.       Expires 14 November 2024                [Page 5]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -333,7 +333,7 @@ Internet-Draft     Environmental Sustainability Terms           May 2024
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024                [Page 6]
+Pignataro, et al.       Expires 14 November 2024                [Page 6]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -389,7 +389,7 @@ Internet-Draft     Environmental Sustainability Terms           May 2024
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024                [Page 7]
+Pignataro, et al.       Expires 14 November 2024                [Page 7]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -445,7 +445,7 @@ Internet-Draft     Environmental Sustainability Terms           May 2024
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024                [Page 8]
+Pignataro, et al.       Expires 14 November 2024                [Page 8]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -501,7 +501,7 @@ Internet-Draft     Environmental Sustainability Terms           May 2024
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024                [Page 9]
+Pignataro, et al.       Expires 14 November 2024                [Page 9]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -557,7 +557,7 @@ Internet-Draft     Environmental Sustainability Terms           May 2024
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024               [Page 10]
+Pignataro, et al.       Expires 14 November 2024               [Page 10]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -613,7 +613,7 @@ Internet-Draft     Environmental Sustainability Terms           May 2024
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024               [Page 11]
+Pignataro, et al.       Expires 14 November 2024               [Page 11]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -669,7 +669,7 @@ Internet-Draft     Environmental Sustainability Terms           May 2024
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024               [Page 12]
+Pignataro, et al.       Expires 14 November 2024               [Page 12]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -725,7 +725,7 @@ Internet-Draft     Environmental Sustainability Terms           May 2024
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024               [Page 13]
+Pignataro, et al.       Expires 14 November 2024               [Page 13]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -781,7 +781,7 @@ Internet-Draft     Environmental Sustainability Terms           May 2024
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024               [Page 14]
+Pignataro, et al.       Expires 14 November 2024               [Page 14]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -837,7 +837,7 @@ Internet-Draft     Environmental Sustainability Terms           May 2024
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024               [Page 15]
+Pignataro, et al.       Expires 14 November 2024               [Page 15]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -893,7 +893,7 @@ Internet-Draft     Environmental Sustainability Terms           May 2024
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024               [Page 16]
+Pignataro, et al.       Expires 14 November 2024               [Page 16]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -949,7 +949,7 @@ Internet-Draft     Environmental Sustainability Terms           May 2024
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024               [Page 17]
+Pignataro, et al.       Expires 14 November 2024               [Page 17]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -1005,7 +1005,7 @@ Internet-Draft     Environmental Sustainability Terms           May 2024
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024               [Page 18]
+Pignataro, et al.       Expires 14 November 2024               [Page 18]
 
 Internet-Draft     Environmental Sustainability Terms           May 2024
 
@@ -1061,4 +1061,60 @@ Authors' Addresses
 
 
 
-Pignataro & Rezaki       Expires 9 November 2024               [Page 19]
+Pignataro, et al.       Expires 14 November 2024               [Page 19]
+
+Internet-Draft     Environmental Sustainability Terms           May 2024
+
+
+   Hesham ElBakoury
+   Independent Consultant
+   United States of America
+   Email: helbakoury@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pignataro, et al.       Expires 14 November 2024               [Page 20]
