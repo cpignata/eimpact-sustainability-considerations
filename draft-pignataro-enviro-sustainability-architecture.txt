@@ -5,12 +5,12 @@
 Network Working Group                                  C. Pignataro, Ed.
 Internet-Draft                                       NC State University
 Intended status: Informational                                 A. Rezaki
-Expires: 14 November 2024                                          Nokia
+Expires: 20 November 2024                                          Nokia
                                                              S. Krishnan
                                                                    Cisco
                                                                 J. Arkko
                                                                 Ericsson
-                                                             13 May 2024
+                                                             19 May 2024
 
 
      Architectural Considerations for Environmental Sustainability
@@ -37,7 +37,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 14 November 2024.
+   This Internet-Draft will expire on 20 November 2024.
 
 Copyright Notice
 
@@ -53,7 +53,7 @@ Copyright Notice
 
 
 
-Pignataro, et al.       Expires 14 November 2024                [Page 1]
+Pignataro, et al.       Expires 20 November 2024                [Page 1]
 
 Internet-Draft     Sustainability Arch Considerations           May 2024
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Pignataro, et al.       Expires 14 November 2024                [Page 2]
+Pignataro, et al.       Expires 20 November 2024                [Page 2]
 
 Internet-Draft     Sustainability Arch Considerations           May 2024
 
@@ -165,7 +165,7 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
 
 
 
-Pignataro, et al.       Expires 14 November 2024                [Page 3]
+Pignataro, et al.       Expires 20 November 2024                [Page 3]
 
 Internet-Draft     Sustainability Arch Considerations           May 2024
 
@@ -221,7 +221,7 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
 
 
 
-Pignataro, et al.       Expires 14 November 2024                [Page 4]
+Pignataro, et al.       Expires 20 November 2024                [Page 4]
 
 Internet-Draft     Sustainability Arch Considerations           May 2024
 
@@ -277,7 +277,7 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
 
 
 
-Pignataro, et al.       Expires 14 November 2024                [Page 5]
+Pignataro, et al.       Expires 20 November 2024                [Page 5]
 
 Internet-Draft     Sustainability Arch Considerations           May 2024
 
@@ -333,7 +333,7 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
 
 
 
-Pignataro, et al.       Expires 14 November 2024                [Page 6]
+Pignataro, et al.       Expires 20 November 2024                [Page 6]
 
 Internet-Draft     Sustainability Arch Considerations           May 2024
 
@@ -389,7 +389,7 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
 
 
 
-Pignataro, et al.       Expires 14 November 2024                [Page 7]
+Pignataro, et al.       Expires 20 November 2024                [Page 7]
 
 Internet-Draft     Sustainability Arch Considerations           May 2024
 
@@ -445,7 +445,7 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
 
 
 
-Pignataro, et al.       Expires 14 November 2024                [Page 8]
+Pignataro, et al.       Expires 20 November 2024                [Page 8]
 
 Internet-Draft     Sustainability Arch Considerations           May 2024
 
@@ -501,7 +501,7 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
 
 
 
-Pignataro, et al.       Expires 14 November 2024                [Page 9]
+Pignataro, et al.       Expires 20 November 2024                [Page 9]
 
 Internet-Draft     Sustainability Arch Considerations           May 2024
 
@@ -557,7 +557,7 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
 
 
 
-Pignataro, et al.       Expires 14 November 2024               [Page 10]
+Pignataro, et al.       Expires 20 November 2024               [Page 10]
 
 Internet-Draft     Sustainability Arch Considerations           May 2024
 
@@ -613,7 +613,7 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
 
 
 
-Pignataro, et al.       Expires 14 November 2024               [Page 11]
+Pignataro, et al.       Expires 20 November 2024               [Page 11]
 
 Internet-Draft     Sustainability Arch Considerations           May 2024
 
@@ -669,4 +669,4 @@ Authors' Addresses
 
 
 
-Pignataro, et al.       Expires 14 November 2024               [Page 12]
+Pignataro, et al.       Expires 20 November 2024               [Page 12]

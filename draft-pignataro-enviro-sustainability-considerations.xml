@@ -18,7 +18,7 @@
   <?rfc strict="yes" ?>
 
   <front>
-    <title abbrev="Sustainability Considerations">Sustainability Considerations for Networking Protocols</title>
+    <title abbrev="Sustainability Considerations">Sustainability Considerations for Networking Protocols and Applications</title>
 
     <author fullname="Carlos Pignataro" initials="C." surname="Pignataro" role="editor">
       <organization abbrev="NC State University">North Carolina State University</organization>
@@ -113,6 +113,16 @@
       <t>
         The ultimate objective of this document is to detail guidance regarding aspects of sustainability and environmental impact that authors and reviewers of Internet protocol and architecture documents should consider in a "Sustainability Considerations" section.
       </t>
+
+
+    <section title="Terminology">
+      <t>
+        This document leverages the terminology and concepts defined in {draft-pignataro-enviro-sustainability-terminology}, and readers are expected to be familiar with those. Specifically, Section 3.1.1 of {draft-pignataro-enviro-sustainability-terminology} describes contepts of particular relevance to this draft.
+      </t>
+    </section>
+
+
+
 
     </section>
 

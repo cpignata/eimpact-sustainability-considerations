@@ -5,17 +5,17 @@
 Network Working Group                                  C. Pignataro, Ed.
 Internet-Draft                                       NC State University
 Intended status: Best Current Practice                         A. Rezaki
-Expires: 14 November 2024                                          Nokia
+Expires: 20 November 2024                                          Nokia
                                                                 J. Arkko
                                                                 Ericsson
                                                                 A. Clemm
                                                                Futurewei
                                                             H. ElBakoury
                                                   Independent Consultant
-                                                             13 May 2024
+                                                             19 May 2024
 
 
-         Sustainability Considerations for Networking Protocols
+Sustainability Considerations for Networking Protocols and Applications
         draft-pignataro-enviro-sustainability-considerations-00
 
 Abstract
@@ -45,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 14 November 2024.
+   This Internet-Draft will expire on 20 November 2024.
 
 
 
@@ -53,7 +53,7 @@ Status of This Memo
 
 
 
-Pignataro, et al.       Expires 14 November 2024                [Page 1]
+Pignataro, et al.       Expires 20 November 2024                [Page 1]
 
 Internet-Draft        Sustainability Considerations             May 2024
 
@@ -75,14 +75,15 @@ Copyright Notice
 Table of Contents
 
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
-   2.  Implications to the IETF  . . . . . . . . . . . . . . . . . .   2
+     1.1.  Terminology . . . . . . . . . . . . . . . . . . . . . . .   2
+   2.  Implications to the IETF  . . . . . . . . . . . . . . . . . .   3
    3.  Sustainability Guidelines for Protocol and Network Designers
            and Implementers  . . . . . . . . . . . . . . . . . . . .   3
-   4.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   5
+   4.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   6
      4.1.  Call to Action  . . . . . . . . . . . . . . . . . . . . .   6
    5.  Security Considerations . . . . . . . . . . . . . . . . . . .   6
-   6.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .   6
-   7.  Informative References  . . . . . . . . . . . . . . . . . . .   6
+   6.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .   7
+   7.  Informative References  . . . . . . . . . . . . . . . . . . .   7
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   7
 
 1.  Introduction
@@ -91,6 +92,27 @@ Table of Contents
    regarding aspects of sustainability and environmental impact that
    authors and reviewers of Internet protocol and architecture documents
    should consider in a "Sustainability Considerations" section.
+
+1.1.  Terminology
+
+   This document leverages the terminology and concepts defined in
+   {draft-pignataro-enviro-sustainability-terminology}, and readers are
+   expected to be familiar with those.  Specifically, Section 3.1.1 of
+   {draft-pignataro-enviro-sustainability-terminology} describes
+   contepts of particular relevance to this draft.
+
+
+
+
+
+
+
+
+
+Pignataro, et al.       Expires 20 November 2024                [Page 2]
+
+Internet-Draft        Sustainability Considerations             May 2024
+
 
 2.  Implications to the IETF
 
@@ -101,18 +123,6 @@ Table of Contents
 
    A key area to understand the relevance and implication is regarding
    IETF Protocols.
-
-
-
-
-
-
-
-
-Pignataro, et al.       Expires 14 November 2024                [Page 2]
-
-Internet-Draft        Sustainability Considerations             May 2024
-
 
 3.  Sustainability Guidelines for Protocol and Network Designers and
     Implementers
@@ -151,6 +161,15 @@ Internet-Draft        Sustainability Considerations             May 2024
              the foundation for any mechanisms to improve and optimize
              sustainability.
 
+
+
+
+
+Pignataro, et al.       Expires 20 November 2024                [Page 3]
+
+Internet-Draft        Sustainability Considerations             May 2024
+
+
        b.2.  Managed Elements:
              Facilitate, extend, and enrich the manageability of network
              elements and sub-elements which have environmental impact,
@@ -159,16 +178,6 @@ Internet-Draft        Sustainability Considerations             May 2024
              for the "dirtiness" of power being consumed to obtain a
              truer picture of sustainability than can be gained by
              visibility into power consumption alone.
-
-
-
-
-
-
-Pignataro, et al.       Expires 14 November 2024                [Page 3]
-
-Internet-Draft        Sustainability Considerations             May 2024
-
 
    c.  Energy Management:
        Minimizing energy consumption is a critical consideration in
@@ -208,6 +217,15 @@ Internet-Draft        Sustainability Considerations             May 2024
              sleep (absent other communications), and in such a case,
              would an alternative pattern be feasible?
 
+
+
+
+
+Pignataro, et al.       Expires 20 November 2024                [Page 4]
+
+Internet-Draft        Sustainability Considerations             May 2024
+
+
        c.4.  Exploiting burstiness versus smoothening of traffic.  Is it
              feasible to design the protocol in such a way that traffic
              is sent with a smoother traffic pattern with lower traffic
@@ -218,14 +236,6 @@ Internet-Draft        Sustainability Considerations             May 2024
              the exchange of state and information about other systems?
              In that case, how can the protocol be designed in such that
              any such information can be discovered quickly and protocol
-
-
-
-Pignataro, et al.       Expires 14 November 2024                [Page 4]
-
-Internet-Draft        Sustainability Considerations             May 2024
-
-
              synchronization reconverged efficiently?  Does the protocol
              design support stateful schemes that might accelerate this?
              In cases where there is a possibility of nodes going to
@@ -264,6 +274,14 @@ Internet-Draft        Sustainability Considerations             May 2024
 
        e.1.  WIP
 
+
+
+
+Pignataro, et al.       Expires 20 November 2024                [Page 5]
+
+Internet-Draft        Sustainability Considerations             May 2024
+
+
        e.2.  WIP
 
 4.  Conclusion
@@ -274,14 +292,6 @@ Internet-Draft        Sustainability Considerations             May 2024
    sustainability lexicon, definitions, and priorities to carry out that
    task.  As an added benefit, by including sustainability
    considerations, it will be possible to optimize for not only
-
-
-
-Pignataro, et al.       Expires 14 November 2024                [Page 5]
-
-Internet-Draft        Sustainability Considerations             May 2024
-
-
    performance parameters but also sustainability ones, through
    respective trade-offs in our protocols and systems.
 
@@ -317,6 +327,17 @@ Internet-Draft        Sustainability Considerations             May 2024
    benefits, and security is a route to sustainability rather than a
    hurdle to clear.
 
+
+
+
+
+
+
+Pignataro, et al.       Expires 20 November 2024                [Page 6]
+
+Internet-Draft        Sustainability Considerations             May 2024
+
+
 6.  Acknowledgements
 
    This document is created greatly leveraging ideas and text from
@@ -324,19 +345,6 @@ Internet-Draft        Sustainability Considerations             May 2024
    acknowledges all the many contributions that improved it.
 
 7.  Informative References
-
-
-
-
-
-
-
-
-
-Pignataro, et al.       Expires 14 November 2024                [Page 6]
-
-Internet-Draft        Sustainability Considerations             May 2024
-
 
    [I-D.cparsk-eimpact-sustainability-considerations]
               Pignataro, C., Rezaki, A., Krishnan, S., ElBakoury, H.,
@@ -381,12 +389,4 @@ Authors' Addresses
 
 
 
-
-
-
-
-
-
-
-
-Pignataro, et al.       Expires 14 November 2024                [Page 7]
+Pignataro, et al.       Expires 20 November 2024                [Page 7]
