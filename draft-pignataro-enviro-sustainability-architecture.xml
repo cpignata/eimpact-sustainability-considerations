@@ -121,6 +121,15 @@
       </t>
       <t>Specifically, this document details environmental sustainability  implications to Internet protocols, architectures, and technologies.</t>
 
+
+    <section title="Terminology">
+      <t>
+        This document leverages the terminology and concepts defined in {draft-pignataro-enviro-sustainability-terminology}, and readers are expected to be familiar with those. 
+      </t>
+    </section>
+
+
+
     </section>
 
 

@@ -67,6 +67,7 @@ Internet-Draft     Sustainability Arch Considerations          June 2024
 Table of Contents
 
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
+     1.1.  Terminology . . . . . . . . . . . . . . . . . . . . . . .   3
    2.  Architectural Considerations of Environmental
            Sustainability  . . . . . . . . . . . . . . . . . . . . .   3
      2.1.  Design Tradeoffs  . . . . . . . . . . . . . . . . . . . .   3
@@ -108,7 +109,6 @@ Table of Contents
 
 
 
-
 Pignataro, et al.        Expires 5 December 2024                [Page 2]
 
 Internet-Draft     Sustainability Arch Considerations          June 2024
@@ -116,6 +116,12 @@ Internet-Draft     Sustainability Arch Considerations          June 2024
 
    Specifically, this document details environmental sustainability
    implications to Internet protocols, architectures, and technologies.
+
+1.1.  Terminology
+
+   This document leverages the terminology and concepts defined in
+   {draft-pignataro-enviro-sustainability-terminology}, and readers are
+   expected to be familiar with those.
 
 2.  Architectural Considerations of Environmental Sustainability
 
@@ -152,12 +158,6 @@ Internet-Draft     Sustainability Arch Considerations          June 2024
 
    To understand this new model, we can analyze a simplified example.
    Assume the following topology, passing traffic from A to B:
-
-
-
-
-
-
 
 
 
