@@ -5,12 +5,14 @@
 Network Working Group                                  C. Pignataro, Ed.
 Internet-Draft                                       NC State University
 Intended status: Informational                                 A. Rezaki
-Expires: 20 November 2024                                          Nokia
+Expires: 5 December 2024                                           Nokia
                                                              S. Krishnan
                                                                    Cisco
                                                                 J. Arkko
                                                                 Ericsson
-                                                             19 May 2024
+                                                            H. ElBakoury
+                                                  Independent Consultant
+                                                             3 June 2024
 
 
      Architectural Considerations for Environmental Sustainability
@@ -37,12 +39,24 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 20 November 2024.
+   This Internet-Draft will expire on 5 December 2024.
 
 Copyright Notice
 
    Copyright (c) 2024 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
+
+
+
+
+
+
+
+
+Pignataro, et al.        Expires 5 December 2024                [Page 1]
+
+Internet-Draft     Sustainability Arch Considerations          June 2024
+
 
    This document is subject to BCP 78 and the IETF Trust's Legal
    Provisions Relating to IETF Documents (https://trustee.ietf.org/
@@ -50,25 +64,17 @@ Copyright Notice
    Please review these documents carefully, as they describe your rights
    and restrictions with respect to this document.
 
-
-
-
-Pignataro, et al.       Expires 20 November 2024                [Page 1]
-
-Internet-Draft     Sustainability Arch Considerations           May 2024
-
-
 Table of Contents
 
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
    2.  Architectural Considerations of Environmental
-           Sustainability  . . . . . . . . . . . . . . . . . . . . .   2
+           Sustainability  . . . . . . . . . . . . . . . . . . . . .   3
      2.1.  Design Tradeoffs  . . . . . . . . . . . . . . . . . . . .   3
      2.2.  Multi-Objective Optimization  . . . . . . . . . . . . . .   3
-     2.3.  How Much Resiliency is Really Needed? . . . . . . . . . .   4
+     2.3.  How Much Resiliency is Really Needed? . . . . . . . . . .   5
        2.3.1.  Redundancy and Sustainability . . . . . . . . . . . .   5
      2.4.  How Much are Performance and Quality of Experience
-           Compromised?  . . . . . . . . . . . . . . . . . . . . . .   5
+           Compromised?  . . . . . . . . . . . . . . . . . . . . . .   6
      2.5.  End-to-End Sustainability . . . . . . . . . . . . . . . .   6
      2.6.  Attributional and Consequential Models  . . . . . . . . .   6
      2.7.  The Role of Network Management and Orchestration  . . . .   7
@@ -76,7 +82,7 @@ Table of Contents
    3.  Sustainability Requirements and Phases  . . . . . . . . . . .   8
      3.1.  Phase 1: Visibility . . . . . . . . . . . . . . . . . . .   9
      3.2.  Phase 2: Insights and Recommendations . . . . . . . . . .   9
-     3.3.  Phase 3: Self-optimization and Automation . . . . . . . .   9
+     3.3.  Phase 3: Self-optimization and Automation . . . . . . . .  10
        3.3.1.  Cycle of Phases . . . . . . . . . . . . . . . . . . .  10
    4.  Security Considerations . . . . . . . . . . . . . . . . . . .  10
    5.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .  11
@@ -99,20 +105,19 @@ Table of Contents
    discusses how Internet technologies can be used to help other fields
    become more sustainable.
 
+
+
+
+
+Pignataro, et al.        Expires 5 December 2024                [Page 2]
+
+Internet-Draft     Sustainability Arch Considerations          June 2024
+
+
    Specifically, this document details environmental sustainability
    implications to Internet protocols, architectures, and technologies.
 
 2.  Architectural Considerations of Environmental Sustainability
-
-
-
-
-
-
-Pignataro, et al.       Expires 20 November 2024                [Page 2]
-
-Internet-Draft     Sustainability Arch Considerations           May 2024
-
 
 2.1.  Design Tradeoffs
 
@@ -148,6 +153,23 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
    To understand this new model, we can analyze a simplified example.
    Assume the following topology, passing traffic from A to B:
 
+
+
+
+
+
+
+
+
+
+
+
+
+Pignataro, et al.        Expires 5 December 2024                [Page 3]
+
+Internet-Draft     Sustainability Arch Considerations          June 2024
+
+
                            A
                            |
                       +----------+
@@ -161,14 +183,6 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
                       +----------+
                            |
                            B
-
-
-
-
-Pignataro, et al.       Expires 20 November 2024                [Page 3]
-
-Internet-Draft     Sustainability Arch Considerations           May 2024
-
 
        Figure 1: Simplified Network for Multi-Objective Optimization
 
@@ -201,6 +215,17 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
    physical link cannot be half-active and half-inactive as far as PHY
    and optics are concerned.
 
+
+
+
+
+
+
+Pignataro, et al.        Expires 5 December 2024                [Page 4]
+
+Internet-Draft     Sustainability Arch Considerations          June 2024
+
+
 2.3.  How Much Resiliency is Really Needed?
 
    When we add sustainability considerations, resiliency is not the
@@ -218,13 +243,6 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
    sustainability cost for each of these methods are not the same.
    Considering sustainability means quantifying its impact in the
    decision of how to improve resiliency, and how much is needed.
-
-
-
-Pignataro, et al.       Expires 20 November 2024                [Page 4]
-
-Internet-Draft     Sustainability Arch Considerations           May 2024
-
 
 2.3.1.  Redundancy and Sustainability
 
@@ -257,6 +275,13 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
       costs and benefits, with energy use as well as material use as a
       clear cost factor.
 
+
+
+Pignataro, et al.        Expires 5 December 2024                [Page 5]
+
+Internet-Draft     Sustainability Arch Considerations          June 2024
+
+
    Please note that "justified redundancy" may be higher than "adequate
    redundancy" when we manage to organize the redundancy in a multi-
    layer fashion: (1) capacity that is "always on" and always uses
@@ -273,14 +298,6 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
    and measured, as a variation of sustainability metrics.  The relative
    slopes of improvement of each goal would hint as to where the balance
    lies.
-
-
-
-
-Pignataro, et al.       Expires 20 November 2024                [Page 5]
-
-Internet-Draft     Sustainability Arch Considerations           May 2024
-
 
 2.5.  End-to-End Sustainability
 
@@ -312,6 +329,15 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
    can be found at [UNEP-LCA].
 
    Attributional:
+
+
+
+
+Pignataro, et al.        Expires 5 December 2024                [Page 6]
+
+Internet-Draft     Sustainability Arch Considerations          June 2024
+
+
       Also referred to as Allocational models, start by allocating or
       attributing quantities (e.g., GHG emissions) to entities (e.g., a
       router, a building, a town), and performing comparisons between
@@ -330,14 +356,6 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
    process or a workload based on its energy efficiency would not
    consider that the hardware is still there running.  When is it most
    effective to charge battery-powered devices, during the night when
-
-
-
-Pignataro, et al.       Expires 20 November 2024                [Page 6]
-
-Internet-Draft     Sustainability Arch Considerations           May 2024
-
-
    there's less load, or during the day when there's solar energy?  In
    other words, if a person who commutes by train to their office five
    days a week starts working from home two days a week, there could be
@@ -368,6 +386,14 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
    which network management can help make networks more sustainable; for
    a more extensive treatment, please refer to that document.
 
+
+
+
+Pignataro, et al.        Expires 5 December 2024                [Page 7]
+
+Internet-Draft     Sustainability Arch Considerations          June 2024
+
+
    Dimensioning:
       Networks should be deployed and configured with sufficient
       capacity to serve their intended purpose.  At the same time,
@@ -379,21 +405,6 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
       allow to proactively accommodate traffic growth and new services.
 
    Network Optimization:
-
-
-
-
-
-
-
-
-
-
-Pignataro, et al.       Expires 20 November 2024                [Page 7]
-
-Internet-Draft     Sustainability Arch Considerations           May 2024
-
-
       Network management applications can help solve difficult network
       optimization problems involving multiple parameters, multiple and
       sometimes conflicting objectives, and mitigation of tradeoffs.
@@ -432,6 +443,13 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
    1.  Visibility: In this phase we focus on the measurement and
        collection of metrics.
 
+
+
+Pignataro, et al.        Expires 5 December 2024                [Page 8]
+
+Internet-Draft     Sustainability Arch Considerations          June 2024
+
+
    2.  Insights and Recommendations: In this phase we focus on deriving
        insights and providing recommendations that can be acted upon
        manually over large time scales.
@@ -439,16 +457,6 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
    3.  Self-Optimization via Automation: In this phase we build
        awareness into the systems to automatically recognize
        opportunities for improvement and implement them.
-
-
-
-
-
-
-Pignataro, et al.       Expires 20 November 2024                [Page 8]
-
-Internet-Draft     Sustainability Arch Considerations           May 2024
-
 
 3.1.  Phase 1: Visibility
 
@@ -483,6 +491,21 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
    changes towards a greener, more environmentally friendly equipment,
    software, platforms, applications, and protocols.
 
+
+
+
+
+
+
+
+
+
+
+Pignataro, et al.        Expires 5 December 2024                [Page 9]
+
+Internet-Draft     Sustainability Arch Considerations          June 2024
+
+
 3.3.  Phase 3: Self-optimization and Automation
 
    Manually making changes as mentioned in "Phase 2: Insights and
@@ -498,14 +521,6 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
    mechanisms such as machine learning (ML), deep learning (DL), and
    artificial intelligence (AI) with an additional goal to optimize for
    improvements in the environmental impact.  These include, for
-
-
-
-Pignataro, et al.       Expires 20 November 2024                [Page 9]
-
-Internet-Draft     Sustainability Arch Considerations           May 2024
-
-
    example:
 
    *  Discovery and advertisement of networking characteristics that
@@ -537,6 +552,16 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
       should not weaken or compromise their security posture, nor should
       it increase the surface of attack or create attack vectors.
 
+
+
+
+
+
+Pignataro, et al.        Expires 5 December 2024               [Page 10]
+
+Internet-Draft     Sustainability Arch Considerations          June 2024
+
+
       -  Sustainability metrics and data models ought to describe how to
          secure the sustainability data exposed and surfaced through
          telemetry.
@@ -550,17 +575,6 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
       The development of security features should, in turn, balance the
       environmental impact and sustainability considerations detailed in
       this document.
-
-
-
-
-
-
-
-Pignataro, et al.       Expires 20 November 2024               [Page 10]
-
-Internet-Draft     Sustainability Arch Considerations           May 2024
-
 
       -  Computational increase on cryptographic operations can result
          in higher power use.  Since generally the increase of energy
@@ -596,6 +610,14 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
    [I-D.irtf-nmrg-green-ps]
               Clemm, A., Westphal, C., Tantsura, J., Ciavaglia, L.,
               Pignataro, C., and M. Odini, "Challenges and Opportunities
+
+
+
+Pignataro, et al.        Expires 5 December 2024               [Page 11]
+
+Internet-Draft     Sustainability Arch Considerations          June 2024
+
+
               in Management for Green Networking", Work in Progress,
               Internet-Draft, draft-irtf-nmrg-green-ps-02, 30 December
               2023, <https://datatracker.ietf.org/doc/html/draft-irtf-
@@ -605,18 +627,6 @@ Internet-Draft     Sustainability Arch Considerations           May 2024
               Kumar, "A Scalable and Topology-Aware MPLS Data-Plane
               Monitoring System", RFC 8403, DOI 10.17487/RFC8403, July
               2018, <https://www.rfc-editor.org/info/rfc8403>.
-
-
-
-
-
-
-
-
-Pignataro, et al.       Expires 20 November 2024               [Page 11]
-
-Internet-Draft     Sustainability Arch Considerations           May 2024
-
 
    [UNEP-LCA] "Global guidance principles for life cycle assessment
               databases : a basis for greener processes and products",
@@ -649,24 +659,14 @@ Authors' Addresses
    Email: jari.arkko@ericsson.com
 
 
+   Hesham ElBakoury
+   Independent Consultant
+   United States of America
+   Email: helbakoury@gmail.com
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Pignataro, et al.       Expires 20 November 2024               [Page 12]
+Pignataro, et al.        Expires 5 December 2024               [Page 12]

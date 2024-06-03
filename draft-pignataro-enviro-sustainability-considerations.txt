@@ -5,14 +5,14 @@
 Network Working Group                                  C. Pignataro, Ed.
 Internet-Draft                                       NC State University
 Intended status: Best Current Practice                         A. Rezaki
-Expires: 20 November 2024                                          Nokia
+Expires: 5 December 2024                                           Nokia
                                                                 J. Arkko
                                                                 Ericsson
                                                                 A. Clemm
                                                                Futurewei
                                                             H. ElBakoury
                                                   Independent Consultant
-                                                             19 May 2024
+                                                             3 June 2024
 
 
 Sustainability Considerations for Networking Protocols and Applications
@@ -45,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 20 November 2024.
+   This Internet-Draft will expire on 5 December 2024.
 
 
 
@@ -53,9 +53,9 @@ Status of This Memo
 
 
 
-Pignataro, et al.       Expires 20 November 2024                [Page 1]
+Pignataro, et al.        Expires 5 December 2024                [Page 1]
 
-Internet-Draft        Sustainability Considerations             May 2024
+Internet-Draft        Sustainability Considerations            June 2024
 
 
 Copyright Notice
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Pignataro, et al.       Expires 20 November 2024                [Page 2]
+Pignataro, et al.        Expires 5 December 2024                [Page 2]
 
-Internet-Draft        Sustainability Considerations             May 2024
+Internet-Draft        Sustainability Considerations            June 2024
 
 
 2.  Implications to the IETF
@@ -165,9 +165,9 @@ Internet-Draft        Sustainability Considerations             May 2024
 
 
 
-Pignataro, et al.       Expires 20 November 2024                [Page 3]
+Pignataro, et al.        Expires 5 December 2024                [Page 3]
 
-Internet-Draft        Sustainability Considerations             May 2024
+Internet-Draft        Sustainability Considerations            June 2024
 
 
        b.2.  Managed Elements:
@@ -221,9 +221,9 @@ Internet-Draft        Sustainability Considerations             May 2024
 
 
 
-Pignataro, et al.       Expires 20 November 2024                [Page 4]
+Pignataro, et al.        Expires 5 December 2024                [Page 4]
 
-Internet-Draft        Sustainability Considerations             May 2024
+Internet-Draft        Sustainability Considerations            June 2024
 
 
        c.4.  Exploiting burstiness versus smoothening of traffic.  Is it
@@ -277,9 +277,9 @@ Internet-Draft        Sustainability Considerations             May 2024
 
 
 
-Pignataro, et al.       Expires 20 November 2024                [Page 5]
+Pignataro, et al.        Expires 5 December 2024                [Page 5]
 
-Internet-Draft        Sustainability Considerations             May 2024
+Internet-Draft        Sustainability Considerations            June 2024
 
 
        e.2.  WIP
@@ -333,9 +333,9 @@ Internet-Draft        Sustainability Considerations             May 2024
 
 
 
-Pignataro, et al.       Expires 20 November 2024                [Page 6]
+Pignataro, et al.        Expires 5 December 2024                [Page 6]
 
-Internet-Draft        Sustainability Considerations             May 2024
+Internet-Draft        Sustainability Considerations            June 2024
 
 
 6.  Acknowledgements
@@ -389,4 +389,4 @@ Authors' Addresses
 
 
 
-Pignataro, et al.       Expires 20 November 2024                [Page 7]
+Pignataro, et al.        Expires 5 December 2024                [Page 7]
