@@ -70,6 +70,17 @@
     </author>
 
 
+    <author fullname="Alexander Clemm" initials="A." surname="Clemm">
+      <organization>Sympotech</organization>
+
+      <address>
+        <postal>
+          <country>USA</country>
+        </postal>
+        <email>ludwig@clemm.org</email>
+      </address>
+    </author>
+
     
     <author fullname="Hesham ElBakoury" initials="H." surname="ElBakoury">
       <organization>Independent Consultant</organization>
@@ -82,26 +93,6 @@
       </address>
     </author>
     
-
-<!--
-
-    <author fullname="Alexander Clemm" initials="A." surname="Clemm">
-      <organization>Futurewei</organization>
-      <address>
-        <postal>
-          <street>2220 Central Expressway</street>
-          <city>Santa Clara</city>
-          <country>US</country>
-          <code>CA 95050</code>
-        </postal>
-        <phone/>
-        <email>ludwig@clemm.org</email>
-      </address>
-    </author>
-
-  -->
-
-
 
     <date />
 
@@ -116,7 +107,14 @@
     <section title="Introduction">
       <t>
       Over the past decade, there has been increased awareness of the environmental sustainability impact produced by the widespread adoption of the Internet and internetworking technologies. The impact of Internet technologies has been overwhelmingly positive over the past years (e.g., providing alternatives to travel, enabling remote and hybrid work, enabling technology-based endangered species conservation, etc.), and there is still room for improvement. 
-      </t><t>
+      </t>
+      <t>
+      At the same time, internetworking technologies themselves have a significant environmental footprint. Reducing this footprint and making network deployments environmentally more sustainable becomes a matter of increasing importance to network providers for various reasons, including the desire to reduce operational expenses associated with energy usage, regulatory pressures related to Net Zero mandates, and corporate citizenship demands from customers to become "greener".  
+      </t>
+      <t>
+      Efforts to make internetworking more sustainable may in some cases conflict with other important goals, such as network availability, resilience against sudden spikes in traffic demand, and (at least in some cases) Quality of Experience.  For example, a network operator might want to include excess capacity in their network to be able to absorb sudden spikes in demand and provision additional paths to increase resilience against failures.  However, doing so may involve powering up additional ports and equipment, resulting in higher energy usage and increased greenhouse gas emissions, thus compromising sustainability goals. This indicates that there are certain choices that a network operator has to make, some of which may involve tradeoffs between goals.  
+      </t>
+      <t>
       This document describes some of the tradeoffs that could be involved while optimizing for sustainability in addition to or in lieu of traditional metrics such as performance or availability. Further, it discusses how Internet technologies can be used to help other fields become more sustainable.
       </t>
       <t>Specifically, this document details environmental sustainability  implications to Internet protocols, architectures, and technologies.</t>
@@ -138,7 +136,7 @@
     <section title="Design Tradeoffs">
             <t>Traditionally, digital communication networks are optimized for a specific set of criteria that proxies for business metrics. A network operator providing services to their customers intends to maximize profits, by increasing top-line revenue and decreasing bottom-line associated costs. This directly translates to goals of optimizing performance and availability, while reducing various costs.</t>
             <t>Most recently, various forces elevate the need for sustainability in networking technologies and architectures, to quantify and minimize negative environmental impact.</t>
-            <t>Optimizing only network availability (e.g., by having excess capacity and backup paths) or optimizing only performance (e.g., by increasing speeds selecting paths based on delays only) can seemengly be in opposition to optimizing sustainability objectives. For a given application, use-case, or vertical realization of technology, a Pareto-efficient choice can potentially improve sustainability without sacrificing availability or performance beyond the application tolerance. That is, a win-win.
+            <t>Optimizing only network availability (e.g., by having excess capacity and backup paths) or optimizing only performance (e.g., by increasing speeds selecting paths based on delays only) can seemingly be in opposition to optimizing sustainability objectives. For a given application, use-case, or vertical realization of technology, a Pareto-efficient choice can potentially improve sustainability without sacrificing availability or performance beyond the application tolerance. That is, a win-win.
             </t><t>Consequently, network architects and designers are presented with a set of new design tradeoffs: a multi-objective optimization that satisfies border requirements and global optima for availability, performance, and sustainability simultaneously. This is not unlike the doughnut economics model concept described in <xref target="Doughnut" />.</t>
 </section>
     <section title="Multi-Objective Optimization">
@@ -164,7 +162,7 @@
 
             <t>Router 1 is directly connected to Router 2 through five parallel links, of 10 Gbps each. Router 1 can also reach Router 2 through Router 3 with 40 Gbps links between Router 1 and Router 3, and between Router 3 and Router 2. Let's assume that the capacity-planned traffic between A and B equals 15 Gbps.</t>
             <t>In this scenario, a topology optimized for performance and availability/resiliency would have all links and routers on, and would likely forward traffic using two of the parallel links. Utilizing the path through Router 3 might lower performance, but it serves as a backup path.</t>
-            <t>On the other hand, when we add sustainability as a consideration, different options are presented. One of them is to remove from the topology Router 3 and associated links, and shutdown links and optics in two or three of the parallel links. Another option is to completely shutdown all the parallel links and route traffic through Router 3 (i.e., not maximizing performance alone, but maximizing at the time performance, availability and resiliency, and sustainability.) The choice between these two options will depend on the aggregate sustainability metrics of network elements in each of the two topologies.</t>
+            <t>On the other hand, when we add sustainability as a consideration, different options present themselves, each of which involves a tradeoff. One of the options is to remove from the topology Router 3 and associated links, and shutdown links and optics in two or three of the parallel links. This will allow to conserve energy that will no longer be required to operatore Router 3 and the affected links.  Another option is to completely shutdown all the parallel links and route traffic through Router 3 (i.e., not maximizing performance alone, but maximizing at the time performance, availability and resiliency, and sustainability.) The choice between these two options, as well as the option to stick with the original topology, will depend on choices that the network operator will have to make, taking into account the aggregate sustainability metrics of network elements in each of the two topologies as well as the effect these choices will have on availability/resiliency which will be reduced as a result.</t>
             <t>Another option is to use flexible Ethernet, where the five links combined  are aggregated into one active virtual link which has 15 Gbps, and another inactive link of 35 Gbps of capacity -- although a physical link cannot be half-active and half-inactive as far as PHY and optics are concerned.</t>
 </section>      
     <section title="How Much Resiliency is Really Needed?">
@@ -252,9 +250,9 @@
             </list>
             </t>
 
-            <section title="Metrics for Sustainability">
-            <t>A sustainability quantification framework is paramount for understanding the sustainability posture of a system, as well as its potential for aid in sustainability outcomes. </t>
-            </section>      
+      <t>
+        In addition to those aspects, perhaps the most important role of network management is to provide network operators with the necessary visibility into how and where power is used in their network.  This is required in order to assess where the network stands in terms of sustainability.  It also allows to track progress over time, compare different alternatives for their effectiveness, and generally to facilitate network sustainability optimization.  Providing this visibility requires the definition of metrics and corresponding instrumentation of the network so that those metrics can be monitored, assessed, compared, and improved.  
+      </t>
 
 
 
