@@ -186,7 +186,10 @@
 
 </section>      
     <section title="How Much are Performance and Quality of Experience Compromised?">
-            <t>The fields of performance and quality of experience have the benefit of significant study and standardization of metrics. As with resiliency, a degradation of performance and Quality of Service parameters, such as bandwidth, latency, jitter, etc., can be observed and measured, as a variation of sustainability metrics. The relative slopes of improvement of each goal would hint as to where the balance lies.</t>
+      <t>Network performance and Quality of Experience have always played an important role in the development of networking technology.  Key parameters such as latency, jitter, and loss as well as their impact on the quality that the users of networked applications experience are well understood, the optimization of those parameters and the adherence to corresponding service level objectives being an important goal in most network deployments.  However, the desire to improve sustainability and energy efficiency can conflict with those goals.  For example, in order to ensure minimal latency, a network operator may need to provision additional paths that require additional ports that need to be powered, instead of relying on a topology with fewer links and nodes.  Such a topology might result in greater power efficienc as a result more resources being shared, but it could also result in longer paths and an increased possibility for congestion, both of which would be detrimental to latency and associated Quality of Experience.  
+      </t>
+      <t>
+This implies a tradeoff between different goals.  The challenge for operators lies in finding the sweet spot in which acceptable network performance is obtained and a point of diminishing returns is reached at which any incremental further performance improvement would come at the expense of significant deterioration in energy usage.     </t>
 </section>      
 
 
