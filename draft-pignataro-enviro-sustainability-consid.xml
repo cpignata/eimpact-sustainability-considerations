@@ -2,13 +2,14 @@
 <!DOCTYPE rfc [
 
 <!ENTITY I-D.cparsk-eimpact-sustainability-considerations SYSTEM "https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.cparsk-eimpact-sustainability-considerations.xml">
+<!ENTITY I-D.pignataro-enviro-sustainability-terminology SYSTEM "https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.pignataro-enviro-sustainability-terminology.xml">
 
 ]>
 <?rfc toc="yes"?>
 <?rfc rfcedstyle="yes"?>
 <?rfc subcompact="no" ?>
 <?rfc symrefs="yes"?>
-<rfc category="bcp" docName="draft-pignataro-enviro-sustainability-considerations-00" ipr="trust200902" submissionType="IETF" consensus="true">
+<rfc category="bcp" docName="draft-pignataro-enviro-sustainability-consid-00" ipr="trust200902" submissionType="IETF" consensus="true">
   <?xml-stylesheet type='text/xsl' href='rfc2629.xslt' ?>
   <?rfc toc="yes" ?>
   <?rfc compact="yes" ?>
@@ -117,7 +118,9 @@
 
     <section title="Terminology">
       <t>
-        This document leverages the terminology and concepts defined in {draft-pignataro-enviro-sustainability-terminology}, and readers are expected to be familiar with those. Specifically, Section 3.1.1 of {draft-pignataro-enviro-sustainability-terminology} describes contepts of particular relevance to this draft.
+        This document leverages the terminology and concepts defined in 
+        <xref target="I-D.pignataro-enviro-sustainability-terminology" />,
+        and readers are expected to be familiar with those. Specifically, Section 3.1.1 of <xref target="I-D.pignataro-enviro-sustainability-terminology" /> describes contepts of particular relevance to this draft.
       </t>
     </section>
 
@@ -277,7 +280,7 @@
     <references title="Informative References">
 
     &I-D.cparsk-eimpact-sustainability-considerations;
-
+    &I-D.pignataro-enviro-sustainability-terminology;
 
 
 

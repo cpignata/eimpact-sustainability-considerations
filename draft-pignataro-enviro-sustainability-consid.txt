@@ -5,18 +5,18 @@
 Network Working Group                                  C. Pignataro, Ed.
 Internet-Draft                                       NC State University
 Intended status: Best Current Practice                         A. Rezaki
-Expires: 5 December 2024                                           Nokia
+Expires: 10 December 2024                                          Nokia
                                                                 J. Arkko
                                                                 Ericsson
                                                                 A. Clemm
                                                                Futurewei
                                                             H. ElBakoury
                                                   Independent Consultant
-                                                             3 June 2024
+                                                             8 June 2024
 
 
 Sustainability Considerations for Networking Protocols and Applications
-        draft-pignataro-enviro-sustainability-considerations-00
+            draft-pignataro-enviro-sustainability-consid-00
 
 Abstract
 
@@ -45,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 5 December 2024.
+   This Internet-Draft will expire on 10 December 2024.
 
 
 
@@ -53,7 +53,7 @@ Status of This Memo
 
 
 
-Pignataro, et al.        Expires 5 December 2024                [Page 1]
+Pignataro, et al.       Expires 10 December 2024                [Page 1]
 
 Internet-Draft        Sustainability Considerations            June 2024
 
@@ -96,10 +96,10 @@ Table of Contents
 1.1.  Terminology
 
    This document leverages the terminology and concepts defined in
-   {draft-pignataro-enviro-sustainability-terminology}, and readers are
+   [I-D.pignataro-enviro-sustainability-terminology], and readers are
    expected to be familiar with those.  Specifically, Section 3.1.1 of
-   {draft-pignataro-enviro-sustainability-terminology} describes
-   contepts of particular relevance to this draft.
+   [I-D.pignataro-enviro-sustainability-terminology] describes contepts
+   of particular relevance to this draft.
 
 
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Pignataro, et al.        Expires 5 December 2024                [Page 2]
+Pignataro, et al.       Expires 10 December 2024                [Page 2]
 
 Internet-Draft        Sustainability Considerations            June 2024
 
@@ -165,7 +165,7 @@ Internet-Draft        Sustainability Considerations            June 2024
 
 
 
-Pignataro, et al.        Expires 5 December 2024                [Page 3]
+Pignataro, et al.       Expires 10 December 2024                [Page 3]
 
 Internet-Draft        Sustainability Considerations            June 2024
 
@@ -221,7 +221,7 @@ Internet-Draft        Sustainability Considerations            June 2024
 
 
 
-Pignataro, et al.        Expires 5 December 2024                [Page 4]
+Pignataro, et al.       Expires 10 December 2024                [Page 4]
 
 Internet-Draft        Sustainability Considerations            June 2024
 
@@ -277,7 +277,7 @@ Internet-Draft        Sustainability Considerations            June 2024
 
 
 
-Pignataro, et al.        Expires 5 December 2024                [Page 5]
+Pignataro, et al.       Expires 10 December 2024                [Page 5]
 
 Internet-Draft        Sustainability Considerations            June 2024
 
@@ -333,7 +333,7 @@ Internet-Draft        Sustainability Considerations            June 2024
 
 
 
-Pignataro, et al.        Expires 5 December 2024                [Page 6]
+Pignataro, et al.       Expires 10 December 2024                [Page 6]
 
 Internet-Draft        Sustainability Considerations            June 2024
 
@@ -353,6 +353,14 @@ Internet-Draft        Sustainability Considerations            June 2024
               cparsk-eimpact-sustainability-considerations-07, 24
               January 2024, <https://datatracker.ietf.org/doc/html/
               draft-cparsk-eimpact-sustainability-considerations-07>.
+
+   [I-D.pignataro-enviro-sustainability-terminology]
+              Pignataro, C., Rezaki, A., and H. ElBakoury,
+              "Environmental Sustainability Terminology and Concepts",
+              Work in Progress, Internet-Draft, draft-pignataro-enviro-
+              sustainability-terminology-00, 8 June 2024,
+              <https://datatracker.ietf.org/api/v1/doc/document/draft-
+              pignataro-enviro-sustainability-terminology/>.
 
 Authors' Addresses
 
@@ -378,6 +386,14 @@ Authors' Addresses
    2220 Central Expressway
    Santa Clara,  CA 95050
    United States of America
+
+
+
+Pignataro, et al.       Expires 10 December 2024                [Page 7]
+
+Internet-Draft        Sustainability Considerations            June 2024
+
+
    Email: ludwig@clemm.org
 
 
@@ -389,4 +405,44 @@ Authors' Addresses
 
 
 
-Pignataro, et al.        Expires 5 December 2024                [Page 7]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pignataro, et al.       Expires 10 December 2024                [Page 8]
