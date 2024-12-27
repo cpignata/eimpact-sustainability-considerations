@@ -5,7 +5,7 @@
 
 <!ENTITY I-D.irtf-nmrg-green-ps SYSTEM "https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.irtf-nmrg-green-ps.xml">
 <!ENTITY I-D.cparsk-eimpact-sustainability-considerations SYSTEM "https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.cparsk-eimpact-sustainability-considerations.xml">
-<!ENTITY I-D.pignataro-enviro-sustainability-terminology SYSTEM "https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.pignataro-enviro-sustainability-terminology.xml">
+<!ENTITY I-D.pignataro-green-enviro-sust-terminology SYSTEM "https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.pignataro-green-enviro-sust-terminology.xml">
 
 ]>
 <?rfc toc="yes"?>
@@ -25,14 +25,14 @@
     <title abbrev="Sustainability Arch Considerations">Architectural Considerations for Environmental Sustainability</title>
 
     <author fullname="Carlos Pignataro" initials="C." surname="Pignataro" role="editor">
-      <organization abbrev="NC State University">North Carolina State University</organization>
+      <organization abbrev="Blue Fern Consulting">Blue Fern Consulting</organization>
 
       <address>
         <postal>
           <country>US</country>
         </postal>        
         <email>cpignata@gmail.com</email>
-        <email>cmpignat@ncsu.edu</email>
+        <email>carlos@bluefern.consulting</email>
       </address>
     </author>
 
@@ -123,7 +123,7 @@
 
     <section title="Terminology">
       <t>
-        This document leverages the terminology and concepts defined in <xref target="I-D.pignataro-enviro-sustainability-terminology" />, and readers are expected to be familiar with those. 
+        This document leverages the terminology and concepts defined in <xref target="I-D.pignataro-green-enviro-sust-terminology" />, and readers are expected to be familiar with those. 
       </t>
     </section>
 
@@ -342,7 +342,7 @@ In this phase we build awareness into the systems to automatically recognize opp
 
     &I-D.irtf-nmrg-green-ps;
     &I-D.cparsk-eimpact-sustainability-considerations;
-    &I-D.pignataro-enviro-sustainability-terminology;
+    &I-D.pignataro-green-enviro-sust-terminology;
 
 
 

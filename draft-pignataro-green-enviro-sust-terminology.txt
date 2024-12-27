@@ -3,16 +3,16 @@
 
 
 Network Working Group                                  C. Pignataro, Ed.
-Internet-Draft                                       NC State University
+Internet-Draft                                      Blue Fern Consulting
 Intended status: Informational                                 A. Rezaki
-Expires: 21 April 2025                                             Nokia
+Expires: 30 June 2025                                              Nokia
                                                             H. ElBakoury
                                                   Independent Consultant
-                                                         18 October 2024
+                                                        27 December 2024
 
 
          Environmental Sustainability Terminology and Concepts
-            draft-pignataro-green-enviro-sust-terminology-00
+            draft-pignataro-green-enviro-sust-terminology-01
 
 Abstract
 
@@ -36,7 +36,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 21 April 2025.
+   This Internet-Draft will expire on 30 June 2025.
 
 Copyright Notice
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Pignataro, et al.         Expires 21 April 2025                 [Page 1]
+Pignataro, et al.         Expires 30 June 2025                  [Page 1]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Pignataro, et al.         Expires 21 April 2025                 [Page 2]
+Pignataro, et al.         Expires 30 June 2025                  [Page 2]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
    social, and environmental factors.
@@ -165,9 +165,9 @@ Internet-Draft     Environmental Sustainability Terms       October 2024
 
 
 
-Pignataro, et al.         Expires 21 April 2025                 [Page 3]
+Pignataro, et al.         Expires 30 June 2025                  [Page 3]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
    Carbon awareness:
@@ -221,9 +221,9 @@ Internet-Draft     Environmental Sustainability Terms       October 2024
 
 
 
-Pignataro, et al.         Expires 21 April 2025                 [Page 4]
+Pignataro, et al.         Expires 30 June 2025                  [Page 4]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
       rising global temperatures and the narrow time window we have to
@@ -277,9 +277,9 @@ Internet-Draft     Environmental Sustainability Terms       October 2024
 
 
 
-Pignataro, et al.         Expires 21 April 2025                 [Page 5]
+Pignataro, et al.         Expires 30 June 2025                  [Page 5]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
    Embodied emissions:
@@ -333,9 +333,9 @@ Internet-Draft     Environmental Sustainability Terms       October 2024
 
 
 
-Pignataro, et al.         Expires 21 April 2025                 [Page 6]
+Pignataro, et al.         Expires 30 June 2025                  [Page 6]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
       is the correlation between energy used and the associated useful
@@ -389,9 +389,9 @@ Internet-Draft     Environmental Sustainability Terms       October 2024
 
 
 
-Pignataro, et al.         Expires 21 April 2025                 [Page 7]
+Pignataro, et al.         Expires 30 June 2025                  [Page 7]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
       *  Indirect GHG emissions are emissions that are a consequence of
@@ -445,9 +445,9 @@ Internet-Draft     Environmental Sustainability Terms       October 2024
 
 
 
-Pignataro, et al.         Expires 21 April 2025                 [Page 8]
+Pignataro, et al.         Expires 30 June 2025                  [Page 8]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
       of internetworking equipment as well as their manufacturing and
@@ -501,9 +501,9 @@ Internet-Draft     Environmental Sustainability Terms       October 2024
 
 
 
-Pignataro, et al.         Expires 21 April 2025                 [Page 9]
+Pignataro, et al.         Expires 30 June 2025                  [Page 9]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
       Perform the measurement of the quantity by establishing a baseline
@@ -557,9 +557,9 @@ Internet-Draft     Environmental Sustainability Terms       October 2024
 
 
 
-Pignataro, et al.         Expires 21 April 2025                [Page 10]
+Pignataro, et al.         Expires 30 June 2025                 [Page 10]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
       return even increasing the overall resource use.  This is known as
@@ -613,9 +613,9 @@ Internet-Draft     Environmental Sustainability Terms       October 2024
 
 
 
-Pignataro, et al.         Expires 21 April 2025                [Page 11]
+Pignataro, et al.         Expires 30 June 2025                 [Page 11]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
       Goal 11   Sustainable cities and communities
@@ -669,9 +669,9 @@ Internet-Draft     Environmental Sustainability Terms       October 2024
 
 
 
-Pignataro, et al.         Expires 21 April 2025                [Page 12]
+Pignataro, et al.         Expires 30 June 2025                 [Page 12]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
    routes chosen.  What this implies is that we are responsible for the
@@ -725,9 +725,9 @@ Internet-Draft     Environmental Sustainability Terms       October 2024
 
 
 
-Pignataro, et al.         Expires 21 April 2025                [Page 13]
+Pignataro, et al.         Expires 30 June 2025                 [Page 13]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
    incomes, housing, gender equality, social equity, inclusiveness,
@@ -781,9 +781,9 @@ Internet-Draft     Environmental Sustainability Terms       October 2024
 
 
 
-Pignataro, et al.         Expires 21 April 2025                [Page 14]
+Pignataro, et al.         Expires 30 June 2025                 [Page 14]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
    The following are some examples of internetworking for
@@ -837,9 +837,9 @@ Internet-Draft     Environmental Sustainability Terms       October 2024
 
 
 
-Pignataro, et al.         Expires 21 April 2025                [Page 15]
+Pignataro, et al.         Expires 30 June 2025                 [Page 15]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
       sustainability.  Special requirements for applications in this
@@ -893,9 +893,9 @@ Internet-Draft     Environmental Sustainability Terms       October 2024
 
 
 
-Pignataro, et al.         Expires 21 April 2025                [Page 16]
+Pignataro, et al.         Expires 30 June 2025                 [Page 16]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
    or aspects such as reduced energy consumption and increased energy
@@ -949,9 +949,9 @@ Internet-Draft     Environmental Sustainability Terms       October 2024
 
 
 
-Pignataro, et al.         Expires 21 April 2025                [Page 17]
+Pignataro, et al.         Expires 30 June 2025                 [Page 17]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
    [CUE]      Belady, C., Azevedo, D., Patterson, M., Pouchet, J., and
@@ -1005,9 +1005,9 @@ Internet-Draft     Environmental Sustainability Terms       October 2024
 
 
 
-Pignataro, et al.         Expires 21 April 2025                [Page 18]
+Pignataro, et al.         Expires 30 June 2025                 [Page 18]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
    [ITU-ICT-SDG]
@@ -1061,17 +1061,17 @@ Internet-Draft     Environmental Sustainability Terms       October 2024
 
 
 
-Pignataro, et al.         Expires 21 April 2025                [Page 19]
+Pignataro, et al.         Expires 30 June 2025                 [Page 19]
 
-Internet-Draft     Environmental Sustainability Terms       October 2024
+Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
 Authors' Addresses
 
    Carlos Pignataro (editor)
-   North Carolina State University
+   Blue Fern Consulting
    United States of America
-   Email: cpignata@gmail.com, cmpignat@ncsu.edu
+   Email: cpignata@gmail.com, carlos@bluefern.consulting
 
 
    Ali Rezaki
@@ -1117,4 +1117,4 @@ Authors' Addresses
 
 
 
-Pignataro, et al.         Expires 21 April 2025                [Page 20]
+Pignataro, et al.         Expires 30 June 2025                 [Page 20]
